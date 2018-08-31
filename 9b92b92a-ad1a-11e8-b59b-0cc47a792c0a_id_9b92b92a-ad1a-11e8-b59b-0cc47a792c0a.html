@@ -1,0 +1,693 @@
+<html>
+<head><meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+<style type="text/css">
+<!--
+span.cls_006{font-family:"Calibri",serif;font-size:20.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_006{font-family:"Calibri",serif;font-size:20.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_007{font-family:"Calibri",serif;font-size:16.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_007{font-family:"Calibri",serif;font-size:16.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_011{font-family:"Calibri",serif;font-size:8.1px;color:rgb(0,0,9);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_011{font-family:"Calibri",serif;font-size:8.1px;color:rgb(0,0,9);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_037{font-family:"Calibri Bold",serif;font-size:11.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: underline}
+div.cls_037{font-family:"Calibri Bold",serif;font-size:11.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_005{font-family:"Calibri",serif;font-size:11.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_005{font-family:"Calibri",serif;font-size:11.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_014{font-family:"Calibri Bold",serif;font-size:11.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_014{font-family:"Calibri Bold",serif;font-size:11.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_015{font-family:"Calibri Bold",serif;font-size:9.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_015{font-family:"Calibri Bold",serif;font-size:9.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_004{font-family:"Calibri",serif;font-size:9.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_004{font-family:"Calibri",serif;font-size:9.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_013{font-family:"Calibri",serif;font-size:10.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_013{font-family:"Calibri",serif;font-size:10.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_016{font-family:"Calibri Light",serif;font-size:24.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_016{font-family:"Calibri Light",serif;font-size:24.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_018{font-family:"Calibri",serif;font-size:18.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_018{font-family:"Calibri",serif;font-size:18.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_002{font-family:"Calibri",serif;font-size:12.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_002{font-family:"Calibri",serif;font-size:12.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_020{font-family:"Calibri Italic",serif;font-size:12.1px;color:rgb(0,0,0);font-weight:normal;font-style:italic;text-decoration: none}
+div.cls_020{font-family:"Calibri Italic",serif;font-size:12.1px;color:rgb(0,0,0);font-weight:normal;font-style:italic;text-decoration: none}
+span.cls_021{font-family:"Calibri",serif;font-size:12.1px;color:rgb(255,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_021{font-family:"Calibri",serif;font-size:12.1px;color:rgb(255,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_024{font-family:"Calibri",serif;font-size:11.1px;color:rgb(255,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_024{font-family:"Calibri",serif;font-size:11.1px;color:rgb(255,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_025{font-family:Arial,serif;font-size:12.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_025{font-family:Arial,serif;font-size:12.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_023{font-family:Arial,serif;font-size:12.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_023{font-family:Arial,serif;font-size:12.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_038{font-family:"Calibri",serif;font-size:12.1px;color:rgb(4,98,193);font-weight:normal;font-style:normal;text-decoration: underline}
+div.cls_038{font-family:"Calibri",serif;font-size:12.1px;color:rgb(4,98,193);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_028{font-family:"Calibri Italic",serif;font-size:12.1px;color:rgb(192,0,0);font-weight:normal;font-style:italic;text-decoration: none}
+div.cls_028{font-family:"Calibri Italic",serif;font-size:12.1px;color:rgb(192,0,0);font-weight:normal;font-style:italic;text-decoration: none}
+span.cls_029{font-family:"Calibri Italic",serif;font-size:12.1px;color:rgb(0,175,80);font-weight:normal;font-style:italic;text-decoration: none}
+div.cls_029{font-family:"Calibri Italic",serif;font-size:12.1px;color:rgb(0,175,80);font-weight:normal;font-style:italic;text-decoration: none}
+span.cls_030{font-family:"Calibri Italic",serif;font-size:12.1px;color:rgb(255,192,0);font-weight:normal;font-style:italic;text-decoration: none}
+div.cls_030{font-family:"Calibri Italic",serif;font-size:12.1px;color:rgb(255,192,0);font-weight:normal;font-style:italic;text-decoration: none}
+span.cls_031{font-family:"Calibri",serif;font-size:14.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_031{font-family:"Calibri",serif;font-size:14.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_034{font-family:"Calibri",serif;font-size:12.1px;color:rgb(0,175,80);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_034{font-family:"Calibri",serif;font-size:12.1px;color:rgb(0,175,80);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_035{font-family:"Calibri",serif;font-size:12.1px;color:rgb(255,192,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_035{font-family:"Calibri",serif;font-size:12.1px;color:rgb(255,192,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_036{font-family:"Calibri",serif;font-size:12.1px;color:rgb(255,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_036{font-family:"Calibri",serif;font-size:12.1px;color:rgb(255,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+-->
+</style>
+<script type="text/javascript" src="9b92b92a-ad1a-11e8-b59b-0cc47a792c0a_id_9b92b92a-ad1a-11e8-b59b-0cc47a792c0a_files/wz_jsgraphics.js"></script>
+</head>
+<body>
+<div style="position:absolute;left:50%;margin-left:-306px;top:0px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="9b92b92a-ad1a-11e8-b59b-0cc47a792c0a_id_9b92b92a-ad1a-11e8-b59b-0cc47a792c0a_files/background01.jpg" width=612 height=792></div>
+<div style="position:absolute;left:211.13px;top:276.17px" class="cls_006"><span class="cls_006">ЭКСПЕРТНОЕ ЗАКЛЮЧЕНИЕ</span></div>
+<div style="position:absolute;left:149.54px;top:325.25px" class="cls_007"><span class="cls_007">по результатам проведения анализа защищённости</span></div>
+<div style="position:absolute;left:118.10px;top:346.37px" class="cls_007"><span class="cls_007">сайта bcwallet.io, принадлежащего компании «Blockchain.ruͩ</span></div>
+<div style="position:absolute;left:401.47px;top:466.63px" class="cls_007"><span class="cls_007">Даты проведения работ:</span></div>
+<div style="position:absolute;left:451.99px;top:487.75px" class="cls_007"><span class="cls_007">7.02.18 - 16.02.18</span></div>
+<div style="position:absolute;left:345.19px;top:508.78px" class="cls_007"><span class="cls_007">Технический менеджер проекта:</span></div>
+<div style="position:absolute;left:487.42px;top:529.90px" class="cls_007"><span class="cls_007">А.О. Перцев</span></div>
+<div style="position:absolute;left:349.63px;top:551.02px" class="cls_007"><span class="cls_007">Директор департамента аудита:</span></div>
+<div style="position:absolute;left:493.66px;top:572.02px" class="cls_007"><span class="cls_007">А͘Н͘ Тюрин</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-306px;top:802px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="9b92b92a-ad1a-11e8-b59b-0cc47a792c0a_id_9b92b92a-ad1a-11e8-b59b-0cc47a792c0a_files/background02.jpg" width=612 height=792></div>
+<div style="position:absolute;left:379.63px;top:36.12px" class="cls_011"><span class="cls_011">Экспертное заключение по результатам проведения</span></div>
+<div style="position:absolute;left:420.43px;top:47.88px" class="cls_011"><span class="cls_011">анализа защищённости сайта bcwallet͘io,</span></div>
+<div style="position:absolute;left:410.95px;top:55.56px" class="cls_011"><span class="cls_011">принадлежащего компании «Blockchain͘ruͩ</span></div>
+<div style="position:absolute;left:85.10px;top:112.70px" class="cls_037"><span class="cls_037">1.</span><span class="cls_005"> </span><span class="cls_014">  ВВЕДЕНИЕ</span></div>
+<div style="position:absolute;left:563.50px;top:112.70px" class="cls_014"><span class="cls_014">3</span></div>
+<div style="position:absolute;left:85.10px;top:145.22px" class="cls_014"><span class="cls_014">1.1.</span><span class="cls_005"> </span><span class="cls_014">  О</span><span class="cls_015">БЩИЕ ПОЛОЖЕНИЯ</span></div>
+<div style="position:absolute;left:563.50px;top:145.22px" class="cls_014"><span class="cls_014">3</span></div>
+<div style="position:absolute;left:85.10px;top:159.74px" class="cls_014"><span class="cls_014">1.2.</span><span class="cls_005"> </span><span class="cls_014">  П</span><span class="cls_015">РИНЯТЫЕ СОКРАЩЕНИЯ</span></div>
+<div style="position:absolute;left:563.50px;top:159.74px" class="cls_014"><span class="cls_014">3</span></div>
+<div style="position:absolute;left:85.10px;top:174.14px" class="cls_014"><span class="cls_014">1.3.</span><span class="cls_005"> </span><span class="cls_014">  Р</span><span class="cls_015">ЕЗЮМЕ</span></div>
+<div style="position:absolute;left:563.50px;top:174.14px" class="cls_014"><span class="cls_014">3</span></div>
+<div style="position:absolute;left:85.10px;top:188.66px" class="cls_014"><span class="cls_014">1.4.</span><span class="cls_005"> </span><span class="cls_014">  О</span><span class="cls_015">БЛАСТЬ ПРОВОДИМЫХ РАБОТ</span></div>
+<div style="position:absolute;left:563.50px;top:188.66px" class="cls_014"><span class="cls_014">4</span></div>
+<div style="position:absolute;left:85.10px;top:221.21px" class="cls_037"><span class="cls_037">2.</span><span class="cls_005"> </span><span class="cls_014">  ПРИНЦИПЫ ПРОВЕДЕНИЯ РАБОТ</span></div>
+<div style="position:absolute;left:563.50px;top:221.21px" class="cls_014"><span class="cls_014">5</span></div>
+<div style="position:absolute;left:85.10px;top:253.73px" class="cls_014"><span class="cls_014">2.1.</span><span class="cls_005"> </span><span class="cls_014">  У</span><span class="cls_015">ГРОЗЫ </span><span class="cls_014">ИБ</span></div>
+<div style="position:absolute;left:563.50px;top:253.73px" class="cls_014"><span class="cls_014">5</span></div>
+<div style="position:absolute;left:85.10px;top:268.13px" class="cls_014"><span class="cls_014">2.2.</span><span class="cls_005"> </span><span class="cls_014">  М</span><span class="cls_015">ОДЕЛЬ НАРУШИТЕЛЯ</span></div>
+<div style="position:absolute;left:563.50px;top:268.13px" class="cls_014"><span class="cls_014">5</span></div>
+<div style="position:absolute;left:85.10px;top:282.65px" class="cls_005"><span class="cls_005">2.2.1.   В</span><span class="cls_004">НЕШНИЙ НАРУШИТЕЛЬ</span></div>
+<div style="position:absolute;left:563.50px;top:282.65px" class="cls_005"><span class="cls_005">6</span></div>
+<div style="position:absolute;left:85.10px;top:315.17px" class="cls_037"><span class="cls_037">3.</span><span class="cls_005"> </span><span class="cls_014">  СЦЕНАРИИ АТАК</span></div>
+<div style="position:absolute;left:563.50px;top:315.17px" class="cls_014"><span class="cls_014">7</span></div>
+<div style="position:absolute;left:85.10px;top:347.69px" class="cls_014"><span class="cls_014">3.1.</span><span class="cls_005"> </span><span class="cls_014">  M</span><span class="cls_015">I</span><span class="cls_014">TM-</span><span class="cls_015">АТАКА НА ПОЛЬЗОВАТЕЛЯ</span></div>
+<div style="position:absolute;left:563.50px;top:347.69px" class="cls_014"><span class="cls_014">7</span></div>
+<div style="position:absolute;left:85.10px;top:362.11px" class="cls_014"><span class="cls_014">3.2.</span><span class="cls_005"> </span><span class="cls_014">  В</span><span class="cls_015">ОССТАНОВЛЕНИЕ ЧУЖОЙ УЧЕТНОЙ ЗАПИСИ</span></div>
+<div style="position:absolute;left:563.50px;top:362.11px" class="cls_014"><span class="cls_014">7</span></div>
+<div style="position:absolute;left:85.10px;top:394.63px" class="cls_037"><span class="cls_037">4.</span><span class="cls_005"> </span><span class="cls_014">  ВНЕШНИЙ АУДИТ СИСТЕМЫ</span></div>
+<div style="position:absolute;left:563.50px;top:394.63px" class="cls_014"><span class="cls_014">8</span></div>
+<div style="position:absolute;left:85.10px;top:427.15px" class="cls_014"><span class="cls_014">4.1.</span><span class="cls_005"> </span><span class="cls_014">  П</span><span class="cls_015">ЕРЕЧЕНЬ ОБНАРУЖЕННЫХ УЯЗВИМОСТЕЙ</span></div>
+<div style="position:absolute;left:563.50px;top:427.15px" class="cls_014"><span class="cls_014">8</span></div>
+<div style="position:absolute;left:85.10px;top:441.67px" class="cls_005"><span class="cls_005">4.1.1.   Н</span><span class="cls_004">ЕДОСТАТОЧНОЕ КОЛИЧЕСТВО БИТ ЭНТРОПИИ В ТОКЕНЕ</span></div>
+<div style="position:absolute;left:563.50px;top:441.67px" class="cls_005"><span class="cls_005">8</span></div>
+<div style="position:absolute;left:85.10px;top:456.07px" class="cls_005"><span class="cls_005">4.1.2.   Н</span><span class="cls_004">ЕКОРРЕКТНОЕ УПРАВЛЕНИЕ СЕССИЕЙ</span></div>
+<div style="position:absolute;left:563.50px;top:456.07px" class="cls_005"><span class="cls_005">9</span></div>
+<div style="position:absolute;left:85.10px;top:470.59px" class="cls_014"><span class="cls_014">4.2.</span><span class="cls_005"> </span><span class="cls_014">  П</span><span class="cls_015">ЕРЕЧЕНЬ ОБНАРУЖЕННЫХ СЛАБОСТЕЙ</span></div>
+<div style="position:absolute;left:557.86px;top:470.59px" class="cls_014"><span class="cls_014">10</span></div>
+<div style="position:absolute;left:85.10px;top:485.11px" class="cls_005"><span class="cls_005">4.2.1.   О</span><span class="cls_004">ТСУТСТВИЕ МЕХАНИЗМА </span><span class="cls_005">HSTS</span></div>
+<div style="position:absolute;left:557.86px;top:485.11px" class="cls_005"><span class="cls_005">10</span></div>
+<div style="position:absolute;left:85.10px;top:499.63px" class="cls_005"><span class="cls_005">4.2.2.   О</span><span class="cls_004">ТСУТСТВИЕ ЗАЩИТЫ ОТ АТАК ТИПА CLICKJ  CKING</span></div>
+<div style="position:absolute;left:557.86px;top:499.63px" class="cls_005"><span class="cls_005">11</span></div>
+<div style="position:absolute;left:85.10px;top:532.06px" class="cls_037"><span class="cls_037">5.</span><span class="cls_005"> </span><span class="cls_014">  ЗАКЛЮЧЕНИЕ</span></div>
+<div style="position:absolute;left:557.86px;top:532.06px" class="cls_014"><span class="cls_014">14</span></div>
+<div style="position:absolute;left:85.10px;top:582.58px" class="cls_014"><span class="cls_014">ПРИЛОЖЕНИЕ 1. АНАЛИЗ УРОВНЯ ЗАЩИЩЕННОСТИ. СПРАВОЧНАЯ ИНФОРМАЦИЯ.</span></div>
+<div style="position:absolute;left:557.86px;top:582.58px" class="cls_014"><span class="cls_014">15</span></div>
+<div style="position:absolute;left:85.10px;top:615.10px" class="cls_014"><span class="cls_014">А</span><span class="cls_015">НАЛИЗ УРОВНЯ ЗАЩИЩЕННОСТИ</span></div>
+<div style="position:absolute;left:557.86px;top:615.10px" class="cls_014"><span class="cls_014">15</span></div>
+<div style="position:absolute;left:85.10px;top:629.62px" class="cls_014"><span class="cls_014">К</span><span class="cls_015">РИТИЧНОСТЬ РЕАЛИЗАЦИИ УЯЗВИМОСТИ</span></div>
+<div style="position:absolute;left:557.86px;top:629.62px" class="cls_014"><span class="cls_014">15</span></div>
+<div style="position:absolute;left:85.10px;top:644.02px" class="cls_014"><span class="cls_014">П</span><span class="cls_015">РОСТОТА ЭКСПЛУАТАЦИИ УЯЗВИМОСТИ</span></div>
+<div style="position:absolute;left:557.86px;top:644.02px" class="cls_014"><span class="cls_014">16</span></div>
+<div style="position:absolute;left:85.10px;top:658.56px" class="cls_014"><span class="cls_014">Д</span><span class="cls_015">ОСТУПНОСТЬ УЯЗВИМОСТИ</span></div>
+<div style="position:absolute;left:557.86px;top:658.56px" class="cls_014"><span class="cls_014">17</span></div>
+<div style="position:absolute;left:85.10px;top:673.08px" class="cls_014"><span class="cls_014">В</span><span class="cls_015">ЕРОЯТНОСТЬ ЭКСПЛУАТАЦИИ УЯЗВИМОСТИ</span></div>
+<div style="position:absolute;left:557.86px;top:673.08px" class="cls_014"><span class="cls_014">17</span></div>
+<div style="position:absolute;left:85.10px;top:687.60px" class="cls_014"><span class="cls_014">Р</span><span class="cls_015">ИСК УЯЗВИМОСТИ</span></div>
+<div style="position:absolute;left:557.86px;top:687.60px" class="cls_014"><span class="cls_014">18</span></div>
+<div style="position:absolute;left:85.10px;top:720.00px" class="cls_014"><span class="cls_014">ПРИЛОЖЕНИЕ 2. АНАЛИЗ УРОВНЯ ЗАЩИЩЕННОСТИ. СПРАВОЧНАЯ ИНФОРМАЦИЯ.</span></div>
+<div style="position:absolute;left:557.86px;top:720.00px" class="cls_014"><span class="cls_014">19</span></div>
+<div style="position:absolute;left:43.80px;top:760.80px" class="cls_013"><span class="cls_013">© 2003—2017, Digital Security</span></div>
+<div style="position:absolute;left:597.10px;top:764.52px" class="cls_005"><span class="cls_005">2</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-306px;top:1604px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="9b92b92a-ad1a-11e8-b59b-0cc47a792c0a_id_9b92b92a-ad1a-11e8-b59b-0cc47a792c0a_files/background03.jpg" width=612 height=792></div>
+<div style="position:absolute;left:379.63px;top:36.12px" class="cls_011"><span class="cls_011">Экспертное заключение по результатам проведения</span></div>
+<div style="position:absolute;left:420.43px;top:47.88px" class="cls_011"><span class="cls_011">анализа защищённости сайта bcwallet͘io,</span></div>
+<div style="position:absolute;left:410.95px;top:55.56px" class="cls_011"><span class="cls_011">принадлежащего компании «Blockchain͘ruͩ</span></div>
+<div style="position:absolute;left:85.10px;top:112.22px" class="cls_016"><span class="cls_016">1. Введение</span></div>
+<div style="position:absolute;left:85.10px;top:162.14px" class="cls_018"><span class="cls_018">1.1. Общие положения</span></div>
+<div style="position:absolute;left:121.10px;top:192.02px" class="cls_002"><span class="cls_002">В настоящем экспертном заключении представлены результаты проведения работ по</span></div>
+<div style="position:absolute;left:85.10px;top:207.89px" class="cls_002"><span class="cls_002">анализу защищенности сайта bcwallet.io (далее - Система), принадлежащего «Blockchain.ruͩ</span></div>
+<div style="position:absolute;left:85.10px;top:223.73px" class="cls_002"><span class="cls_002">(далее</span></div>
+<div style="position:absolute;left:127.10px;top:223.73px" class="cls_002"><span class="cls_002">-  Компания),  а  также  предложены  рекомендации  по  устранению  выявленных</span></div>
+<div style="position:absolute;left:85.10px;top:239.45px" class="cls_002"><span class="cls_002">проблем и повышению уровня защищенности͘</span></div>
+<div style="position:absolute;left:85.10px;top:261.17px" class="cls_018"><span class="cls_018">1.2. Принятые сокращения</span></div>
+<div style="position:absolute;left:370.27px;top:291.05px" class="cls_020"><span class="cls_020">Таблица 1͘2-1͘ Принятые сокращения</span></div>
+<div style="position:absolute;left:85.10px;top:308.33px" class="cls_021"><span class="cls_021">Сокращение</span></div>
+<div style="position:absolute;left:177.62px;top:308.33px" class="cls_021"><span class="cls_021">Расшифровка</span></div>
+<div style="position:absolute;left:85.10px;top:325.61px" class="cls_002"><span class="cls_002">ИБ</span></div>
+<div style="position:absolute;left:177.62px;top:325.61px" class="cls_002"><span class="cls_002">Информационная безопасность</span></div>
+<div style="position:absolute;left:85.10px;top:342.89px" class="cls_002"><span class="cls_002">ИС</span></div>
+<div style="position:absolute;left:177.62px;top:342.89px" class="cls_002"><span class="cls_002">Информационная система</span></div>
+<div style="position:absolute;left:85.10px;top:360.31px" class="cls_002"><span class="cls_002">КИС</span></div>
+<div style="position:absolute;left:177.62px;top:360.31px" class="cls_002"><span class="cls_002">Корпоративная информационная сеть</span></div>
+<div style="position:absolute;left:85.10px;top:377.59px" class="cls_002"><span class="cls_002">МЭ</span></div>
+<div style="position:absolute;left:177.62px;top:377.59px" class="cls_002"><span class="cls_002">Межсетевой экран</span></div>
+<div style="position:absolute;left:85.10px;top:400.75px" class="cls_018"><span class="cls_018">1.3. Резюме</span></div>
+<div style="position:absolute;left:121.10px;top:430.63px" class="cls_002"><span class="cls_002">В  соответствии  с  договором  ДСС-КУ-2018/03  специалистами  компании</span></div>
+<div style="position:absolute;left:532.33px;top:430.63px" class="cls_002"><span class="cls_002">«Digital</span></div>
+<div style="position:absolute;left:85.10px;top:446.35px" class="cls_002"><span class="cls_002">Securityͩ в период с 7.02.18 по 16.02.18 были проведены работы по анализу защищенности</span></div>
+<div style="position:absolute;left:85.10px;top:462.19px" class="cls_002"><span class="cls_002">сайта bcwallet.io.</span></div>
+<div style="position:absolute;left:121.10px;top:478.03px" class="cls_002"><span class="cls_002">Была рассмотрена модель внешнего нарушителя без знаний о Системе.</span></div>
+<div style="position:absolute;left:121.10px;top:509.62px" class="cls_002"><span class="cls_002">Проведенные работы показали, что:</span></div>
+<div style="position:absolute;left:103.10px;top:525.46px" class="cls_002"><span class="cls_002">1.  Имеющийся уровень безопасности Системы можно определить как «высокийͩ.</span></div>
+<div style="position:absolute;left:121.10px;top:557.02px" class="cls_002"><span class="cls_002">Основными рекомендациями являются:</span></div>
+<div style="position:absolute;left:103.10px;top:572.86px" class="cls_002"><span class="cls_002">1.  Устранение выявленных уязвимостей и слабостей Системы.</span></div>
+<div style="position:absolute;left:121.10px;top:604.54px" class="cls_002"><span class="cls_002">Далее содержатся подробности и описание выявленных недостатков и связанных с</span></div>
+<div style="position:absolute;left:85.10px;top:620.26px" class="cls_002"><span class="cls_002">ними   рисков   информационной   безопасности,   а   также  детальные   рекомендации   по</span></div>
+<div style="position:absolute;left:85.10px;top:636.10px" class="cls_002"><span class="cls_002">устранению слабостей.</span></div>
+<div style="position:absolute;left:43.80px;top:760.80px" class="cls_013"><span class="cls_013">© 2003—2017, Digital Security</span></div>
+<div style="position:absolute;left:597.10px;top:764.52px" class="cls_005"><span class="cls_005">3</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-306px;top:2406px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="9b92b92a-ad1a-11e8-b59b-0cc47a792c0a_id_9b92b92a-ad1a-11e8-b59b-0cc47a792c0a_files/background04.jpg" width=612 height=792></div>
+<div style="position:absolute;left:379.63px;top:36.12px" class="cls_011"><span class="cls_011">Экспертное заключение по результатам проведения</span></div>
+<div style="position:absolute;left:420.43px;top:47.88px" class="cls_011"><span class="cls_011">анализа защищённости сайта bcwallet͘io,</span></div>
+<div style="position:absolute;left:410.95px;top:55.56px" class="cls_011"><span class="cls_011">принадлежащего компании «Blockchain͘ruͩ</span></div>
+<div style="position:absolute;left:85.10px;top:112.58px" class="cls_018"><span class="cls_018">1.4. Область проводимых работ</span></div>
+<div style="position:absolute;left:121.10px;top:142.46px" class="cls_002"><span class="cls_002">В область проведения работ по анализу защищенности вошли ресурсы ЛВС Заказчика,</span></div>
+<div style="position:absolute;left:85.10px;top:158.18px" class="cls_002"><span class="cls_002">включая основные важные бизнес-системы, перечисленные в Таблице 1͘4:</span></div>
+<div style="position:absolute;left:208.97px;top:174.02px" class="cls_020"><span class="cls_020">Таблица 1͘4͘ Перечень хостов Компании для анализа защищённости</span></div>
+<div style="position:absolute;left:84.62px;top:206.93px" class="cls_024"><span class="cls_024">№ п/п</span></div>
+<div style="position:absolute;left:130.46px;top:206.93px" class="cls_024"><span class="cls_024">Имя хоста/IP-адрес</span></div>
+<div style="position:absolute;left:84.62px;top:238.49px" class="cls_002"><span class="cls_002">1</span></div>
+<div style="position:absolute;left:130.46px;top:238.49px" class="cls_002"><span class="cls_002">bcwallet.io</span></div>
+<div style="position:absolute;left:43.80px;top:760.80px" class="cls_013"><span class="cls_013">© 2003—2017, Digital Security</span></div>
+<div style="position:absolute;left:597.10px;top:764.52px" class="cls_005"><span class="cls_005">4</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-306px;top:3208px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="9b92b92a-ad1a-11e8-b59b-0cc47a792c0a_id_9b92b92a-ad1a-11e8-b59b-0cc47a792c0a_files/background05.jpg" width=612 height=792></div>
+<div style="position:absolute;left:379.63px;top:36.12px" class="cls_011"><span class="cls_011">Экспертное заключение по результатам проведения</span></div>
+<div style="position:absolute;left:420.43px;top:47.88px" class="cls_011"><span class="cls_011">анализа защищённости сайта bcwallet͘io,</span></div>
+<div style="position:absolute;left:410.95px;top:55.56px" class="cls_011"><span class="cls_011">принадлежащего компании «Blockchain͘ruͩ</span></div>
+<div style="position:absolute;left:85.10px;top:112.22px" class="cls_016"><span class="cls_016">2. Принципы проведения работ</span></div>
+<div style="position:absolute;left:84.74px;top:162.14px" class="cls_018"><span class="cls_018">2.1. Угрозы ИБ</span></div>
+<div style="position:absolute;left:120.50px;top:192.02px" class="cls_002"><span class="cls_002">На информационные ресурсы Компании могут действовать следующие три угрозы ИБ:</span></div>
+<div style="position:absolute;left:85.10px;top:207.89px" class="cls_002"><span class="cls_002">угрозы нарушения конфиденциальности, целостности и доступности͘</span></div>
+<div style="position:absolute;left:120.50px;top:223.73px" class="cls_002"><span class="cls_002">Угроза нарушения конфиденциальности направлена на разглашение информации,</span></div>
+<div style="position:absolute;left:85.10px;top:239.45px" class="cls_002"><span class="cls_002">имеющей  в  Компании  статус  конфиденциальной͘  При  реализации  угрозы  информация</span></div>
+<div style="position:absolute;left:85.10px;top:255.29px" class="cls_002"><span class="cls_002">становится известной лицам, которые не должны иметь к ней доступ - ряду сотрудников</span></div>
+<div style="position:absolute;left:85.10px;top:271.13px" class="cls_002"><span class="cls_002">Компании, клиентам, партнерам, конкурентам, третьим лицам͘</span></div>
+<div style="position:absolute;left:120.50px;top:286.85px" class="cls_002"><span class="cls_002">Угроза   нарушения   целостности   направлена   на   модификацию   или   искажение</span></div>
+<div style="position:absolute;left:85.10px;top:302.69px" class="cls_002"><span class="cls_002">информации, приводящее к изменению ее структуры или смысла, полному или частичному</span></div>
+<div style="position:absolute;left:85.10px;top:318.53px" class="cls_002"><span class="cls_002">уничтожению͘</span></div>
+<div style="position:absolute;left:120.50px;top:334.37px" class="cls_002"><span class="cls_002">Угроза  нарушения  доступности</span></div>
+<div style="position:absolute;left:301.39px;top:334.37px" class="cls_002"><span class="cls_002">(угроза  отказа  в  обслуживании)  заключается  в</span></div>
+<div style="position:absolute;left:85.10px;top:350.09px" class="cls_002"><span class="cls_002">невозможности   получения   доступа   к   информационному   ресурсу   пользователями</span></div>
+<div style="position:absolute;left:85.10px;top:365.95px" class="cls_002"><span class="cls_002">информационной системы͘</span></div>
+<div style="position:absolute;left:120.50px;top:381.79px" class="cls_002"><span class="cls_002">Основным  принципом  проведения  аудита  ИБ  является  проверка  возможности</span></div>
+<div style="position:absolute;left:85.10px;top:397.63px" class="cls_002"><span class="cls_002">реализации указанных угроз, воздействующих на информационные ресурсы Системы, в</span></div>
+<div style="position:absolute;left:85.10px;top:413.35px" class="cls_002"><span class="cls_002">рамках заданной модели нарушителя͘</span></div>
+<div style="position:absolute;left:84.74px;top:435.07px" class="cls_018"><span class="cls_018">2.2.  Модель нарушителя</span></div>
+<div style="position:absolute;left:120.50px;top:464.95px" class="cls_002"><span class="cls_002">В качестве вероятного нарушителя информационной безопасности Системы Компании</span></div>
+<div style="position:absolute;left:85.10px;top:480.67px" class="cls_002"><span class="cls_002">рассматривается лицо или группа лиц, состоящих или не состоящих в сговоре, которые в</span></div>
+<div style="position:absolute;left:85.10px;top:496.51px" class="cls_002"><span class="cls_002">результате умышленных или неумышленных действий потенциально могут реализовать</span></div>
+<div style="position:absolute;left:85.10px;top:512.38px" class="cls_002"><span class="cls_002">угрозы ИБ, осуществить посягательства на информационные ресурсы Системы и нанести</span></div>
+<div style="position:absolute;left:85.10px;top:528.22px" class="cls_002"><span class="cls_002">ущерб интересам Компании͘</span></div>
+<div style="position:absolute;left:120.50px;top:543.94px" class="cls_002"><span class="cls_002">В    качестве    угроз    ИБ    рассматриваются    базовые    угрозы    нарушения</span></div>
+<div style="position:absolute;left:85.10px;top:559.78px" class="cls_002"><span class="cls_002">конфиденциальности  и  целостности  информации,  а  также  угроза  отказа  Системы  в</span></div>
+<div style="position:absolute;left:85.10px;top:575.62px" class="cls_002"><span class="cls_002">обслуживании клиентов Компании͘</span></div>
+<div style="position:absolute;left:114.26px;top:591.46px" class="cls_002"><span class="cls_002">Умышленно действующий нарушитель может преследовать следующие цели (а также</span></div>
+<div style="position:absolute;left:85.10px;top:607.18px" class="cls_002"><span class="cls_002">их всевозможные комбинации):</span></div>
+<div style="position:absolute;left:96.50px;top:623.74px" class="cls_025"><span class="cls_025"></span><span class="cls_023"> </span><span class="cls_002">  злонамеренный вызов отказа в обслуживании;</span></div>
+<div style="position:absolute;left:96.50px;top:644.98px" class="cls_025"><span class="cls_025"></span><span class="cls_023"> </span><span class="cls_002">  повышение собственных привилегий;</span></div>
+<div style="position:absolute;left:96.50px;top:666.36px" class="cls_025"><span class="cls_025"></span><span class="cls_023"> </span><span class="cls_002">  несанкционированный доступ к критичной с точки зрения бизнеса информации͘</span></div>
+<div style="position:absolute;left:121.10px;top:686.88px" class="cls_002"><span class="cls_002">В ходе работы была использована модель внешнего нарушителя.</span></div>
+<div style="position:absolute;left:43.80px;top:760.80px" class="cls_013"><span class="cls_013">© 2003—2017, Digital Security</span></div>
+<div style="position:absolute;left:597.10px;top:764.52px" class="cls_005"><span class="cls_005">5</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-306px;top:4010px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="9b92b92a-ad1a-11e8-b59b-0cc47a792c0a_id_9b92b92a-ad1a-11e8-b59b-0cc47a792c0a_files/background06.jpg" width=612 height=792></div>
+<div style="position:absolute;left:379.63px;top:36.12px" class="cls_011"><span class="cls_011">Экспертное заключение по результатам проведения</span></div>
+<div style="position:absolute;left:420.43px;top:47.88px" class="cls_011"><span class="cls_011">анализа защищённости сайта bcwallet͘io,</span></div>
+<div style="position:absolute;left:410.95px;top:55.56px" class="cls_011"><span class="cls_011">принадлежащего компании «Blockchain͘ruͩ</span></div>
+<div style="position:absolute;left:85.10px;top:112.58px" class="cls_007"><span class="cls_007">2.2.1.   Внешний нарушитель</span></div>
+<div style="position:absolute;left:114.26px;top:145.82px" class="cls_002"><span class="cls_002">При проведении теста на проникновение используются следующие модели внешнего</span></div>
+<div style="position:absolute;left:85.10px;top:161.54px" class="cls_002"><span class="cls_002">нарушителя:</span></div>
+<div style="position:absolute;left:96.50px;top:178.10px" class="cls_025"><span class="cls_025"></span><span class="cls_023"> </span><span class="cls_002">  внешний нарушитель из сети, не обладающий знаниями о тестируемой Системе и</span></div>
+<div style="position:absolute;left:114.26px;top:192.86px" class="cls_002"><span class="cls_002">правами в ней.</span></div>
+<div style="position:absolute;left:43.80px;top:760.80px" class="cls_013"><span class="cls_013">© 2003—2017, Digital Security</span></div>
+<div style="position:absolute;left:597.10px;top:764.52px" class="cls_005"><span class="cls_005">6</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-306px;top:4812px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="9b92b92a-ad1a-11e8-b59b-0cc47a792c0a_id_9b92b92a-ad1a-11e8-b59b-0cc47a792c0a_files/background07.jpg" width=612 height=792></div>
+<div style="position:absolute;left:379.63px;top:36.12px" class="cls_011"><span class="cls_011">Экспертное заключение по результатам проведения</span></div>
+<div style="position:absolute;left:420.43px;top:47.88px" class="cls_011"><span class="cls_011">анализа защищённости сайта bcwallet͘io,</span></div>
+<div style="position:absolute;left:410.95px;top:55.56px" class="cls_011"><span class="cls_011">принадлежащего компании «Blockchain͘ruͩ</span></div>
+<div style="position:absolute;left:85.10px;top:112.22px" class="cls_016"><span class="cls_016">3. Сценарии атак</span></div>
+<div style="position:absolute;left:84.74px;top:162.14px" class="cls_018"><span class="cls_018">3.1. MiTM-атака на пользователя</span></div>
+<div style="position:absolute;left:120.50px;top:192.02px" class="cls_002"><span class="cls_002">При использовании слабости </span><span class="cls_038">4.2.1.</span><span class="cls_002"> злоумышленник может проводить MiTM-атаку</span></div>
+<div style="position:absolute;left:85.10px;top:207.89px" class="cls_002"><span class="cls_002">(атака</span></div>
+<div style="position:absolute;left:122.78px;top:207.89px" class="cls_002"><span class="cls_002">“человек посередине”)͘ Злоумышленник может принудительно заставить браузер</span></div>
+<div style="position:absolute;left:85.10px;top:223.73px" class="cls_002"><span class="cls_002">пользователя передавать данные через незащищенное соединение (downgrade-атака)͘ При</span></div>
+<div style="position:absolute;left:85.10px;top:239.45px" class="cls_002"><span class="cls_002">этом необходимо, чтобы злоумышленник и жертва находились в одной сети, например,</span></div>
+<div style="position:absolute;left:85.10px;top:255.29px" class="cls_002"><span class="cls_002">публичный Wi-Fi͘ Далее злоумышленник может подменить в ответах от сервера адрес</span></div>
+<div style="position:absolute;left:85.10px;top:271.13px" class="cls_002"><span class="cls_002">настоящего кошелька на адрес подконтрольного ему, в результате чего жертва может</span></div>
+<div style="position:absolute;left:85.10px;top:286.85px" class="cls_002"><span class="cls_002">перевести криптовалюту на адрес злоумышленника͘</span></div>
+<div style="position:absolute;left:84.74px;top:308.57px" class="cls_018"><span class="cls_018">3.2. Восстановление чужой учетной записи</span></div>
+<div style="position:absolute;left:116.66px;top:338.45px" class="cls_002"><span class="cls_002">С помощью уязвимости </span><span class="cls_038">4.1.1</span><span class="cls_002">. атакующий может сгенерировать большое количество</span></div>
+<div style="position:absolute;left:85.10px;top:354.29px" class="cls_002"><span class="cls_002">кодов  для  восстановления  и  попытаться  совершить  атаку  перебором͘  В  случае  успеха</span></div>
+<div style="position:absolute;left:85.10px;top:370.03px" class="cls_002"><span class="cls_002">злоумышленник завладеет аккаунтом пользователя͘</span></div>
+<div style="position:absolute;left:43.80px;top:760.80px" class="cls_013"><span class="cls_013">© 2003—2017, Digital Security</span></div>
+<div style="position:absolute;left:597.10px;top:764.52px" class="cls_005"><span class="cls_005">7</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-306px;top:5614px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="9b92b92a-ad1a-11e8-b59b-0cc47a792c0a_id_9b92b92a-ad1a-11e8-b59b-0cc47a792c0a_files/background08.jpg" width=612 height=792></div>
+<div style="position:absolute;left:379.63px;top:36.12px" class="cls_011"><span class="cls_011">Экспертное заключение по результатам проведения</span></div>
+<div style="position:absolute;left:420.43px;top:47.88px" class="cls_011"><span class="cls_011">анализа защищённости сайта bcwallet͘io,</span></div>
+<div style="position:absolute;left:410.95px;top:55.56px" class="cls_011"><span class="cls_011">принадлежащего компании «Blockchain͘ruͩ</span></div>
+<div style="position:absolute;left:85.10px;top:112.22px" class="cls_016"><span class="cls_016">4. Внешний аудит Системы</span></div>
+<div style="position:absolute;left:84.74px;top:162.14px" class="cls_018"><span class="cls_018">4.1. Перечень обнаруженных уязвимостей</span></div>
+<div style="position:absolute;left:85.10px;top:197.90px" class="cls_007"><span class="cls_007">4.1.1.   Недостаточное количество бит энтропии в токене</span></div>
+<div style="position:absolute;left:85.10px;top:231.17px" class="cls_020"><span class="cls_020">Критичность: </span><span class="cls_028">высокая</span></div>
+<div style="position:absolute;left:85.10px;top:246.89px" class="cls_020"><span class="cls_020">Вероятность эксплуатации: </span><span class="cls_029">низкая</span></div>
+<div style="position:absolute;left:85.10px;top:262.73px" class="cls_020"><span class="cls_020">Итоговый риск: </span><span class="cls_030">средний</span></div>
+<div style="position:absolute;left:85.10px;top:284.57px" class="cls_031"><span class="cls_031">Описание:</span></div>
+<div style="position:absolute;left:85.10px;top:303.05px" class="cls_002"><span class="cls_002">Приложение генерирует уникальные токены для подтверждения пользователем критичных</span></div>
+<div style="position:absolute;left:85.10px;top:318.77px" class="cls_002"><span class="cls_002">действий͘ Однако генерируемый токен недостаточно случайный͘</span></div>
+<div style="position:absolute;left:85.10px;top:340.61px" class="cls_031"><span class="cls_031">Риск:</span></div>
+<div style="position:absolute;left:85.10px;top:359.11px" class="cls_002"><span class="cls_002">При некоторых обстоятельствах атакующий может успешно подобрать токен и выполнить</span></div>
+<div style="position:absolute;left:85.10px;top:374.95px" class="cls_002"><span class="cls_002">критичное для Системы действие͘</span></div>
+<div style="position:absolute;left:85.10px;top:396.67px" class="cls_031"><span class="cls_031">Уязвимый ресурс:</span></div>
+<div style="position:absolute;left:96.50px;top:415.87px" class="cls_025"><span class="cls_025"></span><span class="cls_023"> </span><span class="cls_002">  bcwallet.io</span></div>
+<div style="position:absolute;left:85.10px;top:442.39px" class="cls_031"><span class="cls_031">Технические детали:</span></div>
+<div style="position:absolute;left:85.10px;top:460.87px" class="cls_002"><span class="cls_002">При восстановлении пароля на указанную почту приходит письмо со ссылкой, содержащей</span></div>
+<div style="position:absolute;left:85.10px;top:476.71px" class="cls_002"><span class="cls_002">уникальный  токен͘  Количество  уникальных  байт  в  токене  ≤  6͘  Учитывая  тот  факт,  что</span></div>
+<div style="position:absolute;left:85.10px;top:492.43px" class="cls_002"><span class="cls_002">количество  запросов  токена  на  почту  жертвы  неограниченно,  злоумышленник  может</span></div>
+<div style="position:absolute;left:85.10px;top:508.30px" class="cls_002"><span class="cls_002">существенно сократить время перебора͘</span></div>
+<div style="position:absolute;left:85.10px;top:530.14px" class="cls_031"><span class="cls_031">Рекомендации:</span></div>
+<div style="position:absolute;left:96.50px;top:549.34px" class="cls_025"><span class="cls_025"></span><span class="cls_023"> </span><span class="cls_002">  Увеличить количество бит энтропии в токене.</span></div>
+<div style="position:absolute;left:43.80px;top:760.80px" class="cls_013"><span class="cls_013">© 2003—2017, Digital Security</span></div>
+<div style="position:absolute;left:597.10px;top:764.52px" class="cls_005"><span class="cls_005">8</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-306px;top:6416px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="9b92b92a-ad1a-11e8-b59b-0cc47a792c0a_id_9b92b92a-ad1a-11e8-b59b-0cc47a792c0a_files/background09.jpg" width=612 height=792></div>
+<div style="position:absolute;left:379.63px;top:36.12px" class="cls_011"><span class="cls_011">Экспертное заключение по результатам проведения</span></div>
+<div style="position:absolute;left:420.43px;top:47.88px" class="cls_011"><span class="cls_011">анализа защищённости сайта bcwallet͘io,</span></div>
+<div style="position:absolute;left:410.95px;top:55.56px" class="cls_011"><span class="cls_011">принадлежащего компании «Blockchain͘ruͩ</span></div>
+<div style="position:absolute;left:207.77px;top:123.02px" class="cls_020"><span class="cls_020">Рис 4͘1͘1 - 1͘ Ссылки для восстановления пароля аккаунта</span></div>
+<div style="position:absolute;left:85.10px;top:469.51px" class="cls_007"><span class="cls_007">4.1.2.   Некорректное управление сессией</span></div>
+<div style="position:absolute;left:85.10px;top:502.66px" class="cls_020"><span class="cls_020">Критичность: </span><span class="cls_030">средняя</span></div>
+<div style="position:absolute;left:85.10px;top:518.50px" class="cls_020"><span class="cls_020">Вероятность эксплуатации: </span><span class="cls_029">низкая</span></div>
+<div style="position:absolute;left:85.10px;top:534.34px" class="cls_020"><span class="cls_020">Итоговый риск: </span><span class="cls_029">низкий</span></div>
+<div style="position:absolute;left:85.10px;top:556.18px" class="cls_031"><span class="cls_031">Описание:</span></div>
+<div style="position:absolute;left:85.10px;top:574.54px" class="cls_002"><span class="cls_002">В случае раскрытия идентификатора сессии злоумышленник может неограниченно получать</span></div>
+<div style="position:absolute;left:85.10px;top:590.38px" class="cls_002"><span class="cls_002">доступ в личный кабинет пользователя͘</span></div>
+<div style="position:absolute;left:85.10px;top:612.22px" class="cls_031"><span class="cls_031">Риск:</span></div>
+<div style="position:absolute;left:85.10px;top:630.58px" class="cls_002"><span class="cls_002">Обладание   идентификатором   сессии,   выданным   пользователю   при   аутентификации,</span></div>
+<div style="position:absolute;left:85.10px;top:646.42px" class="cls_002"><span class="cls_002">позволяет осуществлять доступ к личной информации после того, как пользователь совершил</span></div>
+<div style="position:absolute;left:85.10px;top:662.28px" class="cls_002"><span class="cls_002">выход (!) из личного кабинета͘</span></div>
+<div style="position:absolute;left:85.10px;top:684.12px" class="cls_031"><span class="cls_031">Уязвимый ресурс:</span></div>
+<div style="position:absolute;left:96.50px;top:703.20px" class="cls_025"><span class="cls_025"></span><span class="cls_023"> </span><span class="cls_002">  bcwallet.io</span></div>
+<div style="position:absolute;left:43.80px;top:760.80px" class="cls_013"><span class="cls_013">© 2003—2017, Digital Security</span></div>
+<div style="position:absolute;left:597.10px;top:764.52px" class="cls_005"><span class="cls_005">9</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-306px;top:7218px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="9b92b92a-ad1a-11e8-b59b-0cc47a792c0a_id_9b92b92a-ad1a-11e8-b59b-0cc47a792c0a_files/background10.jpg" width=612 height=792></div>
+<div style="position:absolute;left:379.63px;top:36.12px" class="cls_011"><span class="cls_011">Экспертное заключение по результатам проведения</span></div>
+<div style="position:absolute;left:420.43px;top:47.88px" class="cls_011"><span class="cls_011">анализа защищённости сайта bcwallet͘io,</span></div>
+<div style="position:absolute;left:410.95px;top:55.56px" class="cls_011"><span class="cls_011">принадлежащего компании «Blockchain͘ruͩ</span></div>
+<div style="position:absolute;left:85.10px;top:112.70px" class="cls_031"><span class="cls_031">Технические детали:</span></div>
+<div style="position:absolute;left:85.10px;top:131.18px" class="cls_002"><span class="cls_002">refresh_token и access_token действительны после осуществления logout͘</span></div>
+<div style="position:absolute;left:85.10px;top:152.90px" class="cls_031"><span class="cls_031">Рекомендации:</span></div>
+<div style="position:absolute;left:96.50px;top:172.10px" class="cls_025"><span class="cls_025"></span><span class="cls_023"> </span><span class="cls_002">  Удалять сессию пользователя как при истечении определенного времени, так при</span></div>
+<div style="position:absolute;left:114.26px;top:186.86px" class="cls_002"><span class="cls_002">нажатии им кнопки logout.</span></div>
+<div style="position:absolute;left:84.74px;top:213.29px" class="cls_018"><span class="cls_018">4.2. Перечень обнаруженных слабостей</span></div>
+<div style="position:absolute;left:85.10px;top:248.93px" class="cls_007"><span class="cls_007">4.2.1.   Отсутствие механизма HSTS</span></div>
+<div style="position:absolute;left:85.10px;top:288.17px" class="cls_031"><span class="cls_031">Описание:</span></div>
+<div style="position:absolute;left:85.10px;top:306.65px" class="cls_002"><span class="cls_002">Злоумышленник  может  произвести  downgrade-атаку,  тем  самым  заставив  пользователя</span></div>
+<div style="position:absolute;left:85.10px;top:322.37px" class="cls_002"><span class="cls_002">использовать незащищенное соединение с web-приложением. В результате этого атакующий</span></div>
+<div style="position:absolute;left:85.10px;top:338.21px" class="cls_002"><span class="cls_002">сможет активно перехватывать данные, которые пользователь передает web-приложению,</span></div>
+<div style="position:absolute;left:85.10px;top:354.05px" class="cls_002"><span class="cls_002">например, пароли или cookies.</span></div>
+<div style="position:absolute;left:85.10px;top:375.79px" class="cls_031"><span class="cls_031">Риск:</span></div>
+<div style="position:absolute;left:85.10px;top:394.27px" class="cls_002"><span class="cls_002">В web-приложении отсутствует механизм HSTS, который позволяет защититься от ряда атак,</span></div>
+<div style="position:absolute;left:85.10px;top:410.11px" class="cls_002"><span class="cls_002">связанных с активным перехватом трафика͘</span></div>
+<div style="position:absolute;left:85.10px;top:431.95px" class="cls_031"><span class="cls_031">Уязвимый ресурс:</span></div>
+<div style="position:absolute;left:96.50px;top:451.03px" class="cls_025"><span class="cls_025"></span><span class="cls_023"> </span><span class="cls_002">  bcwallet.io</span></div>
+<div style="position:absolute;left:85.10px;top:477.67px" class="cls_031"><span class="cls_031">Технические детали:</span></div>
+<div style="position:absolute;left:85.10px;top:496.03px" class="cls_002"><span class="cls_002">Механизм   HSTS</span></div>
+<div style="position:absolute;left:183.80px;top:496.03px" class="cls_002"><span class="cls_002">(HTTP   Strict   Transport   Security)   заставляет   браузер   по   умолчанию</span></div>
+<div style="position:absolute;left:85.10px;top:511.90px" class="cls_002"><span class="cls_002">использовать защищенное TLS-соединение с web-приложением, что значительно усложняет</span></div>
+<div style="position:absolute;left:85.10px;top:527.74px" class="cls_002"><span class="cls_002">злоумышленнику проведение MiTM-атак (атаки "человек посередине")͘</span></div>
+<div style="position:absolute;left:85.10px;top:549.58px" class="cls_031"><span class="cls_031">Рекомендации:</span></div>
+<div style="position:absolute;left:96.50px;top:568.66px" class="cls_025"><span class="cls_025"></span><span class="cls_023"> </span><span class="cls_002">  Внедрить механизм HSTS͘ Необходимо добавить в ответ сервера заголовок</span></div>
+<div style="position:absolute;left:114.26px;top:583.42px" class="cls_002"><span class="cls_002">Strict-Transport-Security: max-age=%срок действия%.</span></div>
+<div style="position:absolute;left:43.80px;top:760.80px" class="cls_013"><span class="cls_013">© 2003—2017, Digital Security</span></div>
+<div style="position:absolute;left:591.46px;top:764.52px" class="cls_005"><span class="cls_005">10</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-306px;top:8020px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="9b92b92a-ad1a-11e8-b59b-0cc47a792c0a_id_9b92b92a-ad1a-11e8-b59b-0cc47a792c0a_files/background11.jpg" width=612 height=792></div>
+<div style="position:absolute;left:379.63px;top:36.12px" class="cls_011"><span class="cls_011">Экспертное заключение по результатам проведения</span></div>
+<div style="position:absolute;left:420.43px;top:47.88px" class="cls_011"><span class="cls_011">анализа защищённости сайта bcwallet͘io,</span></div>
+<div style="position:absolute;left:410.95px;top:55.56px" class="cls_011"><span class="cls_011">принадлежащего компании «Blockchain͘ruͩ</span></div>
+<div style="position:absolute;left:85.10px;top:112.58px" class="cls_007"><span class="cls_007">4.2.2.   Отсутствие защиты от атак типа clickjacking</span></div>
+<div style="position:absolute;left:85.10px;top:151.82px" class="cls_031"><span class="cls_031">Описание:</span></div>
+<div style="position:absolute;left:85.10px;top:170.18px" class="cls_002"><span class="cls_002">Web-сервер не использует параметры X-Frame-Options в заголовках ответов web-сервера͘</span></div>
+<div style="position:absolute;left:85.10px;top:192.02px" class="cls_031"><span class="cls_031">Риск:</span></div>
+<div style="position:absolute;left:85.10px;top:210.53px" class="cls_002"><span class="cls_002">Сайт Системы, загруженный во фрейме на стороннем ресурсе злоумышленника, может быть</span></div>
+<div style="position:absolute;left:85.10px;top:226.25px" class="cls_002"><span class="cls_002">использован для осуществления фишинговых и кликджекинговых атак на пользователей и</span></div>
+<div style="position:absolute;left:85.10px;top:242.09px" class="cls_002"><span class="cls_002">манипуляций с Системой без их ведома͘ Например, пользователь будет находиться на сайте</span></div>
+<div style="position:absolute;left:85.10px;top:257.93px" class="cls_002"><span class="cls_002">злоумышленника и выполнять там какие-то действия (клики мышью, набор текста), при этом</span></div>
+<div style="position:absolute;left:85.10px;top:273.77px" class="cls_002"><span class="cls_002">сами действия будут отправляться и обрабатываться в Системе, а не сайте злоумышленника</span></div>
+<div style="position:absolute;left:85.10px;top:289.49px" class="cls_002"><span class="cls_002">(за счёт отображения сайта и Системы на различных слоях)͘</span></div>
+<div style="position:absolute;left:85.10px;top:311.33px" class="cls_031"><span class="cls_031">Уязвимый ресурс:</span></div>
+<div style="position:absolute;left:96.50px;top:330.53px" class="cls_025"><span class="cls_025"></span><span class="cls_023"> </span><span class="cls_002">  bcwallet.io</span></div>
+<div style="position:absolute;left:85.10px;top:357.07px" class="cls_031"><span class="cls_031">Технические детали:</span></div>
+<div style="position:absolute;left:85.10px;top:375.55px" class="cls_002"><span class="cls_002">X-Frame-Options позволяет определить политику загрузки сайта во фреймы на сторонних</span></div>
+<div style="position:absolute;left:85.10px;top:391.39px" class="cls_002"><span class="cls_002">ресурсах͘   Заголовок   X-Frame-Options   отсутствует   в   заголовках   ответов   web-сервера͘</span></div>
+<div style="position:absolute;left:85.10px;top:407.11px" class="cls_002"><span class="cls_002">Возможность атаки сильно зависит от функционала͘ Защиту следует внедрять, как минимум,</span></div>
+<div style="position:absolute;left:85.10px;top:422.95px" class="cls_002"><span class="cls_002">для критичных поддоменов/разделов сайта͘</span></div>
+<div style="position:absolute;left:85.10px;top:438.79px" class="cls_002"><span class="cls_002">Следует отметить, что в данной версии Системы отсутствует функциональность, которую</span></div>
+<div style="position:absolute;left:85.10px;top:454.63px" class="cls_002"><span class="cls_002">необходимо было бы защищать таким образом͘ Однако если планируется дальнейшее</span></div>
+<div style="position:absolute;left:85.10px;top:470.35px" class="cls_002"><span class="cls_002">развитие сайта с внедрением регистрации пользователей и личным кабинетом, то данный</span></div>
+<div style="position:absolute;left:85.10px;top:486.19px" class="cls_002"><span class="cls_002">заголовок поможет защититься от clickjacking-атак в будущем, в случае, если появится</span></div>
+<div style="position:absolute;left:85.10px;top:502.03px" class="cls_002"><span class="cls_002">функционал, который можно будет таким образом атаковать͘</span></div>
+<div style="position:absolute;left:85.10px;top:523.90px" class="cls_031"><span class="cls_031">Рекомендации:</span></div>
+<div style="position:absolute;left:96.50px;top:542.98px" class="cls_025"><span class="cls_025"></span><span class="cls_023"> </span><span class="cls_002">  Добавить во все заголовки ответов от web-сервера заголовок X-Frame-Options со</span></div>
+<div style="position:absolute;left:114.26px;top:557.74px" class="cls_002"><span class="cls_002">значением ”DENY” или ”SAMEORIGIN”.</span></div>
+<div style="position:absolute;left:85.10px;top:578.14px" class="cls_007"><span class="cls_007">4.2.3.   Небезопасная конфигурация CORS</span></div>
+<div style="position:absolute;left:85.10px;top:613.30px" class="cls_031"><span class="cls_031">Описание:</span></div>
+<div style="position:absolute;left:85.10px;top:631.78px" class="cls_002"><span class="cls_002">Злоумышленник может получить доступ к чувствительной информации пользователя͘</span></div>
+<div style="position:absolute;left:85.10px;top:653.52px" class="cls_031"><span class="cls_031">Риск:</span></div>
+<div style="position:absolute;left:85.10px;top:672.00px" class="cls_002"><span class="cls_002">Неправильная  конфигурация  web-сервера,  с  включенным  механизмом  междоменного</span></div>
+<div style="position:absolute;left:85.10px;top:687.84px" class="cls_002"><span class="cls_002">взаимодействия   сайтов   CORS</span></div>
+<div style="position:absolute;left:260.22px;top:687.84px" class="cls_002"><span class="cls_002">(Cross-Origin   Resource   Sharing),   позволяющая   получить</span></div>
+<div style="position:absolute;left:85.10px;top:703.68px" class="cls_002"><span class="cls_002">чувствительную информацию пользователей сайта͘</span></div>
+<div style="position:absolute;left:43.80px;top:760.80px" class="cls_013"><span class="cls_013">© 2003—2017, Digital Security</span></div>
+<div style="position:absolute;left:591.46px;top:764.52px" class="cls_005"><span class="cls_005">11</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-306px;top:8822px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="9b92b92a-ad1a-11e8-b59b-0cc47a792c0a_id_9b92b92a-ad1a-11e8-b59b-0cc47a792c0a_files/background12.jpg" width=612 height=792></div>
+<div style="position:absolute;left:379.63px;top:36.12px" class="cls_011"><span class="cls_011">Экспертное заключение по результатам проведения</span></div>
+<div style="position:absolute;left:420.43px;top:47.88px" class="cls_011"><span class="cls_011">анализа защищённости сайта bcwallet͘io,</span></div>
+<div style="position:absolute;left:410.95px;top:55.56px" class="cls_011"><span class="cls_011">принадлежащего компании «Blockchain͘ruͩ</span></div>
+<div style="position:absolute;left:85.10px;top:112.70px" class="cls_031"><span class="cls_031">Уязвимый ресурс:</span></div>
+<div style="position:absolute;left:96.50px;top:131.90px" class="cls_025"><span class="cls_025"></span></div>
+<div style="position:absolute;left:114.26px;top:131.90px" class="cls_002"><span class="cls_002">*.bcwallet.io</span></div>
+<div style="position:absolute;left:85.10px;top:158.42px" class="cls_031"><span class="cls_031">Технические детали:</span></div>
+<div style="position:absolute;left:85.10px;top:176.90px" class="cls_002"><span class="cls_002">На любой домен (отличный от </span><A HREF="https://bcwallet.io/">https://bcwallet.io</A>) в заголовке Origin сервер возвращает null͘ В</div>
+<div style="position:absolute;left:85.10px;top:192.74px" class="cls_002"><span class="cls_002">связке   с   заголовком   access-control-allow-credentials:   true   это   даёт   атакующему</span></div>
+<div style="position:absolute;left:85.10px;top:208.49px" class="cls_002"><span class="cls_002">потенциальную   возможность   кроссдоменного   чтения   чувствительной   информации</span></div>
+<div style="position:absolute;left:85.10px;top:224.33px" class="cls_002"><span class="cls_002">пользователя͘</span></div>
+<div style="position:absolute;left:180.26px;top:258.89px" class="cls_020"><span class="cls_020">Рис 4.2.3 - 1͘ Пример получения данных пользователя с Origin, равного null</span></div>
+<div style="position:absolute;left:85.10px;top:531.22px" class="cls_002"><span class="cls_002">В данном случае такое поведение не является уязвимостью, так как для авторизации</span></div>
+<div style="position:absolute;left:85.10px;top:547.06px" class="cls_002"><span class="cls_002">пользователя используется не Cookie, а заголовок Authorization.</span></div>
+<div style="position:absolute;left:85.10px;top:562.90px" class="cls_002"><span class="cls_002">Рекомендации:</span></div>
+<div style="position:absolute;left:96.50px;top:579.34px" class="cls_025"><span class="cls_025"></span><span class="cls_023"> </span><span class="cls_002">  Настроить белый список доменов, с которых возможно обращение к целевому домену,</span></div>
+<div style="position:absolute;left:114.26px;top:594.10px" class="cls_002"><span class="cls_002">и проверять вхождение значения заголовка Origin в этот список͘</span></div>
+<div style="position:absolute;left:96.50px;top:615.34px" class="cls_025"><span class="cls_025"></span><span class="cls_023"> </span><span class="cls_002">  Удалить заголовки access-control-allow-credentials и access-control-expose-headers из</span></div>
+<div style="position:absolute;left:114.26px;top:629.98px" class="cls_002"><span class="cls_002">ответа.</span></div>
+<div style="position:absolute;left:43.80px;top:760.80px" class="cls_013"><span class="cls_013">© 2003—2017, Digital Security</span></div>
+<div style="position:absolute;left:591.46px;top:764.52px" class="cls_005"><span class="cls_005">12</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-306px;top:9624px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="9b92b92a-ad1a-11e8-b59b-0cc47a792c0a_id_9b92b92a-ad1a-11e8-b59b-0cc47a792c0a_files/background13.jpg" width=612 height=792></div>
+<div style="position:absolute;left:379.63px;top:36.12px" class="cls_011"><span class="cls_011">Экспертное заключение по результатам проведения</span></div>
+<div style="position:absolute;left:420.43px;top:47.88px" class="cls_011"><span class="cls_011">анализа защищённости сайта bcwallet͘io,</span></div>
+<div style="position:absolute;left:410.95px;top:55.56px" class="cls_011"><span class="cls_011">принадлежащего компании «Blockchain͘ruͩ</span></div>
+<div style="position:absolute;left:85.10px;top:112.58px" class="cls_007"><span class="cls_007">4.2.4.   Возможность повторного использования OTP</span></div>
+<div style="position:absolute;left:85.10px;top:147.74px" class="cls_031"><span class="cls_031">Описание:</span></div>
+<div style="position:absolute;left:85.10px;top:166.22px" class="cls_002"><span class="cls_002">Завладев OTP, атакующий может использовать его повторно для совершения критичных</span></div>
+<div style="position:absolute;left:85.10px;top:182.06px" class="cls_002"><span class="cls_002">действий от имени жертвы͘</span></div>
+<div style="position:absolute;left:85.10px;top:203.78px" class="cls_031"><span class="cls_031">Риск:</span></div>
+<div style="position:absolute;left:85.10px;top:222.29px" class="cls_002"><span class="cls_002">Приложение позволяет использовать OTP (one time password) повторно для разных или</span></div>
+<div style="position:absolute;left:85.10px;top:238.13px" class="cls_002"><span class="cls_002">одного и того же действия͘</span></div>
+<div style="position:absolute;left:85.10px;top:259.97px" class="cls_031"><span class="cls_031">Уязвимый ресурс:</span></div>
+<div style="position:absolute;left:96.50px;top:279.05px" class="cls_025"><span class="cls_025"></span><span class="cls_023"> </span><span class="cls_002">  bcwallet.io</span></div>
+<div style="position:absolute;left:85.10px;top:305.69px" class="cls_031"><span class="cls_031">Технические детали:</span></div>
+<div style="position:absolute;left:85.10px;top:324.05px" class="cls_002"><span class="cls_002">При любом типе 2F</span></div>
+<div style="position:absolute;left:194.11px;top:324.05px" class="cls_002"><span class="cls_002">(через telegram и google authentication) код действителен в течение свой</span></div>
+<div style="position:absolute;left:85.10px;top:339.89px" class="cls_002"><span class="cls_002">жизни для множества действий͘</span></div>
+<div style="position:absolute;left:85.10px;top:361.75px" class="cls_031"><span class="cls_031">Рекомендации:</span></div>
+<div style="position:absolute;left:96.50px;top:380.95px" class="cls_025"><span class="cls_025"></span><span class="cls_023"> </span><span class="cls_002">  OTP должен быть привязан к конкретному действию и действовать только один раз͘</span></div>
+<div style="position:absolute;left:43.80px;top:760.80px" class="cls_013"><span class="cls_013">© 2003—2017, Digital Security</span></div>
+<div style="position:absolute;left:591.46px;top:764.52px" class="cls_005"><span class="cls_005">13</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-306px;top:10426px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="9b92b92a-ad1a-11e8-b59b-0cc47a792c0a_id_9b92b92a-ad1a-11e8-b59b-0cc47a792c0a_files/background14.jpg" width=612 height=792></div>
+<div style="position:absolute;left:379.63px;top:36.12px" class="cls_011"><span class="cls_011">Экспертное заключение по результатам проведения</span></div>
+<div style="position:absolute;left:420.43px;top:47.88px" class="cls_011"><span class="cls_011">анализа защищённости сайта bcwallet͘io,</span></div>
+<div style="position:absolute;left:410.95px;top:55.56px" class="cls_011"><span class="cls_011">принадлежащего компании «Blockchain͘ruͩ</span></div>
+<div style="position:absolute;left:85.10px;top:112.22px" class="cls_016"><span class="cls_016">5. Заключение</span></div>
+<div style="position:absolute;left:116.66px;top:156.26px" class="cls_002"><span class="cls_002">В   результате   анализа   сайта</span></div>
+<div style="position:absolute;left:289.49px;top:156.26px" class="cls_002"><span class="cls_002">“bcwallet.io”   специалистами   Digital   Security   была</span></div>
+<div style="position:absolute;left:85.10px;top:172.10px" class="cls_002"><span class="cls_002">обнаружена  уязвимость,  которая  потенциально  могла  бы  позволить  злоумышленнику</span></div>
+<div style="position:absolute;left:85.10px;top:187.94px" class="cls_002"><span class="cls_002">скомпрометировать  аккаунт  любого  пользователя.  Также  были  выявлены  некоторые</span></div>
+<div style="position:absolute;left:85.10px;top:203.78px" class="cls_002"><span class="cls_002">слабости,  исправление  которых  рекомендуется  в  целях  общего  повышения  степени</span></div>
+<div style="position:absolute;left:85.10px;top:219.53px" class="cls_002"><span class="cls_002">защищенности Системы.</span></div>
+<div style="position:absolute;left:116.66px;top:235.37px" class="cls_002"><span class="cls_002">Общий уровень защищенности Системы можно охарактеризовать как «высокийͩ͘</span></div>
+<div style="position:absolute;left:43.80px;top:760.80px" class="cls_013"><span class="cls_013">© 2003—2017, Digital Security</span></div>
+<div style="position:absolute;left:591.46px;top:764.52px" class="cls_005"><span class="cls_005">14</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-306px;top:11228px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="9b92b92a-ad1a-11e8-b59b-0cc47a792c0a_id_9b92b92a-ad1a-11e8-b59b-0cc47a792c0a_files/background15.jpg" width=612 height=792></div>
+<div style="position:absolute;left:379.63px;top:36.12px" class="cls_011"><span class="cls_011">Экспертное заключение по результатам проведения</span></div>
+<div style="position:absolute;left:420.43px;top:47.88px" class="cls_011"><span class="cls_011">анализа защищённости сайта bcwallet͘io,</span></div>
+<div style="position:absolute;left:410.95px;top:55.56px" class="cls_011"><span class="cls_011">принадлежащего компании «Blockchain͘ruͩ</span></div>
+<div style="position:absolute;left:85.10px;top:112.22px" class="cls_016"><span class="cls_016">Приложение 1. Анализ уровня защищенности.</span></div>
+<div style="position:absolute;left:85.10px;top:143.78px" class="cls_016"><span class="cls_016">Справочная информация</span></div>
+<div style="position:absolute;left:85.10px;top:193.82px" class="cls_018"><span class="cls_018">Анализ уровня защищенности</span></div>
+<div style="position:absolute;left:85.10px;top:223.73px" class="cls_002"><span class="cls_002">Для  анализа  уровня  защищенности  необходимо  оценить  критичность  и  вероятность</span></div>
+<div style="position:absolute;left:85.10px;top:239.45px" class="cls_002"><span class="cls_002">реализации выявленных в ходе аудита уязвимостей͘ Вероятность реализации определяется</span></div>
+<div style="position:absolute;left:85.10px;top:255.29px" class="cls_002"><span class="cls_002">доступностью и простотой реализации уязвимости͘</span></div>
+<div style="position:absolute;left:85.10px;top:277.01px" class="cls_018"><span class="cls_018">Критичность реализации уязвимости</span></div>
+<div style="position:absolute;left:85.10px;top:306.77px" class="cls_002"><span class="cls_002">Свойство</span></div>
+<div style="position:absolute;left:140.99px;top:306.77px" class="cls_002"><span class="cls_002">«критичность  реализацииͩ  некоторой  уязвимости  характеризует  возможные</span></div>
+<div style="position:absolute;left:85.10px;top:322.61px" class="cls_002"><span class="cls_002">последствия   реализации   данной   уязвимости   с   точки   зрения   угроз   нарушения</span></div>
+<div style="position:absolute;left:85.10px;top:338.45px" class="cls_002"><span class="cls_002">конфиденциальности,   целостности   и   доступности   информации,   обрабатываемой   на</span></div>
+<div style="position:absolute;left:85.10px;top:354.29px" class="cls_002"><span class="cls_002">уязвимом ресурсе͘ Описание уровней критичности реализации уязвимостей приведено в</span></div>
+<div style="position:absolute;left:85.10px;top:370.03px" class="cls_002"><span class="cls_002">Таблице А-1.</span></div>
+<div style="position:absolute;left:315.41px;top:385.87px" class="cls_020"><span class="cls_020">Таблица А-1͘ Уровни критичности уязвимостей</span></div>
+<div style="position:absolute;left:160.10px;top:403.15px" class="cls_021"><span class="cls_021">Нарушение</span></div>
+<div style="position:absolute;left:287.69px;top:403.15px" class="cls_021"><span class="cls_021">Нарушение</span></div>
+<div style="position:absolute;left:90.02px;top:411.07px" class="cls_021"><span class="cls_021">Значение</span></div>
+<div style="position:absolute;left:415.27px;top:411.07px" class="cls_021"><span class="cls_021">Нарушение доступности</span></div>
+<div style="position:absolute;left:160.10px;top:418.99px" class="cls_021"><span class="cls_021">конфиденциальности</span></div>
+<div style="position:absolute;left:287.69px;top:418.99px" class="cls_021"><span class="cls_021">целостности</span></div>
+<div style="position:absolute;left:90.02px;top:436.27px" class="cls_002"><span class="cls_002">Отсутствует</span></div>
+<div style="position:absolute;left:160.10px;top:436.27px" class="cls_002"><span class="cls_002">Не происходит</span></div>
+<div style="position:absolute;left:287.69px;top:436.27px" class="cls_002"><span class="cls_002">Не происходит</span></div>
+<div style="position:absolute;left:415.27px;top:436.27px" class="cls_002"><span class="cls_002">Не происходит</span></div>
+<div style="position:absolute;left:160.10px;top:453.55px" class="cls_002"><span class="cls_002">Получение</span></div>
+<div style="position:absolute;left:287.69px;top:453.55px" class="cls_002"><span class="cls_002">Нарушение</span></div>
+<div style="position:absolute;left:160.10px;top:469.39px" class="cls_002"><span class="cls_002">нарушителем доступа</span></div>
+<div style="position:absolute;left:287.69px;top:469.39px" class="cls_002"><span class="cls_002">целостности</span></div>
+<div style="position:absolute;left:415.27px;top:477.31px" class="cls_002"><span class="cls_002">Кратковременный отказ в</span></div>
+<div style="position:absolute;left:160.10px;top:485.23px" class="cls_002"><span class="cls_002">к некритичной</span></div>
+<div style="position:absolute;left:287.69px;top:485.23px" class="cls_002"><span class="cls_002">некритичной</span></div>
+<div style="position:absolute;left:90.02px;top:493.15px" class="cls_002"><span class="cls_002">Низкий</span></div>
+<div style="position:absolute;left:415.27px;top:493.15px" class="cls_002"><span class="cls_002">обслуживании критичного</span></div>
+<div style="position:absolute;left:160.10px;top:501.07px" class="cls_002"><span class="cls_002">информации в</span></div>
+<div style="position:absolute;left:287.69px;top:501.07px" class="cls_002"><span class="cls_002">информации с</span></div>
+<div style="position:absolute;left:415.27px;top:509.02px" class="cls_002"><span class="cls_002">приложения</span></div>
+<div style="position:absolute;left:160.10px;top:516.82px" class="cls_002"><span class="cls_002">результате эскалации</span></div>
+<div style="position:absolute;left:287.69px;top:516.82px" class="cls_002"><span class="cls_002">правами обычного</span></div>
+<div style="position:absolute;left:160.10px;top:532.66px" class="cls_002"><span class="cls_002">привилегий</span></div>
+<div style="position:absolute;left:287.69px;top:532.66px" class="cls_002"><span class="cls_002">пользователя</span></div>
+<div style="position:absolute;left:160.10px;top:549.94px" class="cls_002"><span class="cls_002">Нарушение</span></div>
+<div style="position:absolute;left:287.69px;top:549.94px" class="cls_002"><span class="cls_002">Нарушение</span></div>
+<div style="position:absolute;left:160.10px;top:565.78px" class="cls_002"><span class="cls_002">конфиденциальности</span></div>
+<div style="position:absolute;left:287.69px;top:565.78px" class="cls_002"><span class="cls_002">целостности</span></div>
+<div style="position:absolute;left:415.27px;top:565.78px" class="cls_002"><span class="cls_002">Отказ в обслуживании</span></div>
+<div style="position:absolute;left:160.10px;top:581.62px" class="cls_002"><span class="cls_002">критичной</span></div>
+<div style="position:absolute;left:287.69px;top:581.62px" class="cls_002"><span class="cls_002">критичной</span></div>
+<div style="position:absolute;left:415.27px;top:581.62px" class="cls_002"><span class="cls_002">критичного приложения</span></div>
+<div style="position:absolute;left:90.02px;top:589.54px" class="cls_002"><span class="cls_002">Средний</span></div>
+<div style="position:absolute;left:160.10px;top:597.46px" class="cls_002"><span class="cls_002">информации с</span></div>
+<div style="position:absolute;left:287.69px;top:597.46px" class="cls_002"><span class="cls_002">информации с</span></div>
+<div style="position:absolute;left:415.27px;top:597.46px" class="cls_002"><span class="cls_002">или кратковременный отказ</span></div>
+<div style="position:absolute;left:160.10px;top:613.18px" class="cls_002"><span class="cls_002">правами обычного</span></div>
+<div style="position:absolute;left:287.69px;top:613.18px" class="cls_002"><span class="cls_002">правами обычного</span></div>
+<div style="position:absolute;left:415.27px;top:613.18px" class="cls_002"><span class="cls_002">в обслуживании</span></div>
+<div style="position:absolute;left:160.10px;top:629.02px" class="cls_002"><span class="cls_002">пользователя</span></div>
+<div style="position:absolute;left:287.69px;top:629.02px" class="cls_002"><span class="cls_002">пользователя</span></div>
+<div style="position:absolute;left:160.10px;top:646.30px" class="cls_002"><span class="cls_002">Нарушение</span></div>
+<div style="position:absolute;left:287.69px;top:646.30px" class="cls_002"><span class="cls_002">Нарушение</span></div>
+<div style="position:absolute;left:160.10px;top:662.16px" class="cls_002"><span class="cls_002">конфиденциальности</span></div>
+<div style="position:absolute;left:287.69px;top:662.16px" class="cls_002"><span class="cls_002">целостности</span></div>
+<div style="position:absolute;left:90.02px;top:678.00px" class="cls_002"><span class="cls_002">Высокий</span></div>
+<div style="position:absolute;left:160.10px;top:678.00px" class="cls_002"><span class="cls_002">критичной</span></div>
+<div style="position:absolute;left:287.69px;top:678.00px" class="cls_002"><span class="cls_002">критичной</span></div>
+<div style="position:absolute;left:415.27px;top:678.00px" class="cls_002"><span class="cls_002">Отказ в обслуживании</span></div>
+<div style="position:absolute;left:160.10px;top:693.72px" class="cls_002"><span class="cls_002">информации с</span></div>
+<div style="position:absolute;left:287.69px;top:693.72px" class="cls_002"><span class="cls_002">информации с</span></div>
+<div style="position:absolute;left:160.10px;top:709.56px" class="cls_002"><span class="cls_002">правами</span></div>
+<div style="position:absolute;left:287.69px;top:709.56px" class="cls_002"><span class="cls_002">правами</span></div>
+<div style="position:absolute;left:43.80px;top:760.80px" class="cls_013"><span class="cls_013">© 2003—2017, Digital Security</span></div>
+<div style="position:absolute;left:591.46px;top:764.52px" class="cls_005"><span class="cls_005">15</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-306px;top:12030px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="9b92b92a-ad1a-11e8-b59b-0cc47a792c0a_id_9b92b92a-ad1a-11e8-b59b-0cc47a792c0a_files/background16.jpg" width=612 height=792></div>
+<div style="position:absolute;left:379.63px;top:36.12px" class="cls_011"><span class="cls_011">Экспертное заключение по результатам проведения</span></div>
+<div style="position:absolute;left:420.43px;top:47.88px" class="cls_011"><span class="cls_011">анализа защищённости сайта bcwallet͘io,</span></div>
+<div style="position:absolute;left:410.95px;top:55.56px" class="cls_011"><span class="cls_011">принадлежащего компании «Blockchain͘ruͩ</span></div>
+<div style="position:absolute;left:160.10px;top:114.14px" class="cls_002"><span class="cls_002">администратора</span></div>
+<div style="position:absolute;left:287.69px;top:114.14px" class="cls_002"><span class="cls_002">администратора</span></div>
+<div style="position:absolute;left:85.10px;top:137.42px" class="cls_018"><span class="cls_018">Простота эксплуатации уязвимости</span></div>
+<div style="position:absolute;left:85.10px;top:167.18px" class="cls_002"><span class="cls_002">Свойство «простота эксплуатацииͩ некоторой уязвимости определяет, какие аппаратные и</span></div>
+<div style="position:absolute;left:85.10px;top:183.02px" class="cls_002"><span class="cls_002">программные средства, профессиональные навыки, а также какое количество временных и</span></div>
+<div style="position:absolute;left:85.10px;top:198.86px" class="cls_002"><span class="cls_002">вычислительных  ресурсов,  необходимо  потенциальному  нарушителю  для  реализации</span></div>
+<div style="position:absolute;left:85.10px;top:214.73px" class="cls_002"><span class="cls_002">некоторой уязвимости (Таблица А-2).</span></div>
+<div style="position:absolute;left:259.97px;top:246.29px" class="cls_020"><span class="cls_020">Таблица А-2͘ Уровни простоты эксплуатации уязвимости</span></div>
+<div style="position:absolute;left:85.10px;top:263.57px" class="cls_021"><span class="cls_021">Значение</span></div>
+<div style="position:absolute;left:160.94px;top:263.57px" class="cls_021"><span class="cls_021">Описание</span></div>
+<div style="position:absolute;left:160.94px;top:280.85px" class="cls_002"><span class="cls_002">Для эксплуатации уязвимости требуется разработка новых программных</span></div>
+<div style="position:absolute;left:160.94px;top:296.69px" class="cls_002"><span class="cls_002">средств, проведение анализа конфигурации атакуемой системы, выявление и</span></div>
+<div style="position:absolute;left:160.94px;top:312.53px" class="cls_002"><span class="cls_002">проверка различных возможных путей и условий успешной эксплуатации</span></div>
+<div style="position:absolute;left:85.10px;top:320.45px" class="cls_002"><span class="cls_002">Низкий</span></div>
+<div style="position:absolute;left:160.94px;top:328.37px" class="cls_002"><span class="cls_002">данной уязвимости, вычислительные мощности или временной резерв͘</span></div>
+<div style="position:absolute;left:160.94px;top:344.09px" class="cls_002"><span class="cls_002">Атакующий должен обладать значительными профессиональными навыками</span></div>
+<div style="position:absolute;left:160.94px;top:359.95px" class="cls_002"><span class="cls_002">и познаниями в специфичных областях͘</span></div>
+<div style="position:absolute;left:160.94px;top:377.23px" class="cls_002"><span class="cls_002">Для эксплуатации уязвимости требуется наличие специальных программных</span></div>
+<div style="position:absolute;left:160.94px;top:393.07px" class="cls_002"><span class="cls_002">или аппаратных средств, проведение анализа конфигурации атакуемой</span></div>
+<div style="position:absolute;left:85.10px;top:408.91px" class="cls_002"><span class="cls_002">Средний</span></div>
+<div style="position:absolute;left:160.94px;top:408.91px" class="cls_002"><span class="cls_002">системы, вычислительные мощности или временной резерв͘ Атакующему</span></div>
+<div style="position:absolute;left:160.94px;top:424.75px" class="cls_002"><span class="cls_002">достаточно обладать незначительным объемом профессиональных навыков и</span></div>
+<div style="position:absolute;left:160.94px;top:440.47px" class="cls_002"><span class="cls_002">познаний для реализации атаки͘</span></div>
+<div style="position:absolute;left:160.94px;top:457.87px" class="cls_002"><span class="cls_002">Для эксплуатации уязвимости не требуется использование специальных</span></div>
+<div style="position:absolute;left:160.94px;top:473.59px" class="cls_002"><span class="cls_002">аппаратных или программных средств, значительные вычислительные</span></div>
+<div style="position:absolute;left:85.10px;top:489.43px" class="cls_002"><span class="cls_002">Высокий</span></div>
+<div style="position:absolute;left:160.94px;top:489.43px" class="cls_002"><span class="cls_002">мощности или временной резерв, детальное знание конфигурации атакуемой</span></div>
+<div style="position:absolute;left:160.94px;top:505.30px" class="cls_002"><span class="cls_002">системы͘ Атакующему для реализации атаки не требуются специфичные</span></div>
+<div style="position:absolute;left:160.94px;top:521.02px" class="cls_002"><span class="cls_002">профессиональные навыки и познания͘</span></div>
+<div style="position:absolute;left:43.80px;top:760.80px" class="cls_013"><span class="cls_013">© 2003—2017, Digital Security</span></div>
+<div style="position:absolute;left:591.46px;top:764.52px" class="cls_005"><span class="cls_005">16</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-306px;top:12832px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="9b92b92a-ad1a-11e8-b59b-0cc47a792c0a_id_9b92b92a-ad1a-11e8-b59b-0cc47a792c0a_files/background17.jpg" width=612 height=792></div>
+<div style="position:absolute;left:379.63px;top:36.12px" class="cls_011"><span class="cls_011">Экспертное заключение по результатам проведения</span></div>
+<div style="position:absolute;left:420.43px;top:47.88px" class="cls_011"><span class="cls_011">анализа защищённости сайта bcwallet͘io,</span></div>
+<div style="position:absolute;left:410.95px;top:55.56px" class="cls_011"><span class="cls_011">принадлежащего компании «Blockchain͘ruͩ</span></div>
+<div style="position:absolute;left:85.10px;top:112.58px" class="cls_018"><span class="cls_018">Доступность уязвимости</span></div>
+<div style="position:absolute;left:85.10px;top:142.46px" class="cls_002"><span class="cls_002">Свойство «доступностьͩ некоторой уязвимости определяет, каким классам пользователей</span></div>
+<div style="position:absolute;left:85.10px;top:158.18px" class="cls_002"><span class="cls_002">доступен уязвимый ресурс (Таблица А-3).</span></div>
+<div style="position:absolute;left:387.55px;top:174.02px" class="cls_020"><span class="cls_020">Таблица А-3͘ Уровни доступности</span></div>
+<div style="position:absolute;left:85.10px;top:191.30px" class="cls_021"><span class="cls_021">Значение</span></div>
+<div style="position:absolute;left:181.58px;top:191.30px" class="cls_021"><span class="cls_021">Описание</span></div>
+<div style="position:absolute;left:85.10px;top:208.73px" class="cls_002"><span class="cls_002">Низкий</span></div>
+<div style="position:absolute;left:181.58px;top:208.73px" class="cls_002"><span class="cls_002">Привилегированные пользователи</span></div>
+<div style="position:absolute;left:85.10px;top:226.01px" class="cls_002"><span class="cls_002">Средний</span></div>
+<div style="position:absolute;left:181.58px;top:226.01px" class="cls_002"><span class="cls_002">Зарегистрированные пользователи</span></div>
+<div style="position:absolute;left:85.10px;top:243.29px" class="cls_002"><span class="cls_002">Высокий</span></div>
+<div style="position:absolute;left:181.58px;top:243.29px" class="cls_002"><span class="cls_002">Все пользователи</span></div>
+<div style="position:absolute;left:85.10px;top:266.45px" class="cls_018"><span class="cls_018">Вероятность эксплуатации уязвимости</span></div>
+<div style="position:absolute;left:85.10px;top:296.33px" class="cls_002"><span class="cls_002">Вероятность эксплуатации уязвимости рассчитывается на основе простоты эксплуатации и</span></div>
+<div style="position:absolute;left:85.10px;top:312.17px" class="cls_002"><span class="cls_002">области доступности уязвимости по таблице А-4.</span></div>
+<div style="position:absolute;left:305.09px;top:327.89px" class="cls_020"><span class="cls_020">Таблица А-4͘ Уровень вероятности эксплуатации</span></div>
+<div style="position:absolute;left:326.81px;top:350.09px" class="cls_021"><span class="cls_021">Простота эксплуатации</span></div>
+<div style="position:absolute;left:109.94px;top:362.11px" class="cls_021"><span class="cls_021">Вероятность</span></div>
+<div style="position:absolute;left:107.06px;top:377.95px" class="cls_021"><span class="cls_021">эксплуатации</span></div>
+<div style="position:absolute;left:243.29px;top:383.47px" class="cls_034"><span class="cls_034">Низкий</span></div>
+<div style="position:absolute;left:363.67px;top:383.47px" class="cls_035"><span class="cls_035">Средний</span></div>
+<div style="position:absolute;left:487.90px;top:383.47px" class="cls_036"><span class="cls_036">Высокий</span></div>
+<div style="position:absolute;left:139.94px;top:423.31px" class="cls_034"><span class="cls_034">Низкий</span></div>
+<div style="position:absolute;left:243.29px;top:423.31px" class="cls_034"><span class="cls_034">Низкий</span></div>
+<div style="position:absolute;left:367.27px;top:423.31px" class="cls_034"><span class="cls_034">Низкий</span></div>
+<div style="position:absolute;left:487.78px;top:423.31px" class="cls_035"><span class="cls_035">Средний</span></div>
+<div style="position:absolute;left:136.34px;top:463.03px" class="cls_035"><span class="cls_035">Средний</span></div>
+<div style="position:absolute;left:243.29px;top:463.03px" class="cls_034"><span class="cls_034">Низкий</span></div>
+<div style="position:absolute;left:363.67px;top:463.03px" class="cls_035"><span class="cls_035">Средний</span></div>
+<div style="position:absolute;left:487.90px;top:463.03px" class="cls_036"><span class="cls_036">Высокий</span></div>
+<div style="position:absolute;left:136.46px;top:502.78px" class="cls_036"><span class="cls_036">Высокий</span></div>
+<div style="position:absolute;left:239.69px;top:502.78px" class="cls_035"><span class="cls_035">Средний</span></div>
+<div style="position:absolute;left:363.79px;top:502.78px" class="cls_036"><span class="cls_036">Высокий</span></div>
+<div style="position:absolute;left:487.90px;top:502.78px" class="cls_036"><span class="cls_036">Высокий</span></div>
+<div style="position:absolute;left:43.80px;top:760.80px" class="cls_013"><span class="cls_013">© 2003—2017, Digital Security</span></div>
+<div style="position:absolute;left:591.46px;top:764.52px" class="cls_005"><span class="cls_005">17</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-306px;top:13634px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="9b92b92a-ad1a-11e8-b59b-0cc47a792c0a_id_9b92b92a-ad1a-11e8-b59b-0cc47a792c0a_files/background18.jpg" width=612 height=792></div>
+<div style="position:absolute;left:379.63px;top:36.12px" class="cls_011"><span class="cls_011">Экспертное заключение по результатам проведения</span></div>
+<div style="position:absolute;left:420.43px;top:47.88px" class="cls_011"><span class="cls_011">анализа защищённости сайта bcwallet͘io,</span></div>
+<div style="position:absolute;left:410.95px;top:55.56px" class="cls_011"><span class="cls_011">принадлежащего компании «Blockchain͘ruͩ</span></div>
+<div style="position:absolute;left:85.10px;top:112.58px" class="cls_018"><span class="cls_018">Риск уязвимости</span></div>
+<div style="position:absolute;left:85.10px;top:142.46px" class="cls_002"><span class="cls_002">Риск уязвимости (по одной из угроз) рассчитывается на основе критичности уязвимости (по</span></div>
+<div style="position:absolute;left:85.10px;top:158.18px" class="cls_002"><span class="cls_002">одной из угроз) и вероятности эксплуатации уязвимости по таблице А-5.</span></div>
+<div style="position:absolute;left:425.11px;top:174.02px" class="cls_020"><span class="cls_020">Таблица А-5͘ Уровень риска</span></div>
+<div style="position:absolute;left:324.29px;top:196.22px" class="cls_021"><span class="cls_021">Вероятность эксплуатации</span></div>
+<div style="position:absolute;left:102.14px;top:216.17px" class="cls_021"><span class="cls_021">Риск уязвимости</span></div>
+<div style="position:absolute;left:247.85px;top:229.61px" class="cls_034"><span class="cls_034">Низкий</span></div>
+<div style="position:absolute;left:360.55px;top:229.61px" class="cls_035"><span class="cls_035">Средний</span></div>
+<div style="position:absolute;left:486.10px;top:229.61px" class="cls_036"><span class="cls_036">Высокий</span></div>
+<div style="position:absolute;left:151.70px;top:269.33px" class="cls_034"><span class="cls_034">Низкий</span></div>
+<div style="position:absolute;left:247.85px;top:269.33px" class="cls_034"><span class="cls_034">Низкий</span></div>
+<div style="position:absolute;left:364.15px;top:269.33px" class="cls_034"><span class="cls_034">Низкий</span></div>
+<div style="position:absolute;left:485.98px;top:269.33px" class="cls_035"><span class="cls_035">Средний</span></div>
+<div style="position:absolute;left:148.10px;top:309.17px" class="cls_035"><span class="cls_035">Средний</span></div>
+<div style="position:absolute;left:247.85px;top:309.17px" class="cls_034"><span class="cls_034">Низкий</span></div>
+<div style="position:absolute;left:360.55px;top:309.17px" class="cls_035"><span class="cls_035">Средний</span></div>
+<div style="position:absolute;left:486.10px;top:309.17px" class="cls_036"><span class="cls_036">Высокий</span></div>
+<div style="position:absolute;left:148.22px;top:348.89px" class="cls_036"><span class="cls_036">Высокий</span></div>
+<div style="position:absolute;left:244.25px;top:348.89px" class="cls_035"><span class="cls_035">Средний</span></div>
+<div style="position:absolute;left:360.67px;top:348.89px" class="cls_036"><span class="cls_036">Высокий</span></div>
+<div style="position:absolute;left:486.10px;top:348.89px" class="cls_036"><span class="cls_036">Высокий</span></div>
+<div style="position:absolute;left:43.80px;top:760.80px" class="cls_013"><span class="cls_013">© 2003—2017, Digital Security</span></div>
+<div style="position:absolute;left:591.46px;top:764.52px" class="cls_005"><span class="cls_005">18</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-306px;top:14436px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="9b92b92a-ad1a-11e8-b59b-0cc47a792c0a_id_9b92b92a-ad1a-11e8-b59b-0cc47a792c0a_files/background19.jpg" width=612 height=792></div>
+<div style="position:absolute;left:379.63px;top:36.12px" class="cls_011"><span class="cls_011">Экспертное заключение по результатам проведения</span></div>
+<div style="position:absolute;left:420.43px;top:47.88px" class="cls_011"><span class="cls_011">анализа защищённости сайта bcwallet͘io,</span></div>
+<div style="position:absolute;left:410.95px;top:55.56px" class="cls_011"><span class="cls_011">принадлежащего компании «Blockchain͘ruͩ</span></div>
+<div style="position:absolute;left:85.10px;top:112.22px" class="cls_016"><span class="cls_016">Приложение 2. Анализ уровня защищенности.</span></div>
+<div style="position:absolute;left:85.10px;top:143.78px" class="cls_016"><span class="cls_016">Перечень обнаруженных слабостей и</span></div>
+<div style="position:absolute;left:85.10px;top:175.46px" class="cls_016"><span class="cls_016">уязвимостей</span></div>
+<div style="position:absolute;left:85.10px;top:219.53px" class="cls_002"><span class="cls_002">Обнаруженные в ходе работ уязвимости и слабости Системы представлены в таблице Б-1.</span></div>
+<div style="position:absolute;left:182.54px;top:237.05px" class="cls_020"><span class="cls_020">Таблица Б-1͘ Перечень обнаруженных уязвимостей и слабостей Системы</span></div>
+<div style="position:absolute;left:84.14px;top:253.13px" class="cls_021"><span class="cls_021">Перечень обнаруженных уязвимостей</span></div>
+<div style="position:absolute;left:84.14px;top:269.33px" class="cls_021"><span class="cls_021">Уязвимость</span></div>
+<div style="position:absolute;left:314.45px;top:269.33px" class="cls_021"><span class="cls_021">Итоговый риск</span></div>
+<div style="position:absolute;left:438.31px;top:269.33px" class="cls_021"><span class="cls_021">Подробности в пункте</span></div>
+<div style="position:absolute;left:84.14px;top:285.41px" class="cls_002"><span class="cls_002">Недостаточное количество бит энтропии в</span></div>
+<div style="position:absolute;left:348.79px;top:285.41px" class="cls_035"><span class="cls_035">Средний</span></div>
+<div style="position:absolute;left:490.42px;top:285.41px" class="cls_002"><span class="cls_002">4.1.1.</span></div>
+<div style="position:absolute;left:84.14px;top:300.05px" class="cls_002"><span class="cls_002">токене</span></div>
+<div style="position:absolute;left:84.14px;top:316.25px" class="cls_002"><span class="cls_002">Некорректное управление сессией</span></div>
+<div style="position:absolute;left:352.39px;top:316.25px" class="cls_034"><span class="cls_034">Низкий</span></div>
+<div style="position:absolute;left:490.42px;top:316.25px" class="cls_002"><span class="cls_002">4.1.2.</span></div>
+<div style="position:absolute;left:84.14px;top:332.45px" class="cls_021"><span class="cls_021">Перечень обнаруженных слабостей</span></div>
+<div style="position:absolute;left:84.14px;top:348.53px" class="cls_021"><span class="cls_021">Слабость</span></div>
+<div style="position:absolute;left:385.15px;top:348.53px" class="cls_021"><span class="cls_021">Подробности в пункте</span></div>
+<div style="position:absolute;left:84.14px;top:364.75px" class="cls_002"><span class="cls_002">Отсутствие механизма HSTS</span></div>
+<div style="position:absolute;left:428.47px;top:364.75px" class="cls_002"><span class="cls_002">4.2.1.</span></div>
+<div style="position:absolute;left:84.14px;top:380.83px" class="cls_002"><span class="cls_002">Отсутствие защиты от атак типа clickjacking</span></div>
+<div style="position:absolute;left:428.47px;top:380.83px" class="cls_002"><span class="cls_002">4.2.2.</span></div>
+<div style="position:absolute;left:43.80px;top:760.80px" class="cls_013"><span class="cls_013">© 2003—2017, Digital Security</span></div>
+<div style="position:absolute;left:591.46px;top:764.52px" class="cls_005"><span class="cls_005">19</span></div>
+</div>
+
+</body>
+</html>

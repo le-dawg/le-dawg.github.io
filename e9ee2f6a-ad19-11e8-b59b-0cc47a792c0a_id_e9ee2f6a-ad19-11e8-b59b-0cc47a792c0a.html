@@ -1,0 +1,948 @@
+<html>
+<head><meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+<style type="text/css">
+<!--
+span.cls_004{font-family:"Calibri Bold",serif;font-size:11.1px;color:rgb(220,31,39);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_004{font-family:"Calibri Bold",serif;font-size:11.1px;color:rgb(220,31,39);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_007{font-family:"Calibri",serif;font-size:20.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_007{font-family:"Calibri",serif;font-size:20.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_008{font-family:"Calibri",serif;font-size:16.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_008{font-family:"Calibri",serif;font-size:16.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_010{font-family:"Calibri",serif;font-size:14.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_010{font-family:"Calibri",serif;font-size:14.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_011{font-family:"Calibri Bold",serif;font-size:8.1px;color:rgb(209,33,41);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_011{font-family:"Calibri Bold",serif;font-size:8.1px;color:rgb(209,33,41);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_013{font-family:"Calibri",serif;font-size:8.1px;color:rgb(0,0,9);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_013{font-family:"Calibri",serif;font-size:8.1px;color:rgb(0,0,9);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_047{font-family:"Calibri Bold",serif;font-size:11.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: underline}
+div.cls_047{font-family:"Calibri Bold",serif;font-size:11.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_006{font-family:"Calibri",serif;font-size:11.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_006{font-family:"Calibri",serif;font-size:11.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_016{font-family:"Calibri Bold",serif;font-size:11.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_016{font-family:"Calibri Bold",serif;font-size:11.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_017{font-family:"Calibri Bold",serif;font-size:9.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_017{font-family:"Calibri Bold",serif;font-size:9.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_005{font-family:"Calibri",serif;font-size:9.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_005{font-family:"Calibri",serif;font-size:9.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_015{font-family:"Calibri",serif;font-size:10.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_015{font-family:"Calibri",serif;font-size:10.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_019{font-family:"Calibri Light",serif;font-size:24.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_019{font-family:"Calibri Light",serif;font-size:24.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_021{font-family:"Calibri",serif;font-size:18.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_021{font-family:"Calibri",serif;font-size:18.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_002{font-family:"Calibri",serif;font-size:12.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_002{font-family:"Calibri",serif;font-size:12.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_023{font-family:"Calibri Italic",serif;font-size:12.1px;color:rgb(0,0,0);font-weight:normal;font-style:italic;text-decoration: none}
+div.cls_023{font-family:"Calibri Italic",serif;font-size:12.1px;color:rgb(0,0,0);font-weight:normal;font-style:italic;text-decoration: none}
+span.cls_024{font-family:"Calibri",serif;font-size:12.1px;color:rgb(255,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_024{font-family:"Calibri",serif;font-size:12.1px;color:rgb(255,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_028{font-family:Arial,serif;font-size:12.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_028{font-family:Arial,serif;font-size:12.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_027{font-family:Arial,serif;font-size:12.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_027{font-family:Arial,serif;font-size:12.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_048{font-family:"Calibri",serif;font-size:12.1px;color:rgb(4,98,193);font-weight:normal;font-style:normal;text-decoration: underline}
+div.cls_048{font-family:"Calibri",serif;font-size:12.1px;color:rgb(4,98,193);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_033{font-family:"Calibri Italic",serif;font-size:12.1px;color:rgb(192,0,0);font-weight:normal;font-style:italic;text-decoration: none}
+div.cls_033{font-family:"Calibri Italic",serif;font-size:12.1px;color:rgb(192,0,0);font-weight:normal;font-style:italic;text-decoration: none}
+span.cls_034{font-family:"Calibri Italic",serif;font-size:12.1px;color:rgb(255,192,0);font-weight:normal;font-style:italic;text-decoration: none}
+div.cls_034{font-family:"Calibri Italic",serif;font-size:12.1px;color:rgb(255,192,0);font-weight:normal;font-style:italic;text-decoration: none}
+span.cls_049{font-family:"Calibri Italic",serif;font-size:12.1px;color:rgb(4,98,193);font-weight:normal;font-style:italic;text-decoration: underline}
+div.cls_049{font-family:"Calibri Italic",serif;font-size:12.1px;color:rgb(4,98,193);font-weight:normal;font-style:italic;text-decoration: none}
+span.cls_035{font-family:Courier New,serif;font-size:10.0px;color:rgb(66,66,66);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_035{font-family:Courier New,serif;font-size:10.0px;color:rgb(66,66,66);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_032{font-family:"Calibri Italic",serif;font-size:12.1px;color:rgb(255,255,255);font-weight:normal;font-style:italic;text-decoration: none}
+div.cls_032{font-family:"Calibri Italic",serif;font-size:12.1px;color:rgb(255,255,255);font-weight:normal;font-style:italic;text-decoration: none}
+span.cls_039{font-family:"Calibri Italic",serif;font-size:12.1px;color:rgb(0,175,80);font-weight:normal;font-style:italic;text-decoration: none}
+div.cls_039{font-family:"Calibri Italic",serif;font-size:12.1px;color:rgb(0,175,80);font-weight:normal;font-style:italic;text-decoration: none}
+span.cls_041{font-family:Arial,serif;font-size:10.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_041{font-family:Arial,serif;font-size:10.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_040{font-family:Arial,serif;font-size:10.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_040{font-family:Arial,serif;font-size:10.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_042{font-family:"Calibri",serif;font-size:12.1px;color:rgb(0,175,80);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_042{font-family:"Calibri",serif;font-size:12.1px;color:rgb(0,175,80);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_043{font-family:"Calibri",serif;font-size:12.1px;color:rgb(255,192,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_043{font-family:"Calibri",serif;font-size:12.1px;color:rgb(255,192,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_044{font-family:"Calibri",serif;font-size:12.1px;color:rgb(255,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_044{font-family:"Calibri",serif;font-size:12.1px;color:rgb(255,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_025{font-family:"Calibri",serif;font-size:12.1px;color:rgb(192,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_025{font-family:"Calibri",serif;font-size:12.1px;color:rgb(192,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+-->
+</style>
+<script type="text/javascript" src="e9ee2f6a-ad19-11e8-b59b-0cc47a792c0a_id_e9ee2f6a-ad19-11e8-b59b-0cc47a792c0a_files/wz_jsgraphics.js"></script>
+</head>
+<body>
+<div style="position:absolute;left:50%;margin-left:-306px;top:0px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="e9ee2f6a-ad19-11e8-b59b-0cc47a792c0a_id_e9ee2f6a-ad19-11e8-b59b-0cc47a792c0a_files/background01.jpg" width=612 height=792></div>
+<div style="position:absolute;left:465.67px;top:81.14px" class="cls_004"><span class="cls_004">КОНФИДЕНЦИАЛЬНО</span></div>
+<div style="position:absolute;left:211.13px;top:282.89px" class="cls_007"><span class="cls_007">ЭКСПЕРТНОЕ ЗАКЛЮЧЕНИЕ</span></div>
+<div style="position:absolute;left:149.54px;top:331.97px" class="cls_008"><span class="cls_008">по результатам проведения анализа защищённости</span></div>
+<div style="position:absolute;left:200.33px;top:353.11px" class="cls_008"><span class="cls_008">инфраструктуры компании Cindicator</span></div>
+<div style="position:absolute;left:422.59px;top:494.47px" class="cls_010"><span class="cls_010">Даты проведения работ:</span></div>
+<div style="position:absolute;left:444.67px;top:512.98px" class="cls_010"><span class="cls_010">21.08.2017-1.09.2017</span></div>
+<div style="position:absolute;left:373.27px;top:531.46px" class="cls_010"><span class="cls_010">Технический менеджер проекта:</span></div>
+<div style="position:absolute;left:497.74px;top:549.82px" class="cls_010"><span class="cls_010">А͘О͘ Перцев</span></div>
+<div style="position:absolute;left:377.11px;top:568.30px" class="cls_010"><span class="cls_010">Директор департамента аудита:</span></div>
+<div style="position:absolute;left:506.26px;top:586.78px" class="cls_010"><span class="cls_010">А͘Н͘Тюрин</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-306px;top:802px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="e9ee2f6a-ad19-11e8-b59b-0cc47a792c0a_id_e9ee2f6a-ad19-11e8-b59b-0cc47a792c0a_files/background02.jpg" width=612 height=792></div>
+<div style="position:absolute;left:478.54px;top:12.72px" class="cls_011"><span class="cls_011">КОНФИДЕНЦИАЛЬНО</span></div>
+<div style="position:absolute;left:379.63px;top:36.12px" class="cls_013"><span class="cls_013">Экспертное заключение по результатам проведения</span></div>
+<div style="position:absolute;left:423.07px;top:47.88px" class="cls_013"><span class="cls_013">анализа защищённости инфраструктуры</span></div>
+<div style="position:absolute;left:494.38px;top:55.56px" class="cls_013"><span class="cls_013">компании Cindicator</span></div>
+<div style="position:absolute;left:85.10px;top:112.82px" class="cls_047"><span class="cls_047">1.</span><span class="cls_006"> </span><span class="cls_016">  ВВЕДЕНИЕ</span></div>
+<div style="position:absolute;left:563.50px;top:112.82px" class="cls_016"><span class="cls_016">4</span></div>
+<div style="position:absolute;left:85.10px;top:145.22px" class="cls_016"><span class="cls_016">1.1.</span><span class="cls_006"> </span><span class="cls_016">  О</span><span class="cls_017">БЩИЕ ПОЛОЖЕНИЯ</span></div>
+<div style="position:absolute;left:563.50px;top:145.22px" class="cls_016"><span class="cls_016">4</span></div>
+<div style="position:absolute;left:85.10px;top:159.74px" class="cls_016"><span class="cls_016">1.2.</span><span class="cls_006"> </span><span class="cls_016">  П</span><span class="cls_017">РИНЯТЫЕ СОКРАЩЕНИЯ</span></div>
+<div style="position:absolute;left:563.50px;top:159.74px" class="cls_016"><span class="cls_016">4</span></div>
+<div style="position:absolute;left:85.10px;top:174.14px" class="cls_016"><span class="cls_016">1.3.</span><span class="cls_006"> </span><span class="cls_016">  Р</span><span class="cls_017">ЕЗЮМЕ</span></div>
+<div style="position:absolute;left:563.50px;top:174.14px" class="cls_016"><span class="cls_016">5</span></div>
+<div style="position:absolute;left:85.10px;top:206.66px" class="cls_047"><span class="cls_047">2.</span><span class="cls_006"> </span><span class="cls_016">  ПРИНЦИПЫ ПРОВЕДЕНИЯ РАБОТ</span></div>
+<div style="position:absolute;left:563.50px;top:206.66px" class="cls_016"><span class="cls_016">6</span></div>
+<div style="position:absolute;left:85.10px;top:239.21px" class="cls_016"><span class="cls_016">2.1.</span><span class="cls_006"> </span><span class="cls_016">  У</span><span class="cls_017">ГРОЗЫ </span><span class="cls_016">ИБ</span></div>
+<div style="position:absolute;left:563.50px;top:239.21px" class="cls_016"><span class="cls_016">6</span></div>
+<div style="position:absolute;left:85.10px;top:253.73px" class="cls_016"><span class="cls_016">2.2.</span><span class="cls_006"> </span><span class="cls_016">  М</span><span class="cls_017">ОДЕЛЬ НАРУШИТЕЛЯ</span></div>
+<div style="position:absolute;left:563.50px;top:253.73px" class="cls_016"><span class="cls_016">6</span></div>
+<div style="position:absolute;left:85.10px;top:268.13px" class="cls_006"><span class="cls_006">2.2.1.   В</span><span class="cls_005">НЕШНИЙ НАРУШИТЕЛЬ</span></div>
+<div style="position:absolute;left:563.50px;top:268.13px" class="cls_006"><span class="cls_006">7</span></div>
+<div style="position:absolute;left:85.10px;top:282.65px" class="cls_016"><span class="cls_016">2.3.</span><span class="cls_006"> </span><span class="cls_016">  О</span><span class="cls_017">БЛАСТЬ ТЕСТИРОВАНИЯ</span></div>
+<div style="position:absolute;left:563.50px;top:282.65px" class="cls_016"><span class="cls_016">7</span></div>
+<div style="position:absolute;left:85.10px;top:315.17px" class="cls_047"><span class="cls_047">3.</span><span class="cls_006"> </span><span class="cls_016">  СЦЕНАРИИ АТАК</span></div>
+<div style="position:absolute;left:563.50px;top:315.17px" class="cls_016"><span class="cls_016">8</span></div>
+<div style="position:absolute;left:85.10px;top:347.69px" class="cls_016"><span class="cls_016">3.1.</span><span class="cls_006"> </span><span class="cls_016">  П</span><span class="cls_017">ОЛУЧЕНИЕ ДОСТУПА К АДМИНИСТРАТИВНОЙ ПАНЕЛИ</span></div>
+<div style="position:absolute;left:563.50px;top:347.69px" class="cls_016"><span class="cls_016">8</span></div>
+<div style="position:absolute;left:85.10px;top:380.11px" class="cls_047"><span class="cls_047">4.</span><span class="cls_006"> </span><span class="cls_016">  ВНЕШНИЙ АУДИТ СИСТЕМЫ</span></div>
+<div style="position:absolute;left:563.50px;top:380.11px" class="cls_016"><span class="cls_016">9</span></div>
+<div style="position:absolute;left:85.10px;top:412.63px" class="cls_016"><span class="cls_016">4.1.</span><span class="cls_006"> </span><span class="cls_016">  П</span><span class="cls_017">ЕРЕЧЕНЬ ОБНАРУЖЕННЫХ УЯЗВИМОСТЕЙ</span></div>
+<div style="position:absolute;left:563.50px;top:412.63px" class="cls_016"><span class="cls_016">9</span></div>
+<div style="position:absolute;left:85.10px;top:427.15px" class="cls_006"><span class="cls_006">4.1.1.   З</span><span class="cls_005">ЛОУПОТРЕБЛЕНИЕ ФУНКЦИОНАЛЬНОСТЬЮ ОТПРАВКИ ЭЛЕКТРОННЫХ СООБЩЕНИЙ </span><span class="cls_006">(</span><span class="cls_005">E</span><span class="cls_006">-</span><span class="cls_005">MAIL</span><span class="cls_006">)</span></div>
+<div style="position:absolute;left:563.50px;top:427.15px" class="cls_006"><span class="cls_006">9</span></div>
+<div style="position:absolute;left:85.10px;top:441.67px" class="cls_006"><span class="cls_006">4.1.2.   Н</span><span class="cls_005">ЕБЕЗОПАСНАЯ КОНФИГУРАЦИЯ </span><span class="cls_006">F</span><span class="cls_005">LASK</span></div>
+<div style="position:absolute;left:557.86px;top:441.67px" class="cls_006"><span class="cls_006">11</span></div>
+<div style="position:absolute;left:85.10px;top:456.07px" class="cls_006"><span class="cls_006">4.1.3.   С</span><span class="cls_005">ЛАБЫЙ ПАРОЛЬ ДЛЯ СЕРВИСА</span></div>
+<div style="position:absolute;left:557.86px;top:456.07px" class="cls_006"><span class="cls_006">13</span></div>
+<div style="position:absolute;left:85.10px;top:470.59px" class="cls_006"><span class="cls_006">4.1.4.   В</span><span class="cls_005">ЫВОД ОТЛАДОЧНОЙ ИНФОРМАЦИИ</span></div>
+<div style="position:absolute;left:557.86px;top:470.59px" class="cls_006"><span class="cls_006">13</span></div>
+<div style="position:absolute;left:85.10px;top:485.11px" class="cls_006"><span class="cls_006">4.1.5.   О</span><span class="cls_005">ТСУТСТВИЕ ЗАЩИТЫ ОТ АТАК ТИПА CLICKJ  CKING</span></div>
+<div style="position:absolute;left:557.86px;top:485.11px" class="cls_006"><span class="cls_006">15</span></div>
+<div style="position:absolute;left:85.10px;top:499.63px" class="cls_006"><span class="cls_006">4.1.6.   М</span><span class="cls_005">ЕЖСАЙТОВЫЙ СКРИПТИНГ ОТРАЖЕННЫЙ</span></div>
+<div style="position:absolute;left:557.86px;top:499.63px" class="cls_006"><span class="cls_006">16</span></div>
+<div style="position:absolute;left:85.10px;top:514.06px" class="cls_006"><span class="cls_006">4.1.7.   Н</span><span class="cls_005">ЕБЕЗОПАСНАЯ КОНФИГУРАЦИЯ </span><span class="cls_006">CORS</span></div>
+<div style="position:absolute;left:557.86px;top:514.06px" class="cls_006"><span class="cls_006">18</span></div>
+<div style="position:absolute;left:85.10px;top:528.58px" class="cls_006"><span class="cls_006">4.1.8.   Р</span><span class="cls_005">АСКРЫТИЕ ИНФОРМАЦИИ</span></div>
+<div style="position:absolute;left:557.86px;top:528.58px" class="cls_006"><span class="cls_006">19</span></div>
+<div style="position:absolute;left:85.10px;top:561.10px" class="cls_047"><span class="cls_047">5.</span><span class="cls_006"> </span><span class="cls_016">  ЗАКЛЮЧЕНИЕ</span></div>
+<div style="position:absolute;left:557.86px;top:561.10px" class="cls_016"><span class="cls_016">21</span></div>
+<div style="position:absolute;left:85.10px;top:593.62px" class="cls_016"><span class="cls_016">ПРИЛОЖЕНИЕ 1. АНАЛИЗ УРОВНЯ ЗАЩИЩЕННОСТИ. СПРАВОЧНАЯ ИНФОРМАЦИЯ</span></div>
+<div style="position:absolute;left:557.86px;top:593.62px" class="cls_016"><span class="cls_016">22</span></div>
+<div style="position:absolute;left:85.10px;top:626.02px" class="cls_016"><span class="cls_016">А</span><span class="cls_017">НАЛИЗ УРОВНЯ ЗАЩИЩЕННОСТИ</span></div>
+<div style="position:absolute;left:557.86px;top:626.02px" class="cls_016"><span class="cls_016">22</span></div>
+<div style="position:absolute;left:85.10px;top:640.54px" class="cls_016"><span class="cls_016">К</span><span class="cls_017">РИТИЧНОСТЬ РЕАЛИЗАЦИИ УЯЗВИМОСТИ</span></div>
+<div style="position:absolute;left:557.86px;top:640.54px" class="cls_016"><span class="cls_016">22</span></div>
+<div style="position:absolute;left:85.10px;top:655.08px" class="cls_016"><span class="cls_016">П</span><span class="cls_017">РОСТОТА ЭКСПЛУАТАЦИИ УЯЗВИМОСТИ</span></div>
+<div style="position:absolute;left:557.86px;top:655.08px" class="cls_016"><span class="cls_016">23</span></div>
+<div style="position:absolute;left:85.10px;top:669.60px" class="cls_016"><span class="cls_016">Д</span><span class="cls_017">ОСТУПНОСТЬ УЯЗВИМОСТИ</span></div>
+<div style="position:absolute;left:557.86px;top:669.60px" class="cls_016"><span class="cls_016">24</span></div>
+<div style="position:absolute;left:85.10px;top:684.00px" class="cls_016"><span class="cls_016">В</span><span class="cls_017">ЕРОЯТНОСТЬ ЭКСПЛУАТАЦИИ УЯЗВИМОСТИ</span></div>
+<div style="position:absolute;left:557.86px;top:684.00px" class="cls_016"><span class="cls_016">24</span></div>
+<div style="position:absolute;left:85.10px;top:698.52px" class="cls_016"><span class="cls_016">Р</span><span class="cls_017">ИСК УЯЗВИМОСТИ</span></div>
+<div style="position:absolute;left:557.86px;top:698.52px" class="cls_016"><span class="cls_016">25</span></div>
+<div style="position:absolute;left:43.80px;top:760.80px" class="cls_015"><span class="cls_015">© 2003—2017, Digital Security</span></div>
+<div style="position:absolute;left:597.10px;top:764.52px" class="cls_006"><span class="cls_006">2</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-306px;top:1604px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="e9ee2f6a-ad19-11e8-b59b-0cc47a792c0a_id_e9ee2f6a-ad19-11e8-b59b-0cc47a792c0a_files/background03.jpg" width=612 height=792></div>
+<div style="position:absolute;left:478.54px;top:12.72px" class="cls_011"><span class="cls_011">КОНФИДЕНЦИАЛЬНО</span></div>
+<div style="position:absolute;left:379.63px;top:36.12px" class="cls_013"><span class="cls_013">Экспертное заключение по результатам проведения</span></div>
+<div style="position:absolute;left:423.07px;top:47.88px" class="cls_013"><span class="cls_013">анализа защищённости инфраструктуры</span></div>
+<div style="position:absolute;left:494.38px;top:55.56px" class="cls_013"><span class="cls_013">компании Cindicator</span></div>
+<div style="position:absolute;left:85.10px;top:112.70px" class="cls_047"><span class="cls_047">ПРИЛОЖЕНИЕ 2. АНАЛИЗ УРОВНЯ ЗАЩИЩЕННОСТИ. ПЕРЕЧЕНЬ ОБНАРУЖЕННЫХ СЛАБОСТЕЙ И</span></div>
+<div style="position:absolute;left:85.10px;top:127.22px" class="cls_016"><span class="cls_016">УЯЗВИМОСТЕЙ</span></div>
+<div style="position:absolute;left:557.86px;top:127.22px" class="cls_016"><span class="cls_016">26</span></div>
+<div style="position:absolute;left:43.80px;top:760.80px" class="cls_015"><span class="cls_015">© 2003—2017, Digital Security</span></div>
+<div style="position:absolute;left:597.10px;top:764.52px" class="cls_006"><span class="cls_006">3</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-306px;top:2406px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="e9ee2f6a-ad19-11e8-b59b-0cc47a792c0a_id_e9ee2f6a-ad19-11e8-b59b-0cc47a792c0a_files/background04.jpg" width=612 height=792></div>
+<div style="position:absolute;left:478.54px;top:12.72px" class="cls_011"><span class="cls_011">КОНФИДЕНЦИАЛЬНО</span></div>
+<div style="position:absolute;left:379.63px;top:36.12px" class="cls_013"><span class="cls_013">Экспертное заключение по результатам проведения</span></div>
+<div style="position:absolute;left:423.07px;top:47.88px" class="cls_013"><span class="cls_013">анализа защищённости инфраструктуры</span></div>
+<div style="position:absolute;left:494.38px;top:55.56px" class="cls_013"><span class="cls_013">компании Cindicator</span></div>
+<div style="position:absolute;left:85.10px;top:112.22px" class="cls_019"><span class="cls_019">1. Введение</span></div>
+<div style="position:absolute;left:85.10px;top:156.14px" class="cls_021"><span class="cls_021">1.1. Общие положения</span></div>
+<div style="position:absolute;left:121.10px;top:186.02px" class="cls_002"><span class="cls_002">В настоящем экспертном заключении представлены результаты проведения работ по</span></div>
+<div style="position:absolute;left:85.10px;top:201.86px" class="cls_002"><span class="cls_002">анализу   защищенности   и   тестированию   на   проникновение   основных   сайтов   и</span></div>
+<div style="position:absolute;left:85.10px;top:217.73px" class="cls_002"><span class="cls_002">инфраструктуры (далее - Система), принадлежащих компании Cindicator (далее - Компания),</span></div>
+<div style="position:absolute;left:85.10px;top:233.45px" class="cls_002"><span class="cls_002">а также предложены рекомендации по устранению выявленных уязвимостей и повышению</span></div>
+<div style="position:absolute;left:85.10px;top:249.29px" class="cls_002"><span class="cls_002">уровня защищенности͘</span></div>
+<div style="position:absolute;left:85.10px;top:271.01px" class="cls_021"><span class="cls_021">1.2. Принятые сокращения</span></div>
+<div style="position:absolute;left:370.27px;top:300.77px" class="cls_023"><span class="cls_023">Таблица 1͘2-1͘ Принятые сокращения</span></div>
+<div style="position:absolute;left:85.10px;top:318.17px" class="cls_024"><span class="cls_024">Сокращение</span></div>
+<div style="position:absolute;left:177.62px;top:318.17px" class="cls_024"><span class="cls_024">Расшифровка</span></div>
+<div style="position:absolute;left:85.10px;top:335.45px" class="cls_002"><span class="cls_002">СУБД</span></div>
+<div style="position:absolute;left:177.62px;top:335.45px" class="cls_002"><span class="cls_002">Система управления базами данных</span></div>
+<div style="position:absolute;left:85.10px;top:352.73px" class="cls_002"><span class="cls_002">БД</span></div>
+<div style="position:absolute;left:177.62px;top:352.73px" class="cls_002"><span class="cls_002">База данных</span></div>
+<div style="position:absolute;left:85.10px;top:370.03px" class="cls_002"><span class="cls_002">ИБ</span></div>
+<div style="position:absolute;left:177.62px;top:370.03px" class="cls_002"><span class="cls_002">Информационная безопасность</span></div>
+<div style="position:absolute;left:85.10px;top:387.43px" class="cls_002"><span class="cls_002">ИС</span></div>
+<div style="position:absolute;left:177.62px;top:387.43px" class="cls_002"><span class="cls_002">Информационная система</span></div>
+<div style="position:absolute;left:85.10px;top:404.71px" class="cls_002"><span class="cls_002">КИС</span></div>
+<div style="position:absolute;left:177.62px;top:404.71px" class="cls_002"><span class="cls_002">Корпоративная информационная сеть</span></div>
+<div style="position:absolute;left:85.10px;top:421.99px" class="cls_002"><span class="cls_002">МЭ</span></div>
+<div style="position:absolute;left:177.62px;top:421.99px" class="cls_002"><span class="cls_002">Межсетевой экран</span></div>
+<div style="position:absolute;left:85.10px;top:439.27px" class="cls_002"><span class="cls_002">ПО</span></div>
+<div style="position:absolute;left:177.62px;top:439.27px" class="cls_002"><span class="cls_002">Программное обеспечение</span></div>
+<div style="position:absolute;left:43.80px;top:760.80px" class="cls_015"><span class="cls_015">© 2003—2017, Digital Security</span></div>
+<div style="position:absolute;left:597.10px;top:764.52px" class="cls_006"><span class="cls_006">4</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-306px;top:3208px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="e9ee2f6a-ad19-11e8-b59b-0cc47a792c0a_id_e9ee2f6a-ad19-11e8-b59b-0cc47a792c0a_files/background05.jpg" width=612 height=792></div>
+<div style="position:absolute;left:478.54px;top:12.72px" class="cls_011"><span class="cls_011">КОНФИДЕНЦИАЛЬНО</span></div>
+<div style="position:absolute;left:379.63px;top:36.12px" class="cls_013"><span class="cls_013">Экспертное заключение по результатам проведения</span></div>
+<div style="position:absolute;left:423.07px;top:47.88px" class="cls_013"><span class="cls_013">анализа защищённости инфраструктуры</span></div>
+<div style="position:absolute;left:494.38px;top:55.56px" class="cls_013"><span class="cls_013">компании Cindicator</span></div>
+<div style="position:absolute;left:85.10px;top:112.58px" class="cls_021"><span class="cls_021">1.3. Резюме</span></div>
+<div style="position:absolute;left:121.10px;top:142.46px" class="cls_002"><span class="cls_002">В  соответствии  с  договором  ДСС-КУ-2017/19  специалистами  компании</span></div>
+<div style="position:absolute;left:532.33px;top:142.46px" class="cls_002"><span class="cls_002">«Digital</span></div>
+<div style="position:absolute;left:85.10px;top:158.18px" class="cls_002"><span class="cls_002">Securityͩ в период с 21.08͘17 по 1.09.17 были проведены работы по анализу защищенности и</span></div>
+<div style="position:absolute;left:85.10px;top:174.02px" class="cls_002"><span class="cls_002">тестированию на проникновение Системы͘</span></div>
+<div style="position:absolute;left:121.10px;top:189.86px" class="cls_002"><span class="cls_002">Была рассмотрена модель внешнего нарушителя͘</span></div>
+<div style="position:absolute;left:121.10px;top:221.45px" class="cls_002"><span class="cls_002">Проведенные работы показали, что:</span></div>
+<div style="position:absolute;left:103.10px;top:237.29px" class="cls_002"><span class="cls_002">1.  Имеющийся уровень безопасности web-сайтов можно определить как «среднийͩ.</span></div>
+<div style="position:absolute;left:103.10px;top:253.13px" class="cls_002"><span class="cls_002">2.  Большинство обнаруженных уязвимостей в критичных частях Системы имеют средний</span></div>
+<div style="position:absolute;left:121.10px;top:268.85px" class="cls_002"><span class="cls_002">и низкий уровень итогового риска.</span></div>
+<div style="position:absolute;left:121.10px;top:300.53px" class="cls_002"><span class="cls_002">Основными рекомендациями являются:</span></div>
+<div style="position:absolute;left:103.10px;top:316.37px" class="cls_002"><span class="cls_002">1.  Устранение выявленных технических уязвимостей.</span></div>
+<div style="position:absolute;left:121.10px;top:347.93px" class="cls_002"><span class="cls_002">Далее содержится описание выявленных недостатков и связанных с ними рисков</span></div>
+<div style="position:absolute;left:85.10px;top:363.79px" class="cls_002"><span class="cls_002">информационной   безопасности,   а   также   детальные   рекомендации   по   устранению</span></div>
+<div style="position:absolute;left:85.10px;top:379.63px" class="cls_002"><span class="cls_002">уязвимостей͘</span></div>
+<div style="position:absolute;left:43.80px;top:760.80px" class="cls_015"><span class="cls_015">© 2003—2017, Digital Security</span></div>
+<div style="position:absolute;left:597.10px;top:764.52px" class="cls_006"><span class="cls_006">5</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-306px;top:4010px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="e9ee2f6a-ad19-11e8-b59b-0cc47a792c0a_id_e9ee2f6a-ad19-11e8-b59b-0cc47a792c0a_files/background06.jpg" width=612 height=792></div>
+<div style="position:absolute;left:478.54px;top:12.72px" class="cls_011"><span class="cls_011">КОНФИДЕНЦИАЛЬНО</span></div>
+<div style="position:absolute;left:379.63px;top:36.12px" class="cls_013"><span class="cls_013">Экспертное заключение по результатам проведения</span></div>
+<div style="position:absolute;left:423.07px;top:47.88px" class="cls_013"><span class="cls_013">анализа защищённости инфраструктуры</span></div>
+<div style="position:absolute;left:494.38px;top:55.56px" class="cls_013"><span class="cls_013">компании Cindicator</span></div>
+<div style="position:absolute;left:85.10px;top:112.22px" class="cls_019"><span class="cls_019">2. Принципы проведения работ</span></div>
+<div style="position:absolute;left:84.74px;top:156.14px" class="cls_021"><span class="cls_021">2.1. Угрозы ИБ</span></div>
+<div style="position:absolute;left:120.50px;top:186.02px" class="cls_002"><span class="cls_002">На информационные ресурсы Компании могут действовать следующие три угрозы ИБ:</span></div>
+<div style="position:absolute;left:85.10px;top:201.86px" class="cls_002"><span class="cls_002">угрозы нарушения конфиденциальности, целостности и доступности͘</span></div>
+<div style="position:absolute;left:120.50px;top:217.73px" class="cls_002"><span class="cls_002">Угроза нарушения конфиденциальности направлена на разглашение информации,</span></div>
+<div style="position:absolute;left:85.10px;top:233.45px" class="cls_002"><span class="cls_002">имеющей  в  Компании  статус  конфиденциальной͘  При  реализации  угрозы  информация</span></div>
+<div style="position:absolute;left:85.10px;top:249.29px" class="cls_002"><span class="cls_002">становится известной лицам, которые не должны иметь к ней доступ - ряду сотрудников</span></div>
+<div style="position:absolute;left:85.10px;top:265.13px" class="cls_002"><span class="cls_002">Компании, клиентам, партнерам, конкурентам, третьим лицам͘</span></div>
+<div style="position:absolute;left:120.50px;top:280.85px" class="cls_002"><span class="cls_002">Угроза   нарушения   целостности   направлена   на   модификацию   или   искажение</span></div>
+<div style="position:absolute;left:85.10px;top:296.69px" class="cls_002"><span class="cls_002">информации, приводящее к изменению ее структуры или смысла, полному или частичному</span></div>
+<div style="position:absolute;left:85.10px;top:312.53px" class="cls_002"><span class="cls_002">уничтожению͘</span></div>
+<div style="position:absolute;left:120.50px;top:328.37px" class="cls_002"><span class="cls_002">Угроза  нарушения  доступности</span></div>
+<div style="position:absolute;left:301.39px;top:328.37px" class="cls_002"><span class="cls_002">(угроза  отказа  в  обслуживании)  заключается  в</span></div>
+<div style="position:absolute;left:85.10px;top:344.09px" class="cls_002"><span class="cls_002">невозможности   получения   доступа   к   информационному   ресурсу   пользователями</span></div>
+<div style="position:absolute;left:85.10px;top:359.95px" class="cls_002"><span class="cls_002">информационной системы͘</span></div>
+<div style="position:absolute;left:120.50px;top:375.79px" class="cls_002"><span class="cls_002">Основным  принципом  проведения  аудита  ИБ  является  проверка  возможности</span></div>
+<div style="position:absolute;left:85.10px;top:391.63px" class="cls_002"><span class="cls_002">реализации указанных угроз, воздействующих на информационные ресурсы Системы, в</span></div>
+<div style="position:absolute;left:85.10px;top:407.35px" class="cls_002"><span class="cls_002">рамках заданной модели нарушителя͘</span></div>
+<div style="position:absolute;left:84.74px;top:429.07px" class="cls_021"><span class="cls_021">2.2.  Модель нарушителя</span></div>
+<div style="position:absolute;left:120.50px;top:458.95px" class="cls_002"><span class="cls_002">В качестве вероятного нарушителя информационной безопасности Системы Компании</span></div>
+<div style="position:absolute;left:85.10px;top:474.67px" class="cls_002"><span class="cls_002">рассматривается лицо или группа лиц, состоящих или не состоящих в сговоре, которые в</span></div>
+<div style="position:absolute;left:85.10px;top:490.51px" class="cls_002"><span class="cls_002">результате умышленных или неумышленных действий потенциально могут реализовать</span></div>
+<div style="position:absolute;left:85.10px;top:506.38px" class="cls_002"><span class="cls_002">угрозы ИБ, осуществить посягательства на информационные ресурсы Системы и нанести</span></div>
+<div style="position:absolute;left:85.10px;top:522.22px" class="cls_002"><span class="cls_002">ущерб интересам Компании͘</span></div>
+<div style="position:absolute;left:120.50px;top:537.94px" class="cls_002"><span class="cls_002">В    качестве    угроз    ИБ    рассматриваются    базовые    угрозы    нарушения</span></div>
+<div style="position:absolute;left:85.10px;top:553.78px" class="cls_002"><span class="cls_002">конфиденциальности  и  целостности  информации,  а  также  угроза  отказа  Системы  в</span></div>
+<div style="position:absolute;left:85.10px;top:569.62px" class="cls_002"><span class="cls_002">обслуживании клиентов Компании͘</span></div>
+<div style="position:absolute;left:120.50px;top:585.46px" class="cls_002"><span class="cls_002">Умышленно действующий нарушитель может преследовать следующие цели (а также</span></div>
+<div style="position:absolute;left:85.10px;top:601.18px" class="cls_002"><span class="cls_002">их всевозможные комбинации):</span></div>
+<div style="position:absolute;left:103.10px;top:617.74px" class="cls_028"><span class="cls_028"></span><span class="cls_027"> </span><span class="cls_002">  злонамеренный вызов отказа в обслуживании;</span></div>
+<div style="position:absolute;left:103.10px;top:638.98px" class="cls_028"><span class="cls_028"></span><span class="cls_027"> </span><span class="cls_002">  повышение собственных привилегий;</span></div>
+<div style="position:absolute;left:103.10px;top:660.36px" class="cls_028"><span class="cls_028"></span><span class="cls_027"> </span><span class="cls_002">  несанкционированный доступ к критичной с точки зрения бизнеса информации͘</span></div>
+<div style="position:absolute;left:121.10px;top:680.88px" class="cls_002"><span class="cls_002">В ходе работы была использована модель внешнего нарушителя.</span></div>
+<div style="position:absolute;left:43.80px;top:760.80px" class="cls_015"><span class="cls_015">© 2003—2017, Digital Security</span></div>
+<div style="position:absolute;left:597.10px;top:764.52px" class="cls_006"><span class="cls_006">6</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-306px;top:4812px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="e9ee2f6a-ad19-11e8-b59b-0cc47a792c0a_id_e9ee2f6a-ad19-11e8-b59b-0cc47a792c0a_files/background07.jpg" width=612 height=792></div>
+<div style="position:absolute;left:478.54px;top:12.72px" class="cls_011"><span class="cls_011">КОНФИДЕНЦИАЛЬНО</span></div>
+<div style="position:absolute;left:379.63px;top:36.12px" class="cls_013"><span class="cls_013">Экспертное заключение по результатам проведения</span></div>
+<div style="position:absolute;left:423.07px;top:47.88px" class="cls_013"><span class="cls_013">анализа защищённости инфраструктуры</span></div>
+<div style="position:absolute;left:494.38px;top:55.56px" class="cls_013"><span class="cls_013">компании Cindicator</span></div>
+<div style="position:absolute;left:85.10px;top:112.58px" class="cls_008"><span class="cls_008">2.2.1.   Внешний нарушитель</span></div>
+<div style="position:absolute;left:121.10px;top:145.82px" class="cls_002"><span class="cls_002">При проведении работ используются следующие модели внешнего нарушителя:</span></div>
+<div style="position:absolute;left:103.10px;top:162.26px" class="cls_028"><span class="cls_028"></span><span class="cls_027"> </span><span class="cls_002">  внешний нарушитель из сети Интернет, имеющий доступ к сайтам в качестве клиента</span></div>
+<div style="position:absolute;left:121.10px;top:177.02px" class="cls_002"><span class="cls_002">Компании, не обладающий знаниями о тестируемой Системе и правами в ней.</span></div>
+<div style="position:absolute;left:84.74px;top:197.42px" class="cls_021"><span class="cls_021">2.3. Область тестирования</span></div>
+<div style="position:absolute;left:114.26px;top:227.33px" class="cls_002"><span class="cls_002">В ходе проведения работ был произведен анализ защищенности ресурсов,</span></div>
+<div style="position:absolute;left:114.26px;top:242.09px" class="cls_002"><span class="cls_002">представленных в Таблице 2͘3 - 1.</span></div>
+<div style="position:absolute;left:357.55px;top:264.05px" class="cls_023"><span class="cls_023">Таблица 2.3 - 1. Область тестирования</span></div>
+<div style="position:absolute;left:85.10px;top:281.33px" class="cls_024"><span class="cls_024">Ресурс</span></div>
+<div style="position:absolute;left:218.21px;top:281.33px" class="cls_024"><span class="cls_024">Описание</span></div>
+<div style="position:absolute;left:85.10px;top:298.73px" class="cls_002"><span class="cls_002">cindicator.com</span></div>
+<div style="position:absolute;left:85.10px;top:316.01px" class="cls_002"><span class="cls_002">tokensale.cindicator.com</span></div>
+<div style="position:absolute;left:85.10px;top:333.29px" class="cls_002"><span class="cls_002">40.71.</span></div>
+<div style="position:absolute;left:218.21px;top:333.29px" class="cls_002"><span class="cls_002">main proxy</span></div>
+<div style="position:absolute;left:85.10px;top:350.57px" class="cls_002"><span class="cls_002">40.114.</span></div>
+<div style="position:absolute;left:218.21px;top:350.57px" class="cls_002"><span class="cls_002">telegram bot</span></div>
+<div style="position:absolute;left:85.10px;top:367.87px" class="cls_002"><span class="cls_002">13.82.</span></div>
+<div style="position:absolute;left:218.21px;top:367.87px" class="cls_002"><span class="cls_002">trading bot</span></div>
+<div style="position:absolute;left:85.10px;top:385.27px" class="cls_002"><span class="cls_002">13.82.</span></div>
+<div style="position:absolute;left:218.21px;top:385.27px" class="cls_002"><span class="cls_002">admin</span></div>
+<div style="position:absolute;left:85.10px;top:402.55px" class="cls_002"><span class="cls_002">13.92.</span></div>
+<div style="position:absolute;left:218.21px;top:402.55px" class="cls_002"><span class="cls_002">admin test</span></div>
+<div style="position:absolute;left:85.10px;top:419.83px" class="cls_002"><span class="cls_002">40.71.</span></div>
+<div style="position:absolute;left:218.21px;top:419.83px" class="cls_002"><span class="cls_002">production site</span></div>
+<div style="position:absolute;left:85.10px;top:437.11px" class="cls_002"><span class="cls_002">40.71.</span></div>
+<div style="position:absolute;left:218.21px;top:437.11px" class="cls_002"><span class="cls_002">stage site</span></div>
+<div style="position:absolute;left:85.10px;top:454.51px" class="cls_002"><span class="cls_002">52.170.</span></div>
+<div style="position:absolute;left:218.21px;top:454.51px" class="cls_002"><span class="cls_002">backend-v2.6</span></div>
+<div style="position:absolute;left:85.10px;top:471.79px" class="cls_002"><span class="cls_002">52.170.</span></div>
+<div style="position:absolute;left:218.21px;top:471.79px" class="cls_002"><span class="cls_002">backend-v2.7</span></div>
+<div style="position:absolute;left:85.10px;top:489.07px" class="cls_002"><span class="cls_002">40.71.</span></div>
+<div style="position:absolute;left:218.21px;top:489.07px" class="cls_002"><span class="cls_002">backend-v2.8</span></div>
+<div style="position:absolute;left:85.10px;top:506.38px" class="cls_002"><span class="cls_002">52.168.</span></div>
+<div style="position:absolute;left:218.21px;top:506.38px" class="cls_002"><span class="cls_002">backend-v2.9</span></div>
+<div style="position:absolute;left:85.10px;top:523.78px" class="cls_002"><span class="cls_002">13.82.</span></div>
+<div style="position:absolute;left:218.21px;top:523.78px" class="cls_002"><span class="cls_002">backend-v2.10</span></div>
+<div style="position:absolute;left:85.10px;top:541.06px" class="cls_002"><span class="cls_002">52.170.</span></div>
+<div style="position:absolute;left:218.21px;top:541.06px" class="cls_002"><span class="cls_002">backend-v2.11</span></div>
+<div style="position:absolute;left:85.10px;top:558.34px" class="cls_002"><span class="cls_002">52.168.</span></div>
+<div style="position:absolute;left:218.21px;top:558.34px" class="cls_002"><span class="cls_002">backend-test</span></div>
+<div style="position:absolute;left:85.10px;top:575.62px" class="cls_002"><span class="cls_002">52.168.</span></div>
+<div style="position:absolute;left:218.21px;top:575.62px" class="cls_002"><span class="cls_002">postgres-db</span></div>
+<div style="position:absolute;left:85.10px;top:593.02px" class="cls_002"><span class="cls_002">52.179.</span></div>
+<div style="position:absolute;left:218.21px;top:593.02px" class="cls_002"><span class="cls_002">sentry</span></div>
+<div style="position:absolute;left:85.10px;top:610.30px" class="cls_002"><span class="cls_002">40.71.</span></div>
+<div style="position:absolute;left:218.21px;top:610.30px" class="cls_002"><span class="cls_002">maintenance</span></div>
+<div style="position:absolute;left:85.10px;top:627.58px" class="cls_002"><span class="cls_002">52.170.</span></div>
+<div style="position:absolute;left:218.21px;top:627.58px" class="cls_002"><span class="cls_002">signals</span></div>
+<div style="position:absolute;left:85.10px;top:644.86px" class="cls_002"><span class="cls_002">40.71.</span></div>
+<div style="position:absolute;left:218.21px;top:644.86px" class="cls_002"><span class="cls_002">graphite + grafana</span></div>
+<div style="position:absolute;left:85.10px;top:662.16px" class="cls_002"><span class="cls_002">52.170.</span></div>
+<div style="position:absolute;left:218.21px;top:662.16px" class="cls_002"><span class="cls_002">mongodb</span></div>
+<div style="position:absolute;left:85.10px;top:679.56px" class="cls_002"><span class="cls_002">13.68.</span></div>
+<div style="position:absolute;left:218.21px;top:679.56px" class="cls_002"><span class="cls_002">main-deployment-server</span></div>
+<div style="position:absolute;left:85.10px;top:696.84px" class="cls_002"><span class="cls_002">40.71.</span></div>
+<div style="position:absolute;left:218.21px;top:696.84px" class="cls_002"><span class="cls_002">elk stack + kibana</span></div>
+<div style="position:absolute;left:43.80px;top:760.80px" class="cls_015"><span class="cls_015">© 2003—2017, Digital Security</span></div>
+<div style="position:absolute;left:597.10px;top:764.52px" class="cls_006"><span class="cls_006">7</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-306px;top:5614px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="e9ee2f6a-ad19-11e8-b59b-0cc47a792c0a_id_e9ee2f6a-ad19-11e8-b59b-0cc47a792c0a_files/background08.jpg" width=612 height=792></div>
+<div style="position:absolute;left:478.54px;top:12.72px" class="cls_011"><span class="cls_011">КОНФИДЕНЦИАЛЬНО</span></div>
+<div style="position:absolute;left:379.63px;top:36.12px" class="cls_013"><span class="cls_013">Экспертное заключение по результатам проведения</span></div>
+<div style="position:absolute;left:423.07px;top:47.88px" class="cls_013"><span class="cls_013">анализа защищённости инфраструктуры</span></div>
+<div style="position:absolute;left:494.38px;top:55.56px" class="cls_013"><span class="cls_013">компании Cindicator</span></div>
+<div style="position:absolute;left:85.10px;top:112.22px" class="cls_019"><span class="cls_019">3. Сценарии атак</span></div>
+<div style="position:absolute;left:85.10px;top:156.14px" class="cls_021"><span class="cls_021">3.1. Получение доступа к административной панели</span></div>
+<div style="position:absolute;left:121.10px;top:186.02px" class="cls_002"><span class="cls_002">Поскольку тестовый сервер (13͘92͘   .</span></div>
+<div style="position:absolute;left:342.67px;top:186.02px" class="cls_002"><span class="cls_002">) административной панели имеет учётную</span></div>
+<div style="position:absolute;left:85.10px;top:201.86px" class="cls_002"><span class="cls_002">запись со словарным паролем (п. </span><span class="cls_048">4.1.3</span><span class="cls_002">.), злоумышленник может получить к ней доступ и</span></div>
+<div style="position:absolute;left:85.10px;top:217.73px" class="cls_002"><span class="cls_002">изучить её возможности͘ Имя пользователя этой учетной записи может быть получено из</span></div>
+<div style="position:absolute;left:85.10px;top:233.45px" class="cls_002"><span class="cls_002">различных источников:</span></div>
+<div style="position:absolute;left:103.10px;top:250.01px" class="cls_028"><span class="cls_028"></span><span class="cls_027"> </span><span class="cls_002">  Из раздела team на сайте cindicator.com</span></div>
+<div style="position:absolute;left:103.10px;top:271.25px" class="cls_028"><span class="cls_028"></span><span class="cls_027"> </span><span class="cls_002">  Со страницы авторизации сервиса Sentry (52.179.</span><span class="cls_024">   </span><span class="cls_002">.</span></div>
+<div style="position:absolute;left:414.55px;top:271.25px" class="cls_002"><span class="cls_002">)</span></div>
+<div style="position:absolute;left:121.10px;top:291.89px" class="cls_002"><span class="cls_002">Далее, из-за того, что для тестовой и продуктовой среды используется одинаковое</span></div>
+<div style="position:absolute;left:85.10px;top:307.73px" class="cls_002"><span class="cls_002">поле secret_key фреймворка Flask, злоумышленник может использовать текущую сессию в</span></div>
+<div style="position:absolute;left:85.10px;top:323.45px" class="cls_002"><span class="cls_002">тестовой среде для доступа к тому же аккаунту администратора в продуктовой среде (п.</span></div>
+<div style="position:absolute;left:85.10px;top:339.29px" class="cls_048"><span class="cls_048">4.1.2</span><span class="cls_002">).</span></div>
+<div style="position:absolute;left:219.89px;top:370.87px" class="cls_023"><span class="cls_023">Рис 3.1 - 1. Панель администратора сервера Admin (13.82.   .</span></div>
+<div style="position:absolute;left:566.02px;top:370.87px" class="cls_023"><span class="cls_023">)</span></div>
+<div style="position:absolute;left:43.80px;top:760.80px" class="cls_015"><span class="cls_015">© 2003—2017, Digital Security</span></div>
+<div style="position:absolute;left:597.10px;top:764.52px" class="cls_006"><span class="cls_006">8</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-306px;top:6416px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="e9ee2f6a-ad19-11e8-b59b-0cc47a792c0a_id_e9ee2f6a-ad19-11e8-b59b-0cc47a792c0a_files/background09.jpg" width=612 height=792></div>
+<div style="position:absolute;left:478.54px;top:12.72px" class="cls_011"><span class="cls_011">КОНФИДЕНЦИАЛЬНО</span></div>
+<div style="position:absolute;left:379.63px;top:36.12px" class="cls_013"><span class="cls_013">Экспертное заключение по результатам проведения</span></div>
+<div style="position:absolute;left:423.07px;top:47.88px" class="cls_013"><span class="cls_013">анализа защищённости инфраструктуры</span></div>
+<div style="position:absolute;left:494.38px;top:55.56px" class="cls_013"><span class="cls_013">компании Cindicator</span></div>
+<div style="position:absolute;left:85.10px;top:112.22px" class="cls_019"><span class="cls_019">4. Внешний аудит Системы</span></div>
+<div style="position:absolute;left:85.10px;top:156.14px" class="cls_021"><span class="cls_021">4.1. Перечень обнаруженных уязвимостей</span></div>
+<div style="position:absolute;left:85.10px;top:185.90px" class="cls_008"><span class="cls_008">4.1.1.   Злоупотребление функциональностью отправки электронных</span></div>
+<div style="position:absolute;left:139.10px;top:207.05px" class="cls_008"><span class="cls_008">сообщений (e-mail)</span></div>
+<div style="position:absolute;left:85.10px;top:240.17px" class="cls_023"><span class="cls_023">Критичность: </span><span class="cls_033">высокая</span></div>
+<div style="position:absolute;left:85.10px;top:256.01px" class="cls_023"><span class="cls_023">Вероятность эксплуатации: </span><span class="cls_034">средняя</span></div>
+<div style="position:absolute;left:85.10px;top:271.85px" class="cls_023"><span class="cls_023">Итоговый риск: </span><span class="cls_033">высокий</span></div>
+<div style="position:absolute;left:85.10px;top:293.69px" class="cls_010"><span class="cls_010">Описание:</span></div>
+<div style="position:absolute;left:85.10px;top:312.05px" class="cls_002"><span class="cls_002">Из-за недостаточной обработки входных данных злоумышленник может злоупотреблять</span></div>
+<div style="position:absolute;left:85.10px;top:327.89px" class="cls_002"><span class="cls_002">функциональностью отправки электронных сообщений͘</span></div>
+<div style="position:absolute;left:85.10px;top:349.73px" class="cls_010"><span class="cls_010">Риск:</span></div>
+<div style="position:absolute;left:85.10px;top:368.11px" class="cls_002"><span class="cls_002">Злоумышленник  может  использовать  уязвимость  для  проведения  атак  с  применением</span></div>
+<div style="position:absolute;left:85.10px;top:383.95px" class="cls_002"><span class="cls_002">социальной инженерии, а также злоупотреблять рассылкой нежелательных писем, из-за чего</span></div>
+<div style="position:absolute;left:85.10px;top:399.79px" class="cls_002"><span class="cls_002">легитимный адрес может попасть в спам-фильтры͘</span></div>
+<div style="position:absolute;left:85.10px;top:421.63px" class="cls_010"><span class="cls_010">Уязвимый ресурс:</span></div>
+<div style="position:absolute;left:103.10px;top:440.71px" class="cls_028"><span class="cls_028"></span><span class="cls_027"> </span><span class="cls_002">  cindicator.com</span></div>
+<div style="position:absolute;left:85.10px;top:461.35px" class="cls_010"><span class="cls_010">Технические детали:</span></div>
+<div style="position:absolute;left:85.10px;top:479.71px" class="cls_002"><span class="cls_002">Уязвимости подвержены все доступные формы для регистрации и подписки (в виде URL</span></div>
+<div style="position:absolute;left:85.10px;top:495.55px" class="cls_002"><span class="cls_002">path):</span></div>
+<div style="position:absolute;left:103.10px;top:512.14px" class="cls_028"><span class="cls_028"></span></div>
+<div style="position:absolute;left:121.10px;top:512.14px" class="cls_002"><span class="cls_002">/ico_adduser</span></div>
+<div style="position:absolute;left:103.10px;top:533.38px" class="cls_028"><span class="cls_028"></span></div>
+<div style="position:absolute;left:121.10px;top:533.38px" class="cls_002"><span class="cls_002">/ts_applience</span></div>
+<div style="position:absolute;left:103.10px;top:554.74px" class="cls_028"><span class="cls_028"></span></div>
+<div style="position:absolute;left:121.10px;top:554.74px" class="cls_002"><span class="cls_002">/telegram_bot_register</span></div>
+<div style="position:absolute;left:85.10px;top:575.26px" class="cls_002"><span class="cls_002">Над полем e-mail не происходит достаточных проверок, поэтому возможно добавление</span></div>
+<div style="position:absolute;left:85.10px;top:591.10px" class="cls_002"><span class="cls_002">других получателей сгенерированного письма͘</span></div>
+<div style="position:absolute;left:43.80px;top:760.80px" class="cls_015"><span class="cls_015">© 2003—2017, Digital Security</span></div>
+<div style="position:absolute;left:597.10px;top:764.52px" class="cls_006"><span class="cls_006">9</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-306px;top:7218px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="e9ee2f6a-ad19-11e8-b59b-0cc47a792c0a_id_e9ee2f6a-ad19-11e8-b59b-0cc47a792c0a_files/background10.jpg" width=612 height=792></div>
+<div style="position:absolute;left:478.54px;top:12.72px" class="cls_011"><span class="cls_011">КОНФИДЕНЦИАЛЬНО</span></div>
+<div style="position:absolute;left:379.63px;top:36.12px" class="cls_013"><span class="cls_013">Экспертное заключение по результатам проведения</span></div>
+<div style="position:absolute;left:423.07px;top:47.88px" class="cls_013"><span class="cls_013">анализа защищённости инфраструктуры</span></div>
+<div style="position:absolute;left:494.38px;top:55.56px" class="cls_013"><span class="cls_013">компании Cindicator</span></div>
+<div style="position:absolute;left:220.97px;top:112.58px" class="cls_023"><span class="cls_023">Рисунок 4͘1͘1 - 1͘ Пример запроса с несколькими получателями</span></div>
+<div style="position:absolute;left:107.78px;top:319.01px" class="cls_023"><span class="cls_023">Рис 4͘1͘1 - 2͘ Письмо пришло на почтовый ящик </span><span class="cls_049">ptest@dsec.ru</span><span class="cls_023">, в получателях также</span></div>
+<div style="position:absolute;left:461.59px;top:334.85px" class="cls_023"><span class="cls_023">a.pertsev@dsec.ru</span></div>
+<div style="position:absolute;left:85.10px;top:516.94px" class="cls_002"><span class="cls_002">Также  не  осуществляется  проверка  того,  что  данный  e-mail  уже  был  зарегистрирован,</span></div>
+<div style="position:absolute;left:85.10px;top:532.66px" class="cls_002"><span class="cls_002">поэтому злоумышленник может осуществлять спам-рассылки вплоть до включения домена</span></div>
+<div style="position:absolute;left:85.10px;top:548.50px" class="cls_002"><span class="cls_002">cindicator͘com в спам-листы͘</span></div>
+<div style="position:absolute;left:85.10px;top:564.34px" class="cls_002"><span class="cls_002">Пример запроса:</span></div>
+<div style="position:absolute;left:85.10px;top:591.46px" class="cls_035"><span class="cls_035">POST /ico_adduser HTTP/1.1</span></div>
+<div style="position:absolute;left:85.10px;top:602.74px" class="cls_035"><span class="cls_035">Host: cindicator.com User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0)</span></div>
+<div style="position:absolute;left:85.10px;top:614.02px" class="cls_035"><span class="cls_035">Gecko/20100101 Firefox/54.0</span></div>
+<div style="position:absolute;left:85.10px;top:625.42px" class="cls_035"><span class="cls_035">Accept: application/json, text/plain, */* Accept-Language: en-US,en;q=0.5 Referer:</span></div>
+<div style="position:absolute;left:85.10px;top:636.70px" class="cls_035"><span class="cls_035"> </span><A HREF="https://cindicator.com/">https://cindicator.com/</A> </div>
+<div style="position:absolute;left:85.10px;top:648.10px" class="cls_035"><span class="cls_035">Content-Type: application/json;charset=utf-8</span></div>
+<div style="position:absolute;left:85.10px;top:659.40px" class="cls_035"><span class="cls_035">Content-Length: 44</span></div>
+<div style="position:absolute;left:85.10px;top:670.68px" class="cls_035"><span class="cls_035">Cookie: i18next=en-US; _ga=GA1.2.1342928565.1503323479;</span></div>
+<div style="position:absolute;left:85.10px;top:682.08px" class="cls_035"><span class="cls_035">_ym_uid=1503323480728693018; _gid=GA1.2.1672955713.1503652627; _gat=1; _ym_isad=2</span></div>
+<div style="position:absolute;left:85.10px;top:693.36px" class="cls_035"><span class="cls_035">Connection: close</span></div>
+<div style="position:absolute;left:85.10px;top:716.04px" class="cls_035"><span class="cls_035">{"email":"VICTIM@email.spam","notification":true}</span></div>
+<div style="position:absolute;left:43.80px;top:760.80px" class="cls_015"><span class="cls_015">© 2003—2017, Digital Security</span></div>
+<div style="position:absolute;left:591.46px;top:764.52px" class="cls_006"><span class="cls_006">10</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-306px;top:8020px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="e9ee2f6a-ad19-11e8-b59b-0cc47a792c0a_id_e9ee2f6a-ad19-11e8-b59b-0cc47a792c0a_files/background11.jpg" width=612 height=792></div>
+<div style="position:absolute;left:478.54px;top:12.72px" class="cls_011"><span class="cls_011">КОНФИДЕНЦИАЛЬНО</span></div>
+<div style="position:absolute;left:379.63px;top:36.12px" class="cls_013"><span class="cls_013">Экспертное заключение по результатам проведения</span></div>
+<div style="position:absolute;left:423.07px;top:47.88px" class="cls_013"><span class="cls_013">анализа защищённости инфраструктуры</span></div>
+<div style="position:absolute;left:494.38px;top:55.56px" class="cls_013"><span class="cls_013">компании Cindicator</span></div>
+<div style="position:absolute;left:85.10px;top:112.70px" class="cls_010"><span class="cls_010">Рекомендации:</span></div>
+<div style="position:absolute;left:103.10px;top:131.90px" class="cls_028"><span class="cls_028"></span><span class="cls_027"> </span><span class="cls_002">  Валидировать входные параметры͘</span></div>
+<div style="position:absolute;left:85.10px;top:152.30px" class="cls_008"><span class="cls_008">4.1.2.   Небезопасная конфигурация Flask</span></div>
+<div style="position:absolute;left:85.10px;top:185.54px" class="cls_023"><span class="cls_023">Критичность: </span><span class="cls_033">высокая</span></div>
+<div style="position:absolute;left:85.10px;top:201.26px" class="cls_023"><span class="cls_023">Вероятность эксплуатации: </span><span class="cls_034">средняя</span></div>
+<div style="position:absolute;left:85.10px;top:217.13px" class="cls_023"><span class="cls_023">Итоговый риск: </span><span class="cls_033">высокий</span></div>
+<div style="position:absolute;left:85.10px;top:238.97px" class="cls_010"><span class="cls_010">Описание:</span></div>
+<div style="position:absolute;left:85.10px;top:257.45px" class="cls_002"><span class="cls_002">Злоумышленник может использовать уязвимость для поднятия привилегий или обхода</span></div>
+<div style="position:absolute;left:85.10px;top:273.17px" class="cls_002"><span class="cls_002">аутентификации͘</span></div>
+<div style="position:absolute;left:85.10px;top:295.01px" class="cls_010"><span class="cls_010">Риск:</span></div>
+<div style="position:absolute;left:85.10px;top:313.49px" class="cls_002"><span class="cls_002">Из-за ошибок в конфигурации фреймворка Flask злоумышленник может успешно обходить</span></div>
+<div style="position:absolute;left:85.10px;top:329.33px" class="cls_002"><span class="cls_002">механизмы авторизации͘</span></div>
+<div style="position:absolute;left:85.10px;top:351.05px" class="cls_010"><span class="cls_010">Уязвимые ресурсы:</span></div>
+<div style="position:absolute;left:103.10px;top:370.27px" class="cls_028"><span class="cls_028"></span></div>
+<div style="position:absolute;left:121.10px;top:370.27px" class="cls_002"><span class="cls_002">13.82.   .</span></div>
+<div style="position:absolute;left:103.10px;top:391.51px" class="cls_028"><span class="cls_028"></span></div>
+<div style="position:absolute;left:121.10px;top:391.51px" class="cls_002"><span class="cls_002">13.92.   .</span></div>
+<div style="position:absolute;left:85.10px;top:412.15px" class="cls_010"><span class="cls_010">Технические детали:</span></div>
+<div style="position:absolute;left:85.10px;top:430.51px" class="cls_002"><span class="cls_002">Используется одинаковое значение SECRET_KEY во фреймворке Flask для продуктовой и</span></div>
+<div style="position:absolute;left:85.10px;top:446.35px" class="cls_002"><span class="cls_002">тестовой среды͘ Это значение используется как секретное при генерации сессии, из-за чего,</span></div>
+<div style="position:absolute;left:85.10px;top:462.19px" class="cls_002"><span class="cls_002">заполучив  аккаунт  в  тестовой  среде</span></div>
+<div style="position:absolute;left:294.37px;top:462.19px" class="cls_002"><span class="cls_002">(сессию)  и  не  зная  самого  значения  SECRET_KEY,</span></div>
+<div style="position:absolute;left:85.10px;top:478.03px" class="cls_002"><span class="cls_002">атакующий автоматически получает аккаунт в продуктовой среде͘</span></div>
+<div style="position:absolute;left:43.80px;top:760.80px" class="cls_015"><span class="cls_015">© 2003—2017, Digital Security</span></div>
+<div style="position:absolute;left:591.46px;top:764.52px" class="cls_006"><span class="cls_006">11</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-306px;top:8822px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="e9ee2f6a-ad19-11e8-b59b-0cc47a792c0a_id_e9ee2f6a-ad19-11e8-b59b-0cc47a792c0a_files/background12.jpg" width=612 height=792></div>
+<div style="position:absolute;left:478.54px;top:12.72px" class="cls_011"><span class="cls_011">КОНФИДЕНЦИАЛЬНО</span></div>
+<div style="position:absolute;left:379.63px;top:36.12px" class="cls_013"><span class="cls_013">Экспертное заключение по результатам проведения</span></div>
+<div style="position:absolute;left:423.07px;top:47.88px" class="cls_013"><span class="cls_013">анализа защищённости инфраструктуры</span></div>
+<div style="position:absolute;left:494.38px;top:55.56px" class="cls_013"><span class="cls_013">компании Cindicator</span></div>
+<div style="position:absolute;left:186.38px;top:120.86px" class="cls_023"><span class="cls_023">Рис 4.1.2 - 1. Панель администратора сервера Admin (13.82.   .</span></div>
+<div style="position:absolute;left:541.66px;top:120.86px" class="cls_023"><span class="cls_023">)</span></div>
+<div style="position:absolute;left:85.10px;top:423.79px" class="cls_010"><span class="cls_010">Рекомендации:</span></div>
+<div style="position:absolute;left:103.10px;top:442.99px" class="cls_028"><span class="cls_028"></span><span class="cls_027"> </span><span class="cls_002">  Использовать устойчивое к перебору значение SECRET_KEY.</span></div>
+<div style="position:absolute;left:103.10px;top:464.35px" class="cls_028"><span class="cls_028"></span><span class="cls_027"> </span><span class="cls_002">  Не использовать одинаковые значения SECRET_KEY для тестовой среды и</span></div>
+<div style="position:absolute;left:121.10px;top:478.99px" class="cls_002"><span class="cls_002">продуктовой͘</span></div>
+<div style="position:absolute;left:103.10px;top:500.23px" class="cls_028"><span class="cls_028"></span><span class="cls_027"> </span><span class="cls_002">  Не записывать какие-либо аутентификационные данные (или данные, которые</span></div>
+<div style="position:absolute;left:121.10px;top:514.90px" class="cls_002"><span class="cls_002">участвуют в процессе авторизации) в исходном коде приложения͘</span></div>
+<div style="position:absolute;left:43.80px;top:760.80px" class="cls_015"><span class="cls_015">© 2003—2017, Digital Security</span></div>
+<div style="position:absolute;left:591.46px;top:764.52px" class="cls_006"><span class="cls_006">12</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-306px;top:9624px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="e9ee2f6a-ad19-11e8-b59b-0cc47a792c0a_id_e9ee2f6a-ad19-11e8-b59b-0cc47a792c0a_files/background13.jpg" width=612 height=792></div>
+<div style="position:absolute;left:478.54px;top:12.72px" class="cls_011"><span class="cls_011">КОНФИДЕНЦИАЛЬНО</span></div>
+<div style="position:absolute;left:379.63px;top:36.12px" class="cls_013"><span class="cls_013">Экспертное заключение по результатам проведения</span></div>
+<div style="position:absolute;left:423.07px;top:47.88px" class="cls_013"><span class="cls_013">анализа защищённости инфраструктуры</span></div>
+<div style="position:absolute;left:494.38px;top:55.56px" class="cls_013"><span class="cls_013">компании Cindicator</span></div>
+<div style="position:absolute;left:85.10px;top:112.58px" class="cls_008"><span class="cls_008">4.1.3.   Слабый пароль для сервиса</span></div>
+<div style="position:absolute;left:85.10px;top:145.82px" class="cls_023"><span class="cls_023">Критичность: </span><span class="cls_033">высокая</span></div>
+<div style="position:absolute;left:85.10px;top:161.54px" class="cls_023"><span class="cls_023">Вероятность эксплуатации: </span><span class="cls_033">высокая</span></div>
+<div style="position:absolute;left:85.10px;top:177.38px" class="cls_023"><span class="cls_023">Итоговый риск: </span><span class="cls_033">высокий</span></div>
+<div style="position:absolute;left:85.10px;top:199.22px" class="cls_010"><span class="cls_010">Описание:</span></div>
+<div style="position:absolute;left:85.10px;top:217.73px" class="cls_002"><span class="cls_002">Используется словарный пароль для доступа к сервису.</span></div>
+<div style="position:absolute;left:85.10px;top:239.45px" class="cls_010"><span class="cls_010">Риск:</span></div>
+<div style="position:absolute;left:85.10px;top:257.93px" class="cls_002"><span class="cls_002">Злоумышленник может получить полный доступ к тестовой панели администрирования͘</span></div>
+<div style="position:absolute;left:85.10px;top:273.77px" class="cls_002"><span class="cls_002">Используя знания, полученные в период изучения тестовой среды, злоумышленник может</span></div>
+<div style="position:absolute;left:85.10px;top:289.49px" class="cls_002"><span class="cls_002">успешнее атаковать продуктовую среду͘</span></div>
+<div style="position:absolute;left:85.10px;top:311.33px" class="cls_010"><span class="cls_010">Уязвимый ресурс:</span></div>
+<div style="position:absolute;left:103.10px;top:330.53px" class="cls_028"><span class="cls_028"></span></div>
+<div style="position:absolute;left:121.10px;top:330.53px" class="cls_002"><span class="cls_002">13.92.   .</span></div>
+<div style="position:absolute;left:85.10px;top:351.05px" class="cls_010"><span class="cls_010">Технические детали:</span></div>
+<div style="position:absolute;left:85.10px;top:369.55px" class="cls_002"><span class="cls_002">Учетная запись администратора</span></div>
+<div style="position:absolute;left:286.25px;top:369.55px" class="cls_002"><span class="cls_002"> </span><A HREF="mailto:frolov@cindicator.com">@cindicator.com</A> обладает словарным паролем, из-за</div>
+<div style="position:absolute;left:85.10px;top:385.39px" class="cls_002"><span class="cls_002">чего аудиторами был получен доступ к панели администрирования тестовой среды͘</span></div>
+<div style="position:absolute;left:85.10px;top:407.11px" class="cls_010"><span class="cls_010">Рекомендации:</span></div>
+<div style="position:absolute;left:103.10px;top:426.31px" class="cls_028"><span class="cls_028"></span><span class="cls_027"> </span><span class="cls_002">  Установить стойкий пароль͘</span></div>
+<div style="position:absolute;left:85.10px;top:446.71px" class="cls_008"><span class="cls_008">4.1.4.   Вывод отладочной информации</span></div>
+<div style="position:absolute;left:85.10px;top:479.95px" class="cls_023"><span class="cls_023">Критичность: </span><span class="cls_034">средняя</span></div>
+<div style="position:absolute;left:85.10px;top:495.79px" class="cls_023"><span class="cls_023">Вероятность эксплуатации: </span><span class="cls_034">средняя</span></div>
+<div style="position:absolute;left:85.10px;top:511.66px" class="cls_023"><span class="cls_023">Итоговый риск: </span><span class="cls_034">средний</span></div>
+<div style="position:absolute;left:85.10px;top:533.38px" class="cls_010"><span class="cls_010">Описание:</span></div>
+<div style="position:absolute;left:85.10px;top:551.86px" class="cls_002"><span class="cls_002">В Системе разрешен вывод отладочной информации в случае сбоев в работе͘</span></div>
+<div style="position:absolute;left:85.10px;top:573.70px" class="cls_010"><span class="cls_010">Риск:</span></div>
+<div style="position:absolute;left:85.10px;top:592.06px" class="cls_002"><span class="cls_002">По   ответам   от   сервера   злоумышленник   имеет   возможность   выяснить   версию   ПО,</span></div>
+<div style="position:absolute;left:85.10px;top:607.90px" class="cls_002"><span class="cls_002">используемые классы, пути установки web-приложения и использовать данную информацию</span></div>
+<div style="position:absolute;left:85.10px;top:623.74px" class="cls_002"><span class="cls_002">в будущем для проведения целенаправленных атак͘</span></div>
+<div style="position:absolute;left:85.10px;top:645.58px" class="cls_010"><span class="cls_010">Уязвимый ресурс:</span></div>
+<div style="position:absolute;left:103.10px;top:664.68px" class="cls_028"><span class="cls_028"></span><span class="cls_027"> </span><span class="cls_002">  cindicator.com</span></div>
+<div style="position:absolute;left:103.10px;top:686.04px" class="cls_028"><span class="cls_028"></span></div>
+<div style="position:absolute;left:121.10px;top:686.04px" class="cls_002"><span class="cls_002">13.82.   .</span></div>
+<div style="position:absolute;left:43.80px;top:760.80px" class="cls_015"><span class="cls_015">© 2003—2017, Digital Security</span></div>
+<div style="position:absolute;left:591.46px;top:764.52px" class="cls_006"><span class="cls_006">13</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-306px;top:10426px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="e9ee2f6a-ad19-11e8-b59b-0cc47a792c0a_id_e9ee2f6a-ad19-11e8-b59b-0cc47a792c0a_files/background14.jpg" width=612 height=792></div>
+<div style="position:absolute;left:478.54px;top:12.72px" class="cls_011"><span class="cls_011">КОНФИДЕНЦИАЛЬНО</span></div>
+<div style="position:absolute;left:379.63px;top:36.12px" class="cls_013"><span class="cls_013">Экспертное заключение по результатам проведения</span></div>
+<div style="position:absolute;left:423.07px;top:47.88px" class="cls_013"><span class="cls_013">анализа защищённости инфраструктуры</span></div>
+<div style="position:absolute;left:494.38px;top:55.56px" class="cls_013"><span class="cls_013">компании Cindicator</span></div>
+<div style="position:absolute;left:85.10px;top:112.70px" class="cls_010"><span class="cls_010">Технические детали:</span></div>
+<div style="position:absolute;left:85.10px;top:131.18px" class="cls_002"><span class="cls_002">При  возникновении  исключительных  ситуаций  на  сайте  cindicator͘com  при  обработке</span></div>
+<div style="position:absolute;left:85.10px;top:146.90px" class="cls_002"><span class="cls_002">значения  параметра  i18next  у  HTTP-заголовка  Cookie  происходит  вывод  отладочной</span></div>
+<div style="position:absolute;left:85.10px;top:162.74px" class="cls_002"><span class="cls_002">информации͘  Также  вывод  отладочной   информации  происходит   при  возникновении</span></div>
+<div style="position:absolute;left:85.10px;top:178.58px" class="cls_002"><span class="cls_002">исключительных   ситуаций   при   обработке   значения   параметра</span></div>
+<div style="position:absolute;left:460.27px;top:178.58px" class="cls_002"><span class="cls_002">«e-mailͩ   в   данных</span></div>
+<div style="position:absolute;left:85.10px;top:194.42px" class="cls_002"><span class="cls_002">POST-запроса͘</span></div>
+<div style="position:absolute;left:207.41px;top:224.33px" class="cls_023"><span class="cls_023">Рис 4͘1͘4 - 1͘ Вывод отладочной информации на сайте cindicator.com</span></div>
+<div style="position:absolute;left:85.10px;top:546.22px" class="cls_002"><span class="cls_002">При возникновении исключительных ситуаций в панели администрирования (13͘82͘   .</span></div>
+<div style="position:absolute;left:566.02px;top:546.22px" class="cls_002"><span class="cls_002">)</span></div>
+<div style="position:absolute;left:85.10px;top:561.94px" class="cls_002"><span class="cls_002">при   обработке   POST-запроса   к</span></div>
+<div style="position:absolute;left:274.81px;top:561.94px" class="cls_002"><span class="cls_002">/admin/admins/action   происходит   вывод   отладочной</span></div>
+<div style="position:absolute;left:85.10px;top:577.78px" class="cls_002"><span class="cls_002">информации͘</span></div>
+<div style="position:absolute;left:43.80px;top:760.80px" class="cls_015"><span class="cls_015">© 2003—2017, Digital Security</span></div>
+<div style="position:absolute;left:591.46px;top:764.52px" class="cls_006"><span class="cls_006">14</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-306px;top:11228px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="e9ee2f6a-ad19-11e8-b59b-0cc47a792c0a_id_e9ee2f6a-ad19-11e8-b59b-0cc47a792c0a_files/background15.jpg" width=612 height=792></div>
+<div style="position:absolute;left:478.54px;top:12.72px" class="cls_011"><span class="cls_011">КОНФИДЕНЦИАЛЬНО</span></div>
+<div style="position:absolute;left:379.63px;top:36.12px" class="cls_013"><span class="cls_013">Экспертное заключение по результатам проведения</span></div>
+<div style="position:absolute;left:423.07px;top:47.88px" class="cls_013"><span class="cls_013">анализа защищённости инфраструктуры</span></div>
+<div style="position:absolute;left:494.38px;top:55.56px" class="cls_013"><span class="cls_013">компании Cindicator</span></div>
+<div style="position:absolute;left:188.66px;top:121.22px" class="cls_023"><span class="cls_023">Рис 4͘1͘4 - 2͘ Вывод отладочной информации на хосте 13͘82͘   .</span></div>
+<div style="position:absolute;left:542.38px;top:121.22px" class="cls_032"><span class="cls_032">_</span></div>
+<div style="position:absolute;left:85.10px;top:416.71px" class="cls_010"><span class="cls_010">Рекомендации:</span></div>
+<div style="position:absolute;left:103.10px;top:435.91px" class="cls_028"><span class="cls_028"></span><span class="cls_027"> </span><span class="cls_002">  Отключить вывод отладочной информации.</span></div>
+<div style="position:absolute;left:85.10px;top:456.31px" class="cls_008"><span class="cls_008">4.1.5.   Отсутствие защиты от атак типа clickjacking</span></div>
+<div style="position:absolute;left:85.10px;top:489.55px" class="cls_023"><span class="cls_023">Критичность: </span><span class="cls_034">средняя</span></div>
+<div style="position:absolute;left:85.10px;top:505.42px" class="cls_023"><span class="cls_023">Вероятность эксплуатации: </span><span class="cls_034">средняя</span></div>
+<div style="position:absolute;left:85.10px;top:521.26px" class="cls_023"><span class="cls_023">Итоговый риск: </span><span class="cls_034">средний</span></div>
+<div style="position:absolute;left:85.10px;top:542.98px" class="cls_010"><span class="cls_010">Описание:</span></div>
+<div style="position:absolute;left:85.10px;top:561.46px" class="cls_002"><span class="cls_002">Web-сервер не использует заголовок X-Frame-Options.</span></div>
+<div style="position:absolute;left:85.10px;top:583.30px" class="cls_010"><span class="cls_010">Риск:</span></div>
+<div style="position:absolute;left:85.10px;top:601.66px" class="cls_002"><span class="cls_002">Сайт Системы, загруженный во фрейме на стороннем ресурсе злоумышленника, может быть</span></div>
+<div style="position:absolute;left:85.10px;top:617.50px" class="cls_002"><span class="cls_002">использован для осуществления фишинговых и кликджекинговых атак на пользователей и</span></div>
+<div style="position:absolute;left:85.10px;top:633.34px" class="cls_002"><span class="cls_002">манипуляций с Системой без их ведома͘ Например, пользователь будет находиться на сайте</span></div>
+<div style="position:absolute;left:85.10px;top:649.18px" class="cls_002"><span class="cls_002">злоумышленника и выполнять там какие-то действия (клики мышью, набор текста), при этом</span></div>
+<div style="position:absolute;left:85.10px;top:664.92px" class="cls_002"><span class="cls_002">сами действия будут отправляться и обрабатываться в Системе, а не сайте злоумышленника</span></div>
+<div style="position:absolute;left:85.10px;top:680.76px" class="cls_002"><span class="cls_002">(за счёт отображения сайта и Системы на различных слоях)͘</span></div>
+<div style="position:absolute;left:43.80px;top:760.80px" class="cls_015"><span class="cls_015">© 2003—2017, Digital Security</span></div>
+<div style="position:absolute;left:591.46px;top:764.52px" class="cls_006"><span class="cls_006">15</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-306px;top:12030px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="e9ee2f6a-ad19-11e8-b59b-0cc47a792c0a_id_e9ee2f6a-ad19-11e8-b59b-0cc47a792c0a_files/background16.jpg" width=612 height=792></div>
+<div style="position:absolute;left:478.54px;top:12.72px" class="cls_011"><span class="cls_011">КОНФИДЕНЦИАЛЬНО</span></div>
+<div style="position:absolute;left:379.63px;top:36.12px" class="cls_013"><span class="cls_013">Экспертное заключение по результатам проведения</span></div>
+<div style="position:absolute;left:423.07px;top:47.88px" class="cls_013"><span class="cls_013">анализа защищённости инфраструктуры</span></div>
+<div style="position:absolute;left:494.38px;top:55.56px" class="cls_013"><span class="cls_013">компании Cindicator</span></div>
+<div style="position:absolute;left:85.10px;top:112.70px" class="cls_010"><span class="cls_010">Уязвимый ресурс:</span></div>
+<div style="position:absolute;left:103.10px;top:131.90px" class="cls_028"><span class="cls_028"></span><span class="cls_027"> </span><span class="cls_002">  cindicator.com</span></div>
+<div style="position:absolute;left:85.10px;top:152.42px" class="cls_010"><span class="cls_010">Технические детали:</span></div>
+<div style="position:absolute;left:85.10px;top:170.90px" class="cls_002"><span class="cls_002">cindicator͘com и его поддомены (в том числе для проведения ICO) подвержены атаке</span></div>
+<div style="position:absolute;left:85.10px;top:186.74px" class="cls_002"><span class="cls_002">clickjacking͘  Эксплуатируя  это  поведение  Системы,  злоумышленник  может  подменять</span></div>
+<div style="position:absolute;left:85.10px;top:202.46px" class="cls_002"><span class="cls_002">видимую пользователем информацию на сайте (например, Ethereum-адрес контракта при</span></div>
+<div style="position:absolute;left:85.10px;top:218.33px" class="cls_002"><span class="cls_002">ICO).</span></div>
+<div style="position:absolute;left:85.10px;top:240.17px" class="cls_010"><span class="cls_010">Рекомендации:</span></div>
+<div style="position:absolute;left:103.10px;top:259.25px" class="cls_028"><span class="cls_028"></span><span class="cls_027"> </span><span class="cls_002">  Добавить во все заголовки ответов от web-сервера заголовок X-Frame-Options со</span></div>
+<div style="position:absolute;left:121.10px;top:274.01px" class="cls_002"><span class="cls_002">значением ”DENY” или ”SAMEORIGIN”.</span></div>
+<div style="position:absolute;left:85.10px;top:294.41px" class="cls_008"><span class="cls_008">4.1.6.   Межсайтовый скриптинг отраженный</span></div>
+<div style="position:absolute;left:85.10px;top:327.65px" class="cls_023"><span class="cls_023">Критичность: </span><span class="cls_034">средняя</span></div>
+<div style="position:absolute;left:85.10px;top:343.37px" class="cls_023"><span class="cls_023">Вероятность эксплуатации: </span><span class="cls_039">низкая</span></div>
+<div style="position:absolute;left:85.10px;top:359.23px" class="cls_023"><span class="cls_023">Итоговый риск: </span><span class="cls_039">низкий</span></div>
+<div style="position:absolute;left:85.10px;top:381.07px" class="cls_010"><span class="cls_010">Описание:</span></div>
+<div style="position:absolute;left:85.10px;top:399.43px" class="cls_002"><span class="cls_002">Возможна атака на пользователей Системы с применением отраженного межсайтового</span></div>
+<div style="position:absolute;left:85.10px;top:415.27px" class="cls_002"><span class="cls_002">скриптинга (XSS)͘</span></div>
+<div style="position:absolute;left:85.10px;top:437.11px" class="cls_010"><span class="cls_010">Риск:</span></div>
+<div style="position:absolute;left:85.10px;top:455.59px" class="cls_002"><span class="cls_002">В  случае  успешной  атаки  злоумышленник  сможет  полностью  контролировать  то,  что</span></div>
+<div style="position:absolute;left:85.10px;top:471.31px" class="cls_002"><span class="cls_002">отображается  в  браузере  пользователя,  и  то,  что  отправляется  на  сервер,  а  также</span></div>
+<div style="position:absolute;left:85.10px;top:487.15px" class="cls_002"><span class="cls_002">эмулировать действия пользователя на сайте͘</span></div>
+<div style="position:absolute;left:85.10px;top:509.02px" class="cls_010"><span class="cls_010">Уязвимый ресурс:</span></div>
+<div style="position:absolute;left:103.10px;top:528.10px" class="cls_028"><span class="cls_028"></span><span class="cls_027"> </span><span class="cls_002">  cindicator.com</span></div>
+<div style="position:absolute;left:85.10px;top:548.74px" class="cls_010"><span class="cls_010">Технические детали:</span></div>
+<div style="position:absolute;left:85.10px;top:567.22px" class="cls_002"><span class="cls_002">Валидация параметра i18next у заголовка Cookie недостаточна, и если злоумышленник</span></div>
+<div style="position:absolute;left:85.10px;top:582.94px" class="cls_002"><span class="cls_002">сможет контролировать Cookie, то он сможет эксплуатировать данную уязвимость͘</span></div>
+<div style="position:absolute;left:43.80px;top:760.80px" class="cls_015"><span class="cls_015">© 2003—2017, Digital Security</span></div>
+<div style="position:absolute;left:591.46px;top:764.52px" class="cls_006"><span class="cls_006">16</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-306px;top:12832px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="e9ee2f6a-ad19-11e8-b59b-0cc47a792c0a_id_e9ee2f6a-ad19-11e8-b59b-0cc47a792c0a_files/background17.jpg" width=612 height=792></div>
+<div style="position:absolute;left:478.54px;top:12.72px" class="cls_011"><span class="cls_011">КОНФИДЕНЦИАЛЬНО</span></div>
+<div style="position:absolute;left:379.63px;top:36.12px" class="cls_013"><span class="cls_013">Экспертное заключение по результатам проведения</span></div>
+<div style="position:absolute;left:423.07px;top:47.88px" class="cls_013"><span class="cls_013">анализа защищённости инфраструктуры</span></div>
+<div style="position:absolute;left:494.38px;top:55.56px" class="cls_013"><span class="cls_013">компании Cindicator</span></div>
+<div style="position:absolute;left:400.99px;top:129.86px" class="cls_023"><span class="cls_023">Рис 4͘1͘6 - 1͘ Пример запроса</span></div>
+<div style="position:absolute;left:85.10px;top:474.79px" class="cls_010"><span class="cls_010">Рекомендации:</span></div>
+<div style="position:absolute;left:103.10px;top:493.99px" class="cls_028"><span class="cls_028"></span><span class="cls_027"> </span><span class="cls_002">  Фильтровать и экранировать все передаваемые параметры.</span></div>
+<div style="position:absolute;left:43.80px;top:760.80px" class="cls_015"><span class="cls_015">© 2003—2017, Digital Security</span></div>
+<div style="position:absolute;left:591.46px;top:764.52px" class="cls_006"><span class="cls_006">17</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-306px;top:13634px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="e9ee2f6a-ad19-11e8-b59b-0cc47a792c0a_id_e9ee2f6a-ad19-11e8-b59b-0cc47a792c0a_files/background18.jpg" width=612 height=792></div>
+<div style="position:absolute;left:478.54px;top:12.72px" class="cls_011"><span class="cls_011">КОНФИДЕНЦИАЛЬНО</span></div>
+<div style="position:absolute;left:379.63px;top:36.12px" class="cls_013"><span class="cls_013">Экспертное заключение по результатам проведения</span></div>
+<div style="position:absolute;left:423.07px;top:47.88px" class="cls_013"><span class="cls_013">анализа защищённости инфраструктуры</span></div>
+<div style="position:absolute;left:494.38px;top:55.56px" class="cls_013"><span class="cls_013">компании Cindicator</span></div>
+<div style="position:absolute;left:85.10px;top:112.58px" class="cls_008"><span class="cls_008">4.1.7.   Небезопасная конфигурация CORS</span></div>
+<div style="position:absolute;left:85.10px;top:145.82px" class="cls_023"><span class="cls_023">Критичность: </span><span class="cls_034">средняя</span></div>
+<div style="position:absolute;left:85.10px;top:161.54px" class="cls_023"><span class="cls_023">Вероятность эксплуатации: </span><span class="cls_039">низкая</span></div>
+<div style="position:absolute;left:85.10px;top:177.38px" class="cls_023"><span class="cls_023">Итоговый риск: </span><span class="cls_039">низкий</span></div>
+<div style="position:absolute;left:85.10px;top:199.22px" class="cls_010"><span class="cls_010">Описание:</span></div>
+<div style="position:absolute;left:85.10px;top:217.73px" class="cls_002"><span class="cls_002">Злоумышленник может получить доступ к чувствительной информации пользователя͘</span></div>
+<div style="position:absolute;left:85.10px;top:239.45px" class="cls_010"><span class="cls_010">Риск:</span></div>
+<div style="position:absolute;left:85.10px;top:257.93px" class="cls_002"><span class="cls_002">Неправильная  конфигурация  web-сервера  с  включенным  механизмом  междоменного</span></div>
+<div style="position:absolute;left:85.10px;top:273.77px" class="cls_002"><span class="cls_002">взаимодействия   сайтов   CORS</span></div>
+<div style="position:absolute;left:260.23px;top:273.77px" class="cls_002"><span class="cls_002">(Cross-Origin   Resource   Sharing),   позволяющая   получить</span></div>
+<div style="position:absolute;left:85.10px;top:289.49px" class="cls_002"><span class="cls_002">чувствительную информацию пользователей сайта͘</span></div>
+<div style="position:absolute;left:85.10px;top:311.33px" class="cls_010"><span class="cls_010">Уязвимый ресурс:</span></div>
+<div style="position:absolute;left:103.10px;top:329.93px" class="cls_041"><span class="cls_041"></span><span class="cls_040"> </span><span class="cls_002">   tokensale.cindicator.com</span></div>
+<div style="position:absolute;left:85.10px;top:350.45px" class="cls_010"><span class="cls_010">Технические детали:</span></div>
+<div style="position:absolute;left:238.37px;top:368.95px" class="cls_023"><span class="cls_023">Рис 4͘1͘7 - 1. Недостаточная обработка HTTP-заголовка Origin</span></div>
+<div style="position:absolute;left:85.10px;top:527.98px" class="cls_010"><span class="cls_010">Рекомендации:</span></div>
+<div style="position:absolute;left:103.10px;top:547.18px" class="cls_028"><span class="cls_028"></span><span class="cls_027"> </span><span class="cls_002">  Настроить белый список доменов, с которых возможно обращение к целевому</span></div>
+<div style="position:absolute;left:121.10px;top:561.82px" class="cls_002"><span class="cls_002">домену, и проверять вхождение значения заголовка Origin в этот список͘</span></div>
+<div style="position:absolute;left:43.80px;top:760.80px" class="cls_015"><span class="cls_015">© 2003—2017, Digital Security</span></div>
+<div style="position:absolute;left:591.46px;top:764.52px" class="cls_006"><span class="cls_006">18</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-306px;top:14436px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="e9ee2f6a-ad19-11e8-b59b-0cc47a792c0a_id_e9ee2f6a-ad19-11e8-b59b-0cc47a792c0a_files/background19.jpg" width=612 height=792></div>
+<div style="position:absolute;left:478.54px;top:12.72px" class="cls_011"><span class="cls_011">КОНФИДЕНЦИАЛЬНО</span></div>
+<div style="position:absolute;left:379.63px;top:36.12px" class="cls_013"><span class="cls_013">Экспертное заключение по результатам проведения</span></div>
+<div style="position:absolute;left:423.07px;top:47.88px" class="cls_013"><span class="cls_013">анализа защищённости инфраструктуры</span></div>
+<div style="position:absolute;left:494.38px;top:55.56px" class="cls_013"><span class="cls_013">компании Cindicator</span></div>
+<div style="position:absolute;left:85.10px;top:112.58px" class="cls_008"><span class="cls_008">4.1.8.   Раскрытие информации</span></div>
+<div style="position:absolute;left:85.10px;top:145.82px" class="cls_023"><span class="cls_023">Критичность: </span><span class="cls_039">низкая</span></div>
+<div style="position:absolute;left:85.10px;top:161.54px" class="cls_023"><span class="cls_023">Вероятность эксплуатации: </span><span class="cls_034">средняя</span></div>
+<div style="position:absolute;left:85.10px;top:177.38px" class="cls_023"><span class="cls_023">Итоговый риск: </span><span class="cls_039">низкий</span></div>
+<div style="position:absolute;left:85.10px;top:199.22px" class="cls_010"><span class="cls_010">Описание:</span></div>
+<div style="position:absolute;left:85.10px;top:217.73px" class="cls_002"><span class="cls_002">Механизм source maps позволяет удобно отлаживать найденные недостатки в продуктовой</span></div>
+<div style="position:absolute;left:85.10px;top:233.45px" class="cls_002"><span class="cls_002">среде͘</span></div>
+<div style="position:absolute;left:85.10px;top:249.29px" class="cls_002"><span class="cls_002">Риск:</span></div>
+<div style="position:absolute;left:85.10px;top:265.13px" class="cls_002"><span class="cls_002">Злоумышленник может получить полную информацию о технологиях, используемых на</span></div>
+<div style="position:absolute;left:85.10px;top:280.85px" class="cls_002"><span class="cls_002">клиентской  стороне  приложения,  а  также  получить  исходный  код  клиентской  части</span></div>
+<div style="position:absolute;left:85.10px;top:296.69px" class="cls_002"><span class="cls_002">приложения (до минификации), что облегчает поиск уязвимостей͘</span></div>
+<div style="position:absolute;left:85.10px;top:318.53px" class="cls_010"><span class="cls_010">Уязвимый ресурс:</span></div>
+<div style="position:absolute;left:103.10px;top:337.73px" class="cls_028"><span class="cls_028"></span><span class="cls_027"> </span><span class="cls_002">  tokensale.cindicator.com</span></div>
+<div style="position:absolute;left:85.10px;top:358.27px" class="cls_010"><span class="cls_010">Технические детали:</span></div>
+<div style="position:absolute;left:85.10px;top:376.75px" class="cls_002"><span class="cls_002">Неотключенный механизм source maps позволяет получить исходный код клиентской части</span></div>
+<div style="position:absolute;left:85.10px;top:392.47px" class="cls_002"><span class="cls_002">приложения до минификации͘</span></div>
+<div style="position:absolute;left:249.53px;top:408.31px" class="cls_023"><span class="cls_023">Рис 4.1.8 - 1. Пример обращения к папке с файлом source map</span></div>
+<div style="position:absolute;left:85.10px;top:627.46px" class="cls_002"><span class="cls_002">Браузер обрабатывает файл main.7982e5fc.js.map (см͘ </span><span class="cls_023">Рис 4.1.8 - 1.</span><span class="cls_002">) и добавляет полную</span></div>
+<div style="position:absolute;left:85.10px;top:643.18px" class="cls_002"><span class="cls_002">информацию об исходных кодах клиентской части приложения͘</span></div>
+<div style="position:absolute;left:43.80px;top:760.80px" class="cls_015"><span class="cls_015">© 2003—2017, Digital Security</span></div>
+<div style="position:absolute;left:591.46px;top:764.52px" class="cls_006"><span class="cls_006">19</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-306px;top:15238px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="e9ee2f6a-ad19-11e8-b59b-0cc47a792c0a_id_e9ee2f6a-ad19-11e8-b59b-0cc47a792c0a_files/background20.jpg" width=612 height=792></div>
+<div style="position:absolute;left:478.54px;top:12.72px" class="cls_011"><span class="cls_011">КОНФИДЕНЦИАЛЬНО</span></div>
+<div style="position:absolute;left:379.63px;top:36.12px" class="cls_013"><span class="cls_013">Экспертное заключение по результатам проведения</span></div>
+<div style="position:absolute;left:423.07px;top:47.88px" class="cls_013"><span class="cls_013">анализа защищённости инфраструктуры</span></div>
+<div style="position:absolute;left:494.38px;top:55.56px" class="cls_013"><span class="cls_013">компании Cindicator</span></div>
+<div style="position:absolute;left:274.85px;top:129.98px" class="cls_023"><span class="cls_023">Рис 4.1.8 - 2͘ Технология source map наглядно в браузере</span></div>
+<div style="position:absolute;left:85.10px;top:391.87px" class="cls_010"><span class="cls_010">Рекомендации:</span></div>
+<div style="position:absolute;left:103.10px;top:410.47px" class="cls_041"><span class="cls_041"></span><span class="cls_040"> </span><span class="cls_002">   Отключить механизм source maps.</span></div>
+<div style="position:absolute;left:43.80px;top:760.80px" class="cls_015"><span class="cls_015">© 2003—2017, Digital Security</span></div>
+<div style="position:absolute;left:591.46px;top:764.52px" class="cls_006"><span class="cls_006">20</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-306px;top:16040px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="e9ee2f6a-ad19-11e8-b59b-0cc47a792c0a_id_e9ee2f6a-ad19-11e8-b59b-0cc47a792c0a_files/background21.jpg" width=612 height=792></div>
+<div style="position:absolute;left:478.54px;top:12.72px" class="cls_011"><span class="cls_011">КОНФИДЕНЦИАЛЬНО</span></div>
+<div style="position:absolute;left:379.63px;top:36.12px" class="cls_013"><span class="cls_013">Экспертное заключение по результатам проведения</span></div>
+<div style="position:absolute;left:423.07px;top:47.88px" class="cls_013"><span class="cls_013">анализа защищённости инфраструктуры</span></div>
+<div style="position:absolute;left:494.38px;top:55.56px" class="cls_013"><span class="cls_013">компании Cindicator</span></div>
+<div style="position:absolute;left:85.10px;top:112.22px" class="cls_019"><span class="cls_019">5. Заключение</span></div>
+<div style="position:absolute;left:116.66px;top:156.26px" class="cls_002"><span class="cls_002">В ходе работ аудиторами была выявлена особенность конфигурации и развертывания</span></div>
+<div style="position:absolute;left:85.10px;top:172.10px" class="cls_002"><span class="cls_002">web-приложения     администрирования,     которая     потенциально     могла     помочь</span></div>
+<div style="position:absolute;left:85.10px;top:187.94px" class="cls_002"><span class="cls_002">злоумышленнику скомпрометировать Систему͘</span></div>
+<div style="position:absolute;left:116.66px;top:203.78px" class="cls_002"><span class="cls_002">В силу того, что тестовый сервер был доступен лишь на время проведения работ, но  в</span></div>
+<div style="position:absolute;left:85.10px;top:219.53px" class="cls_002"><span class="cls_002">Системе присутствуют другие уязвимости - общий уровень безопасности Системы на момент</span></div>
+<div style="position:absolute;left:85.10px;top:235.37px" class="cls_002"><span class="cls_002">проведения работ можно определить как «среднийͩ͘</span></div>
+<div style="position:absolute;left:43.80px;top:760.80px" class="cls_015"><span class="cls_015">© 2003—2017, Digital Security</span></div>
+<div style="position:absolute;left:591.46px;top:764.52px" class="cls_006"><span class="cls_006">21</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-306px;top:16842px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="e9ee2f6a-ad19-11e8-b59b-0cc47a792c0a_id_e9ee2f6a-ad19-11e8-b59b-0cc47a792c0a_files/background22.jpg" width=612 height=792></div>
+<div style="position:absolute;left:478.54px;top:12.72px" class="cls_011"><span class="cls_011">КОНФИДЕНЦИАЛЬНО</span></div>
+<div style="position:absolute;left:379.63px;top:36.12px" class="cls_013"><span class="cls_013">Экспертное заключение по результатам проведения</span></div>
+<div style="position:absolute;left:423.07px;top:47.88px" class="cls_013"><span class="cls_013">анализа защищённости инфраструктуры</span></div>
+<div style="position:absolute;left:494.38px;top:55.56px" class="cls_013"><span class="cls_013">компании Cindicator</span></div>
+<div style="position:absolute;left:85.10px;top:112.22px" class="cls_019"><span class="cls_019">Приложение 1. Анализ уровня защищенности.</span></div>
+<div style="position:absolute;left:85.10px;top:143.78px" class="cls_019"><span class="cls_019">Справочная информация</span></div>
+<div style="position:absolute;left:85.10px;top:187.82px" class="cls_021"><span class="cls_021">Анализ уровня защищенности</span></div>
+<div style="position:absolute;left:85.10px;top:217.73px" class="cls_002"><span class="cls_002">Для  анализа  уровня  защищенности  необходимо  оценить  критичность  и  вероятность</span></div>
+<div style="position:absolute;left:85.10px;top:233.45px" class="cls_002"><span class="cls_002">реализации выявленных в ходе аудита уязвимостей͘ Вероятность реализации определяется</span></div>
+<div style="position:absolute;left:85.10px;top:249.29px" class="cls_002"><span class="cls_002">доступностью и простотой реализации уязвимости͘</span></div>
+<div style="position:absolute;left:85.10px;top:271.01px" class="cls_021"><span class="cls_021">Критичность реализации уязвимости</span></div>
+<div style="position:absolute;left:85.10px;top:300.77px" class="cls_002"><span class="cls_002">Свойство</span></div>
+<div style="position:absolute;left:140.99px;top:300.77px" class="cls_002"><span class="cls_002">«критичность  реализацииͩ  некоторой  уязвимости  характеризует  возможные</span></div>
+<div style="position:absolute;left:85.10px;top:316.61px" class="cls_002"><span class="cls_002">последствия   реализации   данной   уязвимости   с   точки   зрения   угроз   нарушения</span></div>
+<div style="position:absolute;left:85.10px;top:332.45px" class="cls_002"><span class="cls_002">конфиденциальности,   целостности   и   доступности   информации,   обрабатываемой   на</span></div>
+<div style="position:absolute;left:85.10px;top:348.29px" class="cls_002"><span class="cls_002">уязвимом ресурсе͘ Описание уровней критичности реализации уязвимостей приведено в</span></div>
+<div style="position:absolute;left:85.10px;top:364.03px" class="cls_002"><span class="cls_002">Таблице А-1.</span></div>
+<div style="position:absolute;left:315.41px;top:379.87px" class="cls_023"><span class="cls_023">Таблица А-1͘ Уровни критичности уязвимостей</span></div>
+<div style="position:absolute;left:160.10px;top:397.15px" class="cls_024"><span class="cls_024">Нарушение</span></div>
+<div style="position:absolute;left:287.69px;top:397.15px" class="cls_024"><span class="cls_024">Нарушение</span></div>
+<div style="position:absolute;left:90.02px;top:405.07px" class="cls_024"><span class="cls_024">Значение</span></div>
+<div style="position:absolute;left:415.27px;top:405.07px" class="cls_024"><span class="cls_024">Нарушение доступности</span></div>
+<div style="position:absolute;left:160.10px;top:412.99px" class="cls_024"><span class="cls_024">конфиденциальности</span></div>
+<div style="position:absolute;left:287.69px;top:412.99px" class="cls_024"><span class="cls_024">целостности</span></div>
+<div style="position:absolute;left:90.02px;top:430.27px" class="cls_002"><span class="cls_002">Отсутствует</span></div>
+<div style="position:absolute;left:160.10px;top:430.27px" class="cls_002"><span class="cls_002">Не происходит</span></div>
+<div style="position:absolute;left:287.69px;top:430.27px" class="cls_002"><span class="cls_002">Не происходит</span></div>
+<div style="position:absolute;left:415.27px;top:430.27px" class="cls_002"><span class="cls_002">Не происходит</span></div>
+<div style="position:absolute;left:160.10px;top:447.55px" class="cls_002"><span class="cls_002">Получение</span></div>
+<div style="position:absolute;left:287.69px;top:447.55px" class="cls_002"><span class="cls_002">Нарушение</span></div>
+<div style="position:absolute;left:160.10px;top:463.39px" class="cls_002"><span class="cls_002">нарушителем доступа</span></div>
+<div style="position:absolute;left:287.69px;top:463.39px" class="cls_002"><span class="cls_002">целостности</span></div>
+<div style="position:absolute;left:415.27px;top:471.31px" class="cls_002"><span class="cls_002">Кратковременный отказ в</span></div>
+<div style="position:absolute;left:160.10px;top:479.23px" class="cls_002"><span class="cls_002">к некритичной</span></div>
+<div style="position:absolute;left:287.69px;top:479.23px" class="cls_002"><span class="cls_002">некритичной</span></div>
+<div style="position:absolute;left:90.02px;top:487.15px" class="cls_002"><span class="cls_002">Низкий</span></div>
+<div style="position:absolute;left:415.27px;top:487.15px" class="cls_002"><span class="cls_002">обслуживании критичного</span></div>
+<div style="position:absolute;left:160.10px;top:495.07px" class="cls_002"><span class="cls_002">информации в</span></div>
+<div style="position:absolute;left:287.69px;top:495.07px" class="cls_002"><span class="cls_002">информации с</span></div>
+<div style="position:absolute;left:415.27px;top:503.02px" class="cls_002"><span class="cls_002">приложения</span></div>
+<div style="position:absolute;left:160.10px;top:510.82px" class="cls_002"><span class="cls_002">результате эскалации</span></div>
+<div style="position:absolute;left:287.69px;top:510.82px" class="cls_002"><span class="cls_002">правами обычного</span></div>
+<div style="position:absolute;left:160.10px;top:526.66px" class="cls_002"><span class="cls_002">привилегий</span></div>
+<div style="position:absolute;left:287.69px;top:526.66px" class="cls_002"><span class="cls_002">пользователя</span></div>
+<div style="position:absolute;left:160.10px;top:543.94px" class="cls_002"><span class="cls_002">Нарушение</span></div>
+<div style="position:absolute;left:287.69px;top:543.94px" class="cls_002"><span class="cls_002">Нарушение</span></div>
+<div style="position:absolute;left:160.10px;top:559.78px" class="cls_002"><span class="cls_002">конфиденциальности</span></div>
+<div style="position:absolute;left:287.69px;top:559.78px" class="cls_002"><span class="cls_002">целостности</span></div>
+<div style="position:absolute;left:415.27px;top:559.78px" class="cls_002"><span class="cls_002">Отказ в обслуживании</span></div>
+<div style="position:absolute;left:160.10px;top:575.62px" class="cls_002"><span class="cls_002">критичной</span></div>
+<div style="position:absolute;left:287.69px;top:575.62px" class="cls_002"><span class="cls_002">критичной</span></div>
+<div style="position:absolute;left:415.27px;top:575.62px" class="cls_002"><span class="cls_002">критичного приложения</span></div>
+<div style="position:absolute;left:90.02px;top:583.54px" class="cls_002"><span class="cls_002">Средний</span></div>
+<div style="position:absolute;left:160.10px;top:591.46px" class="cls_002"><span class="cls_002">информации с</span></div>
+<div style="position:absolute;left:287.69px;top:591.46px" class="cls_002"><span class="cls_002">информации с</span></div>
+<div style="position:absolute;left:415.27px;top:591.46px" class="cls_002"><span class="cls_002">или кратковременный отказ</span></div>
+<div style="position:absolute;left:160.10px;top:607.18px" class="cls_002"><span class="cls_002">правами обычного</span></div>
+<div style="position:absolute;left:287.69px;top:607.18px" class="cls_002"><span class="cls_002">правами обычного</span></div>
+<div style="position:absolute;left:415.27px;top:607.18px" class="cls_002"><span class="cls_002">в обслуживании</span></div>
+<div style="position:absolute;left:160.10px;top:623.02px" class="cls_002"><span class="cls_002">пользователя</span></div>
+<div style="position:absolute;left:287.69px;top:623.02px" class="cls_002"><span class="cls_002">пользователя</span></div>
+<div style="position:absolute;left:160.10px;top:640.30px" class="cls_002"><span class="cls_002">Нарушение</span></div>
+<div style="position:absolute;left:287.69px;top:640.30px" class="cls_002"><span class="cls_002">Нарушение</span></div>
+<div style="position:absolute;left:160.10px;top:656.16px" class="cls_002"><span class="cls_002">конфиденциальности</span></div>
+<div style="position:absolute;left:287.69px;top:656.16px" class="cls_002"><span class="cls_002">целостности</span></div>
+<div style="position:absolute;left:90.02px;top:672.00px" class="cls_002"><span class="cls_002">Высокий</span></div>
+<div style="position:absolute;left:160.10px;top:672.00px" class="cls_002"><span class="cls_002">критичной</span></div>
+<div style="position:absolute;left:287.69px;top:672.00px" class="cls_002"><span class="cls_002">критичной</span></div>
+<div style="position:absolute;left:415.27px;top:672.00px" class="cls_002"><span class="cls_002">Отказ в обслуживании</span></div>
+<div style="position:absolute;left:160.10px;top:687.72px" class="cls_002"><span class="cls_002">информации с</span></div>
+<div style="position:absolute;left:287.69px;top:687.72px" class="cls_002"><span class="cls_002">информации с</span></div>
+<div style="position:absolute;left:160.10px;top:703.56px" class="cls_002"><span class="cls_002">правами</span></div>
+<div style="position:absolute;left:287.69px;top:703.56px" class="cls_002"><span class="cls_002">правами</span></div>
+<div style="position:absolute;left:43.80px;top:760.80px" class="cls_015"><span class="cls_015">© 2003—2017, Digital Security</span></div>
+<div style="position:absolute;left:591.46px;top:764.52px" class="cls_006"><span class="cls_006">22</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-306px;top:17644px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="e9ee2f6a-ad19-11e8-b59b-0cc47a792c0a_id_e9ee2f6a-ad19-11e8-b59b-0cc47a792c0a_files/background23.jpg" width=612 height=792></div>
+<div style="position:absolute;left:478.54px;top:12.72px" class="cls_011"><span class="cls_011">КОНФИДЕНЦИАЛЬНО</span></div>
+<div style="position:absolute;left:379.63px;top:36.12px" class="cls_013"><span class="cls_013">Экспертное заключение по результатам проведения</span></div>
+<div style="position:absolute;left:423.07px;top:47.88px" class="cls_013"><span class="cls_013">анализа защищённости инфраструктуры</span></div>
+<div style="position:absolute;left:494.38px;top:55.56px" class="cls_013"><span class="cls_013">компании Cindicator</span></div>
+<div style="position:absolute;left:160.10px;top:114.14px" class="cls_002"><span class="cls_002">администратора</span></div>
+<div style="position:absolute;left:287.69px;top:114.14px" class="cls_002"><span class="cls_002">администратора</span></div>
+<div style="position:absolute;left:85.10px;top:137.42px" class="cls_021"><span class="cls_021">Простота эксплуатации уязвимости</span></div>
+<div style="position:absolute;left:85.10px;top:167.18px" class="cls_002"><span class="cls_002">Свойство «простота эксплуатацииͩ некоторой уязвимости определяет, какие аппаратные и</span></div>
+<div style="position:absolute;left:85.10px;top:183.02px" class="cls_002"><span class="cls_002">программные средства, профессиональные навыки, а также какое количество временных и</span></div>
+<div style="position:absolute;left:85.10px;top:198.86px" class="cls_002"><span class="cls_002">вычислительных  ресурсов,  необходимо  потенциальному  нарушителю  для  реализации</span></div>
+<div style="position:absolute;left:85.10px;top:214.73px" class="cls_002"><span class="cls_002">некоторой уязвимости (Таблица А-2).</span></div>
+<div style="position:absolute;left:259.97px;top:246.29px" class="cls_023"><span class="cls_023">Таблица А-2͘ Уровни простоты эксплуатации уязвимости</span></div>
+<div style="position:absolute;left:85.10px;top:263.57px" class="cls_024"><span class="cls_024">Значение</span></div>
+<div style="position:absolute;left:160.94px;top:263.57px" class="cls_024"><span class="cls_024">Описание</span></div>
+<div style="position:absolute;left:160.94px;top:280.85px" class="cls_002"><span class="cls_002">Для эксплуатации уязвимости требуется разработка новых программных</span></div>
+<div style="position:absolute;left:160.94px;top:296.69px" class="cls_002"><span class="cls_002">средств, проведение анализа конфигурации атакуемой системы, выявление и</span></div>
+<div style="position:absolute;left:160.94px;top:312.53px" class="cls_002"><span class="cls_002">проверка различных возможных путей и условий успешной эксплуатации</span></div>
+<div style="position:absolute;left:85.10px;top:320.45px" class="cls_002"><span class="cls_002">Низкий</span></div>
+<div style="position:absolute;left:160.94px;top:328.37px" class="cls_002"><span class="cls_002">данной уязвимости, вычислительные мощности или временной резерв͘</span></div>
+<div style="position:absolute;left:160.94px;top:344.09px" class="cls_002"><span class="cls_002">Атакующий должен обладать значительными профессиональными навыками</span></div>
+<div style="position:absolute;left:160.94px;top:359.95px" class="cls_002"><span class="cls_002">и познаниями в специфичных областях͘</span></div>
+<div style="position:absolute;left:160.94px;top:377.23px" class="cls_002"><span class="cls_002">Для эксплуатации уязвимости требуется наличие специальных программных</span></div>
+<div style="position:absolute;left:160.94px;top:393.07px" class="cls_002"><span class="cls_002">или аппаратных средств, проведение анализа конфигурации атакуемой</span></div>
+<div style="position:absolute;left:85.10px;top:408.91px" class="cls_002"><span class="cls_002">Средний</span></div>
+<div style="position:absolute;left:160.94px;top:408.91px" class="cls_002"><span class="cls_002">системы, вычислительные мощности или временной резерв͘ Атакующему</span></div>
+<div style="position:absolute;left:160.94px;top:424.75px" class="cls_002"><span class="cls_002">достаточно обладать незначительным объемом профессиональных навыков и</span></div>
+<div style="position:absolute;left:160.94px;top:440.47px" class="cls_002"><span class="cls_002">познаний для реализации атаки͘</span></div>
+<div style="position:absolute;left:160.94px;top:457.87px" class="cls_002"><span class="cls_002">Для эксплуатации уязвимости не требуется использование специальных</span></div>
+<div style="position:absolute;left:160.94px;top:473.59px" class="cls_002"><span class="cls_002">аппаратных или программных средств, значительные вычислительные</span></div>
+<div style="position:absolute;left:85.10px;top:489.43px" class="cls_002"><span class="cls_002">Высокий</span></div>
+<div style="position:absolute;left:160.94px;top:489.43px" class="cls_002"><span class="cls_002">мощности или временной резерв, детальное знание конфигурации атакуемой</span></div>
+<div style="position:absolute;left:160.94px;top:505.30px" class="cls_002"><span class="cls_002">системы͘ Атакующему для реализации атаки не требуются специфичные</span></div>
+<div style="position:absolute;left:160.94px;top:521.02px" class="cls_002"><span class="cls_002">профессиональные навыки и познания͘</span></div>
+<div style="position:absolute;left:43.80px;top:760.80px" class="cls_015"><span class="cls_015">© 2003—2017, Digital Security</span></div>
+<div style="position:absolute;left:591.46px;top:764.52px" class="cls_006"><span class="cls_006">23</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-306px;top:18446px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="e9ee2f6a-ad19-11e8-b59b-0cc47a792c0a_id_e9ee2f6a-ad19-11e8-b59b-0cc47a792c0a_files/background24.jpg" width=612 height=792></div>
+<div style="position:absolute;left:478.54px;top:12.72px" class="cls_011"><span class="cls_011">КОНФИДЕНЦИАЛЬНО</span></div>
+<div style="position:absolute;left:379.63px;top:36.12px" class="cls_013"><span class="cls_013">Экспертное заключение по результатам проведения</span></div>
+<div style="position:absolute;left:423.07px;top:47.88px" class="cls_013"><span class="cls_013">анализа защищённости инфраструктуры</span></div>
+<div style="position:absolute;left:494.38px;top:55.56px" class="cls_013"><span class="cls_013">компании Cindicator</span></div>
+<div style="position:absolute;left:85.10px;top:112.58px" class="cls_021"><span class="cls_021">Доступность уязвимости</span></div>
+<div style="position:absolute;left:85.10px;top:142.46px" class="cls_002"><span class="cls_002">Свойство «доступностьͩ некоторой уязвимости определяет, каким классам пользователей</span></div>
+<div style="position:absolute;left:85.10px;top:158.18px" class="cls_002"><span class="cls_002">доступен уязвимый ресурс (Таблица А-3).</span></div>
+<div style="position:absolute;left:387.55px;top:174.02px" class="cls_023"><span class="cls_023">Таблица А-3͘ Уровни доступности</span></div>
+<div style="position:absolute;left:85.10px;top:191.30px" class="cls_024"><span class="cls_024">Значение</span></div>
+<div style="position:absolute;left:181.58px;top:191.30px" class="cls_024"><span class="cls_024">Описание</span></div>
+<div style="position:absolute;left:85.10px;top:208.73px" class="cls_002"><span class="cls_002">Низкий</span></div>
+<div style="position:absolute;left:181.58px;top:208.73px" class="cls_002"><span class="cls_002">Привилегированные пользователи</span></div>
+<div style="position:absolute;left:85.10px;top:226.01px" class="cls_002"><span class="cls_002">Средний</span></div>
+<div style="position:absolute;left:181.58px;top:226.01px" class="cls_002"><span class="cls_002">Зарегистрированные пользователи</span></div>
+<div style="position:absolute;left:85.10px;top:243.29px" class="cls_002"><span class="cls_002">Высокий</span></div>
+<div style="position:absolute;left:181.58px;top:243.29px" class="cls_002"><span class="cls_002">Все пользователи</span></div>
+<div style="position:absolute;left:85.10px;top:266.45px" class="cls_021"><span class="cls_021">Вероятность эксплуатации уязвимости</span></div>
+<div style="position:absolute;left:85.10px;top:296.33px" class="cls_002"><span class="cls_002">Вероятность эксплуатации уязвимости рассчитывается на основе простоты эксплуатации и</span></div>
+<div style="position:absolute;left:85.10px;top:312.17px" class="cls_002"><span class="cls_002">области доступности уязвимости по таблице А-4.</span></div>
+<div style="position:absolute;left:305.09px;top:327.89px" class="cls_023"><span class="cls_023">Таблица А-4͘ Уровень вероятности эксплуатации</span></div>
+<div style="position:absolute;left:326.81px;top:350.09px" class="cls_024"><span class="cls_024">Простота эксплуатации</span></div>
+<div style="position:absolute;left:109.94px;top:362.11px" class="cls_024"><span class="cls_024">Вероятность</span></div>
+<div style="position:absolute;left:107.06px;top:377.95px" class="cls_024"><span class="cls_024">эксплуатации</span></div>
+<div style="position:absolute;left:243.29px;top:383.47px" class="cls_042"><span class="cls_042">Низкий</span></div>
+<div style="position:absolute;left:363.67px;top:383.47px" class="cls_043"><span class="cls_043">Средний</span></div>
+<div style="position:absolute;left:487.90px;top:383.47px" class="cls_044"><span class="cls_044">Высокий</span></div>
+<div style="position:absolute;left:139.94px;top:423.31px" class="cls_042"><span class="cls_042">Низкий</span></div>
+<div style="position:absolute;left:243.29px;top:423.31px" class="cls_042"><span class="cls_042">Низкий</span></div>
+<div style="position:absolute;left:367.27px;top:423.31px" class="cls_042"><span class="cls_042">Низкий</span></div>
+<div style="position:absolute;left:487.78px;top:423.31px" class="cls_043"><span class="cls_043">Средний</span></div>
+<div style="position:absolute;left:136.34px;top:463.03px" class="cls_043"><span class="cls_043">Средний</span></div>
+<div style="position:absolute;left:243.29px;top:463.03px" class="cls_042"><span class="cls_042">Низкий</span></div>
+<div style="position:absolute;left:363.67px;top:463.03px" class="cls_043"><span class="cls_043">Средний</span></div>
+<div style="position:absolute;left:487.90px;top:463.03px" class="cls_044"><span class="cls_044">Высокий</span></div>
+<div style="position:absolute;left:136.46px;top:502.78px" class="cls_044"><span class="cls_044">Высокий</span></div>
+<div style="position:absolute;left:239.69px;top:502.78px" class="cls_043"><span class="cls_043">Средний</span></div>
+<div style="position:absolute;left:363.79px;top:502.78px" class="cls_044"><span class="cls_044">Высокий</span></div>
+<div style="position:absolute;left:487.90px;top:502.78px" class="cls_044"><span class="cls_044">Высокий</span></div>
+<div style="position:absolute;left:43.80px;top:760.80px" class="cls_015"><span class="cls_015">© 2003—2017, Digital Security</span></div>
+<div style="position:absolute;left:591.46px;top:764.52px" class="cls_006"><span class="cls_006">24</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-306px;top:19248px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="e9ee2f6a-ad19-11e8-b59b-0cc47a792c0a_id_e9ee2f6a-ad19-11e8-b59b-0cc47a792c0a_files/background25.jpg" width=612 height=792></div>
+<div style="position:absolute;left:478.54px;top:12.72px" class="cls_011"><span class="cls_011">КОНФИДЕНЦИАЛЬНО</span></div>
+<div style="position:absolute;left:379.63px;top:36.12px" class="cls_013"><span class="cls_013">Экспертное заключение по результатам проведения</span></div>
+<div style="position:absolute;left:423.07px;top:47.88px" class="cls_013"><span class="cls_013">анализа защищённости инфраструктуры</span></div>
+<div style="position:absolute;left:494.38px;top:55.56px" class="cls_013"><span class="cls_013">компании Cindicator</span></div>
+<div style="position:absolute;left:85.10px;top:112.58px" class="cls_021"><span class="cls_021">Риск уязвимости</span></div>
+<div style="position:absolute;left:85.10px;top:142.46px" class="cls_002"><span class="cls_002">Риск уязвимости (по одной из угроз) рассчитывается на основе критичности уязвимости (по</span></div>
+<div style="position:absolute;left:85.10px;top:158.18px" class="cls_002"><span class="cls_002">одной из угроз) и вероятности эксплуатации уязвимости по таблице А-5.</span></div>
+<div style="position:absolute;left:425.11px;top:174.02px" class="cls_023"><span class="cls_023">Таблица А-5͘ Уровень риска</span></div>
+<div style="position:absolute;left:324.29px;top:196.22px" class="cls_024"><span class="cls_024">Вероятность эксплуатации</span></div>
+<div style="position:absolute;left:102.14px;top:216.17px" class="cls_024"><span class="cls_024">Риск уязвимости</span></div>
+<div style="position:absolute;left:247.85px;top:229.61px" class="cls_042"><span class="cls_042">Низкий</span></div>
+<div style="position:absolute;left:360.55px;top:229.61px" class="cls_043"><span class="cls_043">Средний</span></div>
+<div style="position:absolute;left:486.10px;top:229.61px" class="cls_044"><span class="cls_044">Высокий</span></div>
+<div style="position:absolute;left:151.70px;top:269.33px" class="cls_042"><span class="cls_042">Низкий</span></div>
+<div style="position:absolute;left:247.85px;top:269.33px" class="cls_042"><span class="cls_042">Низкий</span></div>
+<div style="position:absolute;left:364.15px;top:269.33px" class="cls_042"><span class="cls_042">Низкий</span></div>
+<div style="position:absolute;left:485.98px;top:269.33px" class="cls_043"><span class="cls_043">Средний</span></div>
+<div style="position:absolute;left:148.10px;top:309.17px" class="cls_043"><span class="cls_043">Средний</span></div>
+<div style="position:absolute;left:247.85px;top:309.17px" class="cls_042"><span class="cls_042">Низкий</span></div>
+<div style="position:absolute;left:360.55px;top:309.17px" class="cls_043"><span class="cls_043">Средний</span></div>
+<div style="position:absolute;left:486.10px;top:309.17px" class="cls_044"><span class="cls_044">Высокий</span></div>
+<div style="position:absolute;left:148.22px;top:348.89px" class="cls_044"><span class="cls_044">Высокий</span></div>
+<div style="position:absolute;left:244.25px;top:348.89px" class="cls_043"><span class="cls_043">Средний</span></div>
+<div style="position:absolute;left:360.67px;top:348.89px" class="cls_044"><span class="cls_044">Высокий</span></div>
+<div style="position:absolute;left:486.10px;top:348.89px" class="cls_044"><span class="cls_044">Высокий</span></div>
+<div style="position:absolute;left:43.80px;top:760.80px" class="cls_015"><span class="cls_015">© 2003—2017, Digital Security</span></div>
+<div style="position:absolute;left:591.46px;top:764.52px" class="cls_006"><span class="cls_006">25</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-306px;top:20050px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="e9ee2f6a-ad19-11e8-b59b-0cc47a792c0a_id_e9ee2f6a-ad19-11e8-b59b-0cc47a792c0a_files/background26.jpg" width=612 height=792></div>
+<div style="position:absolute;left:478.54px;top:12.72px" class="cls_011"><span class="cls_011">КОНФИДЕНЦИАЛЬНО</span></div>
+<div style="position:absolute;left:379.63px;top:36.12px" class="cls_013"><span class="cls_013">Экспертное заключение по результатам проведения</span></div>
+<div style="position:absolute;left:423.07px;top:47.88px" class="cls_013"><span class="cls_013">анализа защищённости инфраструктуры</span></div>
+<div style="position:absolute;left:494.38px;top:55.56px" class="cls_013"><span class="cls_013">компании Cindicator</span></div>
+<div style="position:absolute;left:85.10px;top:112.22px" class="cls_019"><span class="cls_019">Приложение 2. Анализ уровня защищенности.</span></div>
+<div style="position:absolute;left:85.10px;top:143.78px" class="cls_019"><span class="cls_019">Перечень обнаруженных слабостей и</span></div>
+<div style="position:absolute;left:85.10px;top:175.46px" class="cls_019"><span class="cls_019">уязвимостей</span></div>
+<div style="position:absolute;left:85.10px;top:219.53px" class="cls_002"><span class="cls_002">Обнаруженные в ходе работ уязвимости Системы представлены в таблице Б-1.</span></div>
+<div style="position:absolute;left:250.37px;top:237.05px" class="cls_023"><span class="cls_023">Таблица Б-1͘ Перечень обнаруженных уязвимостей Системы</span></div>
+<div style="position:absolute;left:84.14px;top:253.13px" class="cls_024"><span class="cls_024">Перечень обнаруженных уязвимостей</span></div>
+<div style="position:absolute;left:84.14px;top:269.33px" class="cls_024"><span class="cls_024">Уязвимость</span></div>
+<div style="position:absolute;left:314.45px;top:269.33px" class="cls_024"><span class="cls_024">Итоговый риск</span></div>
+<div style="position:absolute;left:438.31px;top:269.33px" class="cls_024"><span class="cls_024">Подробности в пункте</span></div>
+<div style="position:absolute;left:84.14px;top:285.41px" class="cls_002"><span class="cls_002">Злоупотребление функциональностью</span></div>
+<div style="position:absolute;left:348.91px;top:285.41px" class="cls_025"><span class="cls_025">Высокий</span></div>
+<div style="position:absolute;left:490.42px;top:285.41px" class="cls_002"><span class="cls_002">4.1.1.</span></div>
+<div style="position:absolute;left:84.14px;top:300.05px" class="cls_002"><span class="cls_002">отправки электронных сообщений (email)</span></div>
+<div style="position:absolute;left:84.14px;top:316.25px" class="cls_002"><span class="cls_002">Небезопасная конфигурация Flask</span></div>
+<div style="position:absolute;left:348.91px;top:316.25px" class="cls_025"><span class="cls_025">Высокий</span></div>
+<div style="position:absolute;left:490.42px;top:316.25px" class="cls_002"><span class="cls_002">4.1.2.</span></div>
+<div style="position:absolute;left:84.14px;top:332.45px" class="cls_002"><span class="cls_002">Слабый пароль для сервиса</span></div>
+<div style="position:absolute;left:348.91px;top:332.45px" class="cls_025"><span class="cls_025">Высокий</span></div>
+<div style="position:absolute;left:490.42px;top:332.45px" class="cls_002"><span class="cls_002">4.1.3.</span></div>
+<div style="position:absolute;left:84.14px;top:348.53px" class="cls_002"><span class="cls_002">Вывод отладочной информации</span></div>
+<div style="position:absolute;left:348.79px;top:348.53px" class="cls_043"><span class="cls_043">Средний</span></div>
+<div style="position:absolute;left:490.42px;top:348.53px" class="cls_002"><span class="cls_002">4.1.4.</span></div>
+<div style="position:absolute;left:84.14px;top:364.75px" class="cls_002"><span class="cls_002">Отсутствие защиты от атак типа clickjacking</span></div>
+<div style="position:absolute;left:348.79px;top:364.75px" class="cls_043"><span class="cls_043">Средний</span></div>
+<div style="position:absolute;left:490.42px;top:364.75px" class="cls_002"><span class="cls_002">4.1.5.</span></div>
+<div style="position:absolute;left:84.14px;top:380.83px" class="cls_002"><span class="cls_002">Межсайтовый скриптинг отраженный</span></div>
+<div style="position:absolute;left:352.39px;top:380.83px" class="cls_042"><span class="cls_042">Низкий</span></div>
+<div style="position:absolute;left:490.42px;top:380.83px" class="cls_002"><span class="cls_002">4.1.6.</span></div>
+<div style="position:absolute;left:84.14px;top:397.03px" class="cls_002"><span class="cls_002">Небезопасная конфигурация CORS</span></div>
+<div style="position:absolute;left:352.39px;top:397.03px" class="cls_042"><span class="cls_042">Низкий</span></div>
+<div style="position:absolute;left:490.42px;top:397.03px" class="cls_002"><span class="cls_002">4.1.7.</span></div>
+<div style="position:absolute;left:84.14px;top:413.11px" class="cls_002"><span class="cls_002">Раскрытие информации</span></div>
+<div style="position:absolute;left:352.39px;top:413.11px" class="cls_042"><span class="cls_042">Низкий</span></div>
+<div style="position:absolute;left:490.42px;top:413.11px" class="cls_002"><span class="cls_002">4.1.8.</span></div>
+<div style="position:absolute;left:43.80px;top:760.80px" class="cls_015"><span class="cls_015">© 2003—2017, Digital Security</span></div>
+<div style="position:absolute;left:591.46px;top:764.52px" class="cls_006"><span class="cls_006">26</span></div>
+</div>
+
+</body>
+</html>
